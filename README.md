@@ -12,9 +12,10 @@
 
 ## 🚀 Live Demo & Reviewer Credentials
 
-- **Live Deployed Web Application**: [http://localhost:8000](http://localhost:8000) *(Or deployed Cloud/Tunnel URL)*
+- **Live Deployed Web Application**: [https://gigbid-rx4j.onrender.com](https://gigbid-rx4j.onrender.com)
 - **Reviewer Login Email**: `reviewer@gigbid.ai`
 - **Reviewer Password**: `gigbid2026!`
+- **Student**: Areeba Javed (Roll No: 23I-0570) · FAST-NUCES Islamabad
 - **Preloaded Reviewer Persona**: Alex Morgan (Senior AI/ML & LLM Systems Engineer)
 - **Technical Write-Up**: [docs/TECHNICAL_WRITEUP.md](docs/TECHNICAL_WRITEUP.md)
 - **3-Minute Video Walkthrough Script**: [docs/DEMO_VIDEO_SCRIPT.md](docs/DEMO_VIDEO_SCRIPT.md)

@@ -138,7 +138,7 @@ def build_pdf_report():
     # Title & Metadata Header
     story.append(Paragraph("GigBid: Autonomous Multi-Agent Freelancer Copilot", title_style))
     story.append(Paragraph("Engineering Design Review & Empirical Findings · Course AI-4016 | FAST School of Computing, FAST-NUCES Islamabad", subtitle_style))
-    story.append(Paragraph("<b>Author:</b> Areeba Javed (Roll No: 23I-0570) | <b>Instructor:</b> Muhammad Owais Idrees | <b>Stack:</b> LangGraph v1.2, MCP, FastAPI, Groq Open Profile, SQLite", subtitle_style))
+    story.append(Paragraph("<b>Author:</b> Areeba Javed (Roll No: 23I-0570) | <b>Live App:</b> https://gigbid-rx4j.onrender.com | <b>Stack:</b> LangGraph, MCP, FastAPI, Groq", subtitle_style))
     story.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#0284c7"), spaceAfter=10))
 
     # SECTION 1
@@ -308,7 +308,7 @@ def build_pdf_report():
     # SECTION 10
     story.append(Paragraph("10. Performance Against Declared Budgets & Hidden Test Readiness", h1_style))
     story.append(Paragraph(
-        "All declared operational targets were met without exception: p95 latency reached <b>3.9 seconds</b> (well within the 4.5s ceiling), and average cost per proposal was <b>$0.0035 USD</b> on the Groq open profile (under the $0.010 target). The system is packaged for Docker and public deployment, backed by SQLite durability and preloaded with reviewer credentials.",
+        "All declared operational targets were met without exception: p95 latency reached <b>3.9 seconds</b> (well within the 4.5s ceiling), and average cost per proposal was <b>$0.0035 USD</b> on the Groq open profile (under the $0.010 target). The system is deployed live at <b>https://gigbid-rx4j.onrender.com</b> with SQLite durability, SSE streaming, and preloaded reviewer credentials (<code>reviewer@gigbid.ai</code> / <code>gigbid2026!</code>).",
         body_style
     ))
 
