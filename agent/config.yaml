@@ -1,0 +1,50 @@
+marketplace:
+  mode: gigsim
+  base_url: http://localhost:8001
+  max_requests_per_minute: 45
+  connects_budget_weekly: 100
+
+models:
+  profile: open
+  profiles:
+    open:
+      provider: groq
+      base_url: https://api.groq.com/openai/v1
+      nodes:
+        scout: openai/gpt-oss-20b
+        analyst: openai/gpt-oss-20b
+        risk_assessor: openai/gpt-oss-20b
+        fit_matcher: openai/gpt-oss-20b
+        pricing: openai/gpt-oss-20b
+        writer: qwen/qwen3.8-27b
+        verifier: openai/gpt-oss-20b
+        critic: qwen/qwen3.8-27b
+        compliance: openai/gpt-oss-20b
+        client_liaison: qwen/qwen3.8-27b
+      embeddings: bge-m3
+      reranker: bge-reranker-v2-m3
+    paid:
+      provider: openai
+      nodes:
+        scout: gpt-4o-mini
+        analyst: gpt-4o-mini
+        risk_assessor: gpt-4o-mini
+        fit_matcher: gpt-4o-mini
+        pricing: gpt-4o-mini
+        writer: gpt-4o
+        verifier: gpt-4o-mini
+        critic: gpt-4o
+        compliance: gpt-4o-mini
+        client_liaison: gpt-4o
+
+budgets:
+  max_graph_steps: 25
+  max_revisions: 2
+  max_tokens_per_job: 8000
+  p95_latency_target_seconds: 4.5
+  cost_budget_per_proposal_usd: 0.01
+
+thresholds:
+  minimum_fit_score: 0.50
+  maximum_risk_score: 0.65
+  unsupported_claim_tolerance: 0.0
