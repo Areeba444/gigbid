@@ -28,33 +28,33 @@ GigBid decouples capabilities across three distinct MCP servers and orchestrates
 
 ```mermaid
 flowchart TD
-    subgraph MarketplaceLayer [Marketplace Tool Layer]
-        M1[GigSim Simulator :8001]
-        M2[Live Upwork MCP Server]
-        Port[MarketplacePort Adapter]
+    subgraph MarketplaceLayer ["Marketplace Tool Layer"]
+        M1["GigSim Simulator :8001"]
+        M2["Live Upwork MCP Server"]
+        Port["MarketplacePort Adapter"]
         M1 --> Port
         M2 --> Port
     end
 
-    subgraph BidGraph [Bid Graph - Hand-Built LangGraph StateGraph]
-        Scout[Scout Node] --> Fork{Parallel Barrier}
-        Fork --> Analyst[Job Analyst Node]
-        Fork --> Risk[Risk Assessor Node]
-        Fork --> Fit[Fit Matcher Node]
-        Analyst --> Join{Barrier Sync}
+    subgraph BidGraph ["Bid Graph - Hand-Built LangGraph StateGraph"]
+        Scout["Scout Node"] --> Fork{"Parallel Barrier"}
+        Fork --> Analyst["Job Analyst Node"]
+        Fork --> Risk["Risk Assessor Node"]
+        Fork --> Fit["Fit Matcher Node"]
+        Analyst --> Join{"Barrier Sync"}
         Risk --> Join
         Fit --> Join
-        Join --> Decision{Bid Decision Router}
-        Decision -- "action == 'skip'" --> EndSkip([Auto-Skip: Save Connects])
-        Decision -- "action == 'bid'" --> Pricing[Pricing Strategist]
-        Pricing --> Writer[Proposal Writer]
-        Writer --> Verifier[Claim Verifier]
-        Verifier --> Critic{Critic Loop <= 2}
+        Join --> Decision{"Bid Decision Router"}
+        Decision -- "action == 'skip'" --> EndSkip(["Auto-Skip: Save Connects"])
+        Decision -- "action == 'bid'" --> Pricing["Pricing Strategist"]
+        Pricing --> Writer["Proposal Writer"]
+        Writer --> Verifier["Claim Verifier"]
+        Verifier --> Critic{"Critic Loop <= 2"}
         Critic -- "Revision Needed" --> Writer
-        Critic -- "Approved" --> Compliance[Compliance Guard]
-        Compliance --> Gate[Human Approval Gate: interrupt()]
-        Gate --> Submit[Marketplace Submission]
-        Submit --> EndDone([Pipeline Kanban])
+        Critic -- "Approved" --> Compliance["Compliance Guard"]
+        Compliance --> Gate["Human Approval Gate (interrupt)"]
+        Gate --> Submit["Marketplace Submission"]
+        Submit --> EndDone(["Pipeline Kanban"])
     end
 
     Port --> Scout

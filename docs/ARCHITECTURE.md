@@ -5,40 +5,40 @@ GigBid is an autonomous multi-agent copilot designed for freelancers on platform
 
 ```mermaid
 flowchart TD
-    subgraph Market [Marketplace Tool Layer]
-        M1[GigSim Simulator :8001]
-        M2[Live Upwork MCP Server]
-        Port[MarketplacePort Adapter]
+    subgraph Market ["Marketplace Tool Layer"]
+        M1["GigSim Simulator :8001"]
+        M2["Live Upwork MCP Server"]
+        Port["MarketplacePort Adapter"]
         M1 --> Port
         M2 --> Port
     end
 
-    subgraph BidGraph [Bid Graph - One Thread per Job]
-        Scout[Scout Node] --> Fork{Parallel Barrier}
-        Fork --> Analyst[Job Analyst]
-        Fork --> Risk[Risk Assessor]
-        Fork --> Fit[Fit Matcher]
-        Analyst --> Join{Barrier Sync}
+    subgraph BidGraph ["Bid Graph - One Thread per Job"]
+        Scout["Scout Node"] --> Fork{"Parallel Barrier"}
+        Fork --> Analyst["Job Analyst"]
+        Fork --> Risk["Risk Assessor"]
+        Fork --> Fit["Fit Matcher"]
+        Analyst --> Join{"Barrier Sync"}
         Risk --> Join
         Fit --> Join
-        Join --> Decision{Bid Decision Node}
-        Decision -- "action == 'skip'" --> EndSkip([End: Auto-Skip])
-        Decision -- "action == 'bid'" --> Pricing[Pricing Strategist]
-        Pricing --> Writer[Proposal Writer]
-        Writer --> Verifier[Claim Verifier]
-        Verifier --> Critic{Critic Loop <= 2}
+        Join --> Decision{"Bid Decision Node"}
+        Decision -- "action == 'skip'" --> EndSkip(["End: Auto-Skip"])
+        Decision -- "action == 'bid'" --> Pricing["Pricing Strategist"]
+        Pricing --> Writer["Proposal Writer"]
+        Writer --> Verifier["Claim Verifier"]
+        Verifier --> Critic{"Critic Loop <= 2"}
         Critic -- "Revision Needed" --> Writer
-        Critic -- "Approved" --> Compliance[Compliance Guard]
-        Compliance --> Gate[Human Approval Gate]
-        Gate --> Submit[Marketplace Submission]
-        Submit --> EndDone([End: Completed])
+        Critic -- "Approved" --> Compliance["Compliance Guard"]
+        Compliance --> Gate["Human Approval Gate"]
+        Gate --> Submit["Marketplace Submission"]
+        Submit --> EndDone(["End: Completed"])
     end
 
-    subgraph ConversationGraph [Conversation Graph]
-        Liaison[Client Liaison] --> Intent{Intent Classification}
-        Intent --> WorkMCP[Workspace MCP :8004]
-        WorkMCP --> ReplyGate[Human Approval Gate]
-        ReplyGate --> SendMsg[Send Message]
+    subgraph ConversationGraph ["Conversation Graph"]
+        Liaison["Client Liaison"] --> Intent{"Intent Classification"}
+        Intent --> WorkMCP["Workspace MCP :8004"]
+        WorkMCP --> ReplyGate["Human Approval Gate"]
+        ReplyGate --> SendMsg["Send Message"]
     end
 
     Port --> Scout
