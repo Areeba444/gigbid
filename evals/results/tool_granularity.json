@@ -1,0 +1,32 @@
+{
+  "experiment": "R&D Question A - Tool Granularity Comparison",
+  "total_tasks": 40,
+  "timestamp": "2026-11-15T09:28:05Z",
+  "configurations": {
+    "fine_grained": {
+      "description": "12 fine-grained atomic tools (e.g., get_job_budget, get_job_skills, check_connects, get_client_spend...)",
+      "num_tools": 12,
+      "tool_selection_accuracy": 0.775,
+      "argument_accuracy": 0.85,
+      "avg_tokens_per_task": 620,
+      "p95_latency_ms": 340
+    },
+    "coarse": {
+      "description": "2 coarse mega-tools (marketplace_action, portfolio_action with nested payload)",
+      "num_tools": 2,
+      "tool_selection_accuracy": 0.925,
+      "argument_accuracy": 0.65,
+      "avg_tokens_per_task": 890,
+      "p95_latency_ms": 480
+    },
+    "optimized_shipped": {
+      "description": "5 balanced MCP tools with explicit Pydantic schemas and typed docstrings",
+      "num_tools": 5,
+      "tool_selection_accuracy": 0.975,
+      "argument_accuracy": 0.95,
+      "avg_tokens_per_task": 415,
+      "p95_latency_ms": 210
+    }
+  },
+  "key_findings": "Fine-grained tools created parameter fragmentation and tool-selection ambiguity (e.g. Choosing between get_client_history vs get_client_spend). Coarse tools led to high argument parsing and JSON structure failures. The balanced 5-tool MCP design achieved 97.5% tool selection and 95% argument accuracy while cutting prompt token overhead by 53% relative to coarse tools."
+}

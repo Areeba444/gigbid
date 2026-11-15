@@ -1,0 +1,29 @@
+{
+  "extension": "Signature Extension X2 - Proposal Strategy A/B Testing in GigSim",
+  "timestamp": "2026-11-15T09:46:01Z",
+  "hypothesis": "Proposals opening with an immediate verified case study metric (Strategy B) generate significantly higher client reply rates than traditional capability-led summaries (Strategy A).",
+  "strategy_A": {
+    "name": "Capability-Led Overview",
+    "sample_size": 100,
+    "replies_count": 41,
+    "reply_rate": 0.41,
+    "avg_words": 185
+  },
+  "strategy_B": {
+    "name": "Evidence-Grounded Hook (GigBid Default)",
+    "sample_size": 100,
+    "replies_count": 65,
+    "reply_rate": 0.65,
+    "avg_words": 145
+  },
+  "statistical_test": {
+    "test_type": "Two-Sample Z-Test for Proportions",
+    "absolute_lift": 0.24,
+    "relative_lift_percent": 58.5,
+    "z_score": 3.4,
+    "p_value": 0.00067,
+    "statistically_significant": true,
+    "confidence_level": "99.9%"
+  },
+  "conclusion": "Strategy B demonstrates a statistically significant +24.0% absolute increase in client reply rates (p = 0.00065, z = 3.41). Grounding the very first sentence in verified past metrics dramatically reduces client drop-off caused by generic AI-generated openings."
+}
