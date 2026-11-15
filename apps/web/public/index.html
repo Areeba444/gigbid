@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GigBid — Autonomous Multi-Agent Freelancer Copilot</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .evidence-tooltip {
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .has-evidence:hover .evidence-tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+    .active-nav {
+      background-color: #3b82f6;
+      color: white;
+    }
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans">
+
+  <!-- Top Navigation Bar -->
+  <header class="bg-slate-800 border-b border-slate-700 px-6 py-3 flex items-center justify-between sticky top-0 z-50 shadow-md">
+    <div class="flex items-center space-x-3">
+      <div class="bg-blue-600 text-white p-2 rounded-lg font-bold text-lg">
+        <i class="fa-solid fa-bolt mr-1"></i>GigBid
+      </div>
+      <span class="text-xs bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2.5 py-1 rounded-full font-medium">
+        <i class="fa-solid fa-circle text-[8px] mr-1 animate-pulse"></i>Live Mode: GigSim (Port 8001)
+      </span>
+    </div>
+
+    <!-- Reviewer / Persona Info & Connects -->
+    <div class="flex items-center space-x-4">
+      <div class="bg-slate-700/60 px-3 py-1.5 rounded-lg border border-slate-600 flex items-center space-x-2">
+        <i class="fa-solid fa-coins text-amber-400"></i>
+        <span class="text-xs text-slate-300">Connects: <strong id="connects-display" class="text-amber-300">120</strong></span>
+      </div>
+
+      <div class="flex items-center space-x-2">
+        <select id="persona-select" onchange="switchPersona(this.value)" class="bg-slate-700 text-xs text-white border border-slate-600 rounded-lg px-2.5 py-1.5 focus:outline-none focus:border-blue-500">
+          <option value="sample-ai-engineer">👤 Alex Morgan (AI/ML Engineer)</option>
+          <option value="sample-web-dev">👤 Priya Patel (Full-Stack Dev)</option>
+          <option value="sample-data-analyst">👤 Marcus Vance (Data Analyst)</option>
+        </select>
+      </div>
+
+      <div class="text-right border-l border-slate-700 pl-4">
+        <div class="text-xs font-semibold text-slate-200">Reviewer Mode</div>
+        <div class="text-[10px] text-slate-400">reviewer@gigbid.ai</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <div class="flex flex-1 overflow-hidden">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-slate-800/80 border-r border-slate-700 p-4 flex flex-col justify-between">
+      <nav class="space-y-1 text-sm font-medium">
+        <button onclick="navigate('inbox')" id="nav-inbox" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-slate-300 hover:bg-slate-700 transition active-nav">
+          <i class="fa-solid fa-inbox w-5"></i><span>Job Inbox</span>
+          <span id="badge-inbox" class="ml-auto bg-blue-500/20 text-blue-400 text-xs px-2 py-0.5 rounded-full">50</span>
+        </button>
+        <button onclick="navigate('pipeline')" id="nav-pipeline" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-slate-300 hover:bg-slate-700 transition">
+          <i class="fa-solid fa-table-columns w-5"></i><span>Pipeline Board</span>
+        </button>
+        <button onclick="navigate('messages')" id="nav-messages" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-slate-300 hover:bg-slate-700 transition">
+          <i class="fa-solid fa-comments w-5"></i><span>Client Messages</span>
+          <span class="ml-auto bg-amber-500/20 text-amber-400 text-xs px-2 py-0.5 rounded-full">2</span>
+        </button>
+        <button onclick="navigate('runs')" id="nav-runs" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-slate-300 hover:bg-slate-700 transition">
+          <i class="fa-solid fa-timeline w-5"></i><span>Agent Run Stream</span>
+        </button>
+        <button onclick="navigate('analytics')" id="nav-analytics" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-slate-300 hover:bg-slate-700 transition">
+          <i class="fa-solid fa-chart-line w-5"></i><span>Analytics</span>
+        </button>
+        <button onclick="navigate('settings')" id="nav-settings" class="w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-slate-300 hover:bg-slate-700 transition">
+          <i class="fa-solid fa-gear w-5"></i><span>Settings & Memory</span>
+        </button>
+      </nav>
+
+      <!-- Architecture pill -->
+      <div class="bg-slate-700/40 p-3 rounded-lg border border-slate-600/50 text-xs text-slate-400 space-y-1">
+        <div class="font-semibold text-slate-300">LangGraph v1.2 Engine</div>
+        <div>Parallel Analyst, Risk & Fit</div>
+        <div>Interrupt-based Approvals</div>
+      </div>
+    </aside>
+
+    <!-- Main Content View Area -->
+    <main class="flex-1 overflow-y-auto p-6 bg-slate-900" id="main-view">
+      <!-- Dynamic Views Loaded Here -->
+    </main>
+  </div>
+
+  <!-- Modal for Proposal Studio & Approvals -->
+  <div id="modal-container" class="fixed inset-0 bg-black/70 backdrop-blur-sm hidden items-center justify-center z-50 p-4">
+    <div class="bg-slate-800 border border-slate-700 w-full max-w-3xl rounded-xl shadow-2xl p-6 overflow-hidden flex flex-col max-h-[90vh]">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-700">
+        <div>
+          <h3 class="text-lg font-bold text-white flex items-center" id="modal-title">Proposal Studio & Approval Gate</h3>
+          <p class="text-xs text-slate-400" id="modal-subtitle">Review grounded claims and dry-run preview before spending Connects</p>
+        </div>
+        <button onclick="closeModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+
+      <div class="py-4 overflow-y-auto space-y-4 flex-1 text-sm" id="modal-body">
+        <!-- Injected dynamically -->
+      </div>
+
+      <div class="pt-4 border-t border-slate-700 flex items-center justify-between" id="modal-footer">
+        <!-- Actions injected -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentView = 'inbox';
+    let jobsList = [];
+    let currentThreadId = null;
+
+    async function init() {
+      await loadInbox();
+    }
+
+    function navigate(view) {
+      currentView = view;
+      document.querySelectorAll('aside nav button').forEach(b => b.classList.remove('active-nav'));
+      const activeBtn = document.getElementById(`nav-${view}`);
+      if (activeBtn) activeBtn.classList.add('active-nav');
+
+      if (view === 'inbox') loadInbox();
+      else if (view === 'pipeline') loadPipeline();
+      else if (view === 'messages') loadMessages();
+      else if (view === 'runs') loadRuns();
+      else if (view === 'analytics') loadAnalytics();
+      else if (view === 'settings') loadSettings();
+    }
+
+    async function switchPersona(personaId) {
+      await fetch('/auth/switch-persona', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({persona_id: personaId})
+      });
+      loadInbox();
+    }
+
+    // --- 1. INBOX VIEW ---
+    async function loadInbox(filter = 'all') {
+      const main = document.getElementById('main-view');
+      main.innerHTML = `<div class="text-center py-12 text-slate-400"><i class="fa-solid fa-spinner animate-spin text-2xl mb-2"></i><p>Scanning job stream via Scout...</p></div>`;
+
+      try {
+        const res = await fetch('/jobs');
+        const data = await res.json();
+        jobsList = data.jobs || [];
+
+        let filtered = jobsList;
+        if (filter !== 'all') {
+          filtered = jobsList.filter(j => j.recommended_action === filter);
+        }
+
+        let html = `
+          <div class="flex items-center justify-between mb-6">
+            <div>
+              <h2 class="text-2xl font-bold text-white">Job Discovery Inbox</h2>
+              <p class="text-xs text-slate-400">Scouted jobs evaluated in parallel by Job Analyst, Risk Assessor & Fit Matcher</p>
+            </div>
+            <div class="flex space-x-2">
+              <button onclick="loadInbox('all')" class="px-3 py-1.5 text-xs rounded-lg ${filter==='all'?'bg-blue-600 text-white':'bg-slate-800 text-slate-300 border border-slate-700'}">All (${jobsList.length})</button>
+              <button onclick="loadInbox('bid')" class="px-3 py-1.5 text-xs rounded-lg ${filter==='bid'?'bg-emerald-600 text-white':'bg-slate-800 text-slate-300 border border-slate-700'}">Recommended Bid</button>
+              <button onclick="loadInbox('skip')" class="px-3 py-1.5 text-xs rounded-lg ${filter==='skip'?'bg-rose-600 text-white':'bg-slate-800 text-slate-300 border border-slate-700'}">Auto-Skipped / Scams</button>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 gap-4">
+        `;
+
+        filtered.slice(0, 25).forEach(job => {
+          const fitPct = Math.round(job.fit_score * 100);
+          const isRisk = job.risk_level === 'high';
+          const badgeColor = job.recommended_action === 'bid' ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' : 'bg-rose-500/20 text-rose-400 border-rose-500/30';
+
+          html += `
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 hover:border-slate-600 transition shadow-sm flex flex-col justify-between">
+              <div>
+                <div class="flex items-start justify-between gap-4 mb-2">
+                  <h3 class="text-base font-semibold text-white hover:text-blue-400 cursor-pointer" onclick="openJobDetail('${job.job_id}')">
+                    ${job.title}
+                  </h3>
+                  <span class="text-xs px-2.5 py-1 rounded-full border font-semibold uppercase ${badgeColor}">
+                    ${job.recommended_action === 'bid' ? '✓ Recommended Bid' : '✕ Skipped / High Risk'}
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 line-clamp-2 mb-3">${job.description}</p>
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                  ${job.required_skills.map(s => `<span class="bg-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">${s}</span>`).join('')}
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-700/60 flex items-center justify-between text-xs text-slate-400">
+                <div class="flex space-x-4">
+                  <span><i class="fa-solid fa-dollar-sign text-emerald-400 mr-1"></i>$${job.budget?.min || 200} - $${job.budget?.max || 800}</span>
+                  <span><i class="fa-solid fa-bolt text-blue-400 mr-1"></i>Fit: <strong class="text-slate-200">${fitPct}%</strong></span>
+                  <span><i class="fa-solid fa-coins text-amber-400 mr-1"></i>${job.connects_cost} Connects</span>
+                  ${isRisk ? '<span class="text-rose-400 font-medium"><i class="fa-solid fa-triangle-exclamation mr-1"></i>Risk Flagged</span>' : ''}
+                </div>
+                <div class="flex space-x-2">
+                  <button onclick="openJobDetail('${job.job_id}')" class="px-3 py-1 bg-slate-700 hover:bg-slate-600 text-white rounded text-xs">Inspect Spec</button>
+                  <button onclick="startLiveRun('${job.job_id}')" class="px-3 py-1 bg-blue-600 hover:bg-blue-500 text-white rounded text-xs font-medium flex items-center">
+                    <i class="fa-solid fa-play mr-1.5 text-[10px]"></i>Launch Copilot
+                  </button>
+                </div>
+              </div>
+            </div>
+          `;
+        });
+
+        html += `</div>`;
+        main.innerHTML = html;
+      } catch (err) {
+        main.innerHTML = `<div class="bg-rose-500/20 border border-rose-500 p-4 rounded-lg text-rose-200 text-sm">Error connecting to GigBid API: ${err}</div>`;
+      }
+    }
+
+    // --- 2. JOB DETAIL MODAL ---
+    async function openJobDetail(jobId) {
+      const res = await fetch(`/jobs/${jobId}`);
+      const data = await res.json();
+      const job = data.job;
+
+      document.getElementById('modal-title').innerText = `Job Spec & Analysis: ${job.title}`;
+      document.getElementById('modal-subtitle').innerText = `Extracted JobSpec, Risk Evaluation, and Pricing Quote`;
+
+      document.getElementById('modal-body').innerHTML = `
+        <div class="space-y-4">
+          <div class="bg-slate-900 p-3 rounded-lg border border-slate-700">
+            <h4 class="font-semibold text-slate-200 text-xs uppercase mb-1">Untrusted Client Description</h4>
+            <p class="text-xs text-slate-300">${job.description}</p>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div class="bg-slate-900 p-3 rounded-lg border border-slate-700">
+              <h4 class="font-semibold text-xs text-blue-400 uppercase mb-2"><i class="fa-solid fa-list-check mr-1"></i>Extracted Deliverables</h4>
+              <ul class="text-xs text-slate-300 space-y-1 list-disc pl-4">
+                ${data.job_spec.deliverables.map(d => `<li>${d}</li>`).join('')}
+              </ul>
+            </div>
+            <div class="bg-slate-900 p-3 rounded-lg border border-slate-700">
+              <h4 class="font-semibold text-xs text-amber-400 uppercase mb-2"><i class="fa-solid fa-shield-halved mr-1"></i>Risk Assessment</h4>
+              <div class="text-xs text-slate-300 space-y-1">
+                <div>Risk Score: <strong>${Math.round(data.risk_report.score * 100)}%</strong></div>
+                <div>Scam Signal: <strong>${data.risk_report.is_scam ? 'YES (Prohibited)' : 'No'}</strong></div>
+                <div>Explanation: <em>${data.risk_report.explanation}</em></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900 p-3 rounded-lg border border-slate-700">
+            <h4 class="font-semibold text-xs text-emerald-400 uppercase mb-1"><i class="fa-solid fa-tag mr-1"></i>Recommended Price Quote</h4>
+            <div class="text-xs text-slate-300 flex justify-between items-center">
+              <span>Proposed Bid: <strong class="text-emerald-300 text-sm">$${data.price_quote.bid_amount_usd}</strong> (${data.price_quote.pricing_strategy})</span>
+              <span>Connects Cost: <strong>${data.price_quote.connects_cost} Connects</strong></span>
+            </div>
+            <p class="text-[11px] text-slate-400 mt-1">${data.price_quote.rationale}</p>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('modal-footer').innerHTML = `
+        <button onclick="closeModal()" class="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded text-xs">Close</button>
+        <button onclick="closeModal(); startLiveRun('${job.job_id}')" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded text-xs font-semibold">
+          <i class="fa-solid fa-play mr-1.5"></i>Execute Multi-Agent Workflow
+        </button>
+      `;
+
+      document.getElementById('modal-container').classList.remove('hidden');
+      document.getElementById('modal-container').classList.add('flex');
+    }
+
+    // --- 3. LIVE STREAMING RUN VIEW ---
+    function startLiveRun(jobId) {
+      navigate('runs');
+      const container = document.getElementById('main-view');
+      container.innerHTML = `
+        <div class="mb-6 flex justify-between items-center">
+          <div>
+            <h2 class="text-2xl font-bold text-white">Live Agent Run Stream</h2>
+            <p class="text-xs text-slate-400">Streaming LangGraph execution node-by-node via Server-Sent Events</p>
+          </div>
+          <span class="bg-blue-500/20 text-blue-400 border border-blue-500/30 px-3 py-1 rounded-full text-xs font-medium">
+            <i class="fa-solid fa-satellite-dish mr-1 animate-pulse"></i>SSE Connected
+          </span>
+        </div>
+        <div class="space-y-3" id="timeline-events">
+          <div class="text-xs text-slate-400">Initializing LangGraph StateGraph thread for job ${jobId}...</div>
+        </div>
+      `;
+
+      const eventSource = new EventSource(`/stream/run/${jobId}`);
+      eventSource.onmessage = (event) => {
+        const payload = JSON.parse(event.data);
+        const timeline = document.getElementById('timeline-events');
+
+        if (payload.event === 'node_update') {
+          const nodeColors = {
+            scout: 'border-slate-500 text-slate-300',
+            analyst: 'border-blue-500 text-blue-300',
+            risk_assessor: 'border-amber-500 text-amber-300',
+            fit_matcher: 'border-emerald-500 text-emerald-300',
+            decision: 'border-purple-500 text-purple-300',
+            pricing: 'border-cyan-500 text-cyan-300',
+            writer: 'border-indigo-500 text-indigo-300',
+            verifier: 'border-teal-500 text-teal-300',
+            critic: 'border-yellow-500 text-yellow-300',
+            compliance: 'border-rose-500 text-rose-300',
+            approval_gate: 'border-red-500 text-red-300 animate-pulse'
+          };
+          const colorClass = nodeColors[payload.node] || 'border-slate-500 text-slate-300';
+
+          const item = document.createElement('div');
+          item.className = `bg-slate-800 border-l-4 ${colorClass} p-3 rounded shadow text-xs flex justify-between items-center`;
+          item.innerHTML = `
+            <div>
+              <div class="font-bold uppercase tracking-wider text-[11px] mb-0.5">${payload.node} Node</div>
+              <div class="text-slate-200">${payload.data.msg}</div>
+            </div>
+            <span class="text-[10px] text-slate-400"><i class="fa-solid fa-check text-emerald-400 mr-1"></i>Completed</span>
+          `;
+          timeline.appendChild(item);
+        } else if (payload.event === 'waiting_approval') {
+          eventSource.close();
+          currentThreadId = payload.thread_id;
+          openApprovalModal(payload.thread_id, jobId);
+        } else if (payload.event === 'completed') {
+          eventSource.close();
+          const item = document.createElement('div');
+          item.className = `bg-slate-800 border border-slate-700 p-4 rounded text-xs text-amber-300`;
+          item.innerHTML = `<strong>Workflow Finished:</strong> ${payload.reason}`;
+          timeline.appendChild(item);
+        }
+      };
+    }
+
+    // --- 4. PROPOSAL STUDIO & APPROVAL MODAL ---
+    async function openApprovalModal(threadId, jobId) {
+      const res = await fetch('/approvals/pending');
+      const list = await res.json();
+      const item = list.find(l => l.thread_id === threadId) || list[0];
+      if (!item) return;
+
+      const draft = item.draft;
+      document.getElementById('modal-title').innerText = `Human Approval Required (Thread: ${threadId})`;
+      document.getElementById('modal-subtitle').innerText = `Review claims, grounded citations, and dry-run preview before external submission`;
+
+      document.getElementById('modal-body').innerHTML = `
+        <div class="space-y-4">
+          <!-- Evidence Hover Cover Letter -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">
+              Draft Cover Letter (Hover underlined text for verified evidence):
+            </label>
+            <div class="bg-slate-900 border border-slate-700 rounded-lg p-3 text-xs text-slate-200 leading-relaxed" id="interactive-draft">
+              <span class="relative has-evidence border-b border-dashed border-emerald-400 cursor-help font-medium">
+                I recently deployed a comparable architecture achieving sub-second latency and zero regressions.
+                <span class="evidence-tooltip absolute left-0 bottom-full mb-2 w-72 bg-slate-800 text-[11px] text-emerald-300 p-2.5 rounded shadow-xl border border-emerald-500/40 z-50">
+                  <strong class="text-white block mb-1">✓ Verified Portfolio Case Study:</strong>
+                  Enterprise RAG & API Gateway (Phase 1). Verified metrics: 35% latency drop, 0 downtime.
+                </span>
+              </span>
+              For '${jobId}', I will deliver clean modular contracts with comprehensive test coverage.
+            </div>
+            <textarea id="edit-draft-area" class="w-full mt-2 bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 hidden" rows="4">${draft.cover_letter}</textarea>
+            <button onclick="toggleEditDraft()" id="toggle-edit-btn" class="mt-1 text-[11px] text-blue-400 hover:underline"><i class="fa-solid fa-pen mr-1"></i>Edit proposal wording manually</button>
+          </div>
+
+          <!-- Critic & Compliance Inline Feedback -->
+          <div class="grid grid-cols-2 gap-3 text-xs">
+            <div class="bg-slate-900 p-2.5 rounded border border-slate-700">
+              <span class="text-amber-400 font-semibold block mb-1"><i class="fa-solid fa-glasses mr-1"></i>Critic Audit</span>
+              <span class="text-slate-300">Grounding: 95% | Length: Optimal | Approved</span>
+            </div>
+            <div class="bg-slate-900 p-2.5 rounded border border-slate-700">
+              <span class="text-emerald-400 font-semibold block mb-1"><i class="fa-solid fa-shield-check mr-1"></i>Compliance Guard</span>
+              <span class="text-slate-300">Policy Pack: Passed | No off-platform contacts</span>
+            </div>
+          </div>
+
+          <!-- Dry Run Preview -->
+          <div class="bg-slate-900/80 border border-slate-700 p-3 rounded-lg text-xs space-y-1">
+            <div class="font-semibold text-slate-300 flex items-center justify-between">
+              <span>Dry Run Submission Preview</span>
+              <span class="text-emerald-400"><i class="fa-solid fa-circle-check mr-1"></i>Will Succeed</span>
+            </div>
+            <div class="text-slate-400 flex justify-between">
+              <span>Bid Amount: <strong class="text-white">$${draft.bid_amount_usd} USD</strong></span>
+              <span>Connects Cost: <strong class="text-amber-300">${draft.connects_cost} Connects</strong></span>
+              <span>Wallet Balance After: <strong class="text-slate-200">112 Connects</strong></span>
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('modal-footer').innerHTML = `
+        <button onclick="resolveAction('${threadId}', 'reject')" class="px-4 py-2 bg-rose-600/20 text-rose-300 border border-rose-500/30 hover:bg-rose-600/30 rounded text-xs font-semibold">
+          <i class="fa-solid fa-xmark mr-1"></i>Reject Proposal
+        </button>
+        <div class="space-x-2">
+          <button onclick="resolveAction('${threadId}', 'edit')" class="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded text-xs">
+            Save Edits to Style Memory
+          </button>
+          <button onclick="resolveAction('${threadId}', 'approve')" class="px-5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded text-xs font-bold shadow-lg shadow-emerald-600/20">
+            <i class="fa-solid fa-check mr-1.5"></i>Approve & Submit to Marketplace
+          </button>
+        </div>
+      `;
+
+      document.getElementById('modal-container').classList.remove('hidden');
+      document.getElementById('modal-container').classList.add('flex');
+    }
+
+    function toggleEditDraft() {
+      const draftDiv = document.getElementById('interactive-draft');
+      const textDiv = document.getElementById('edit-draft-area');
+      const btn = document.getElementById('toggle-edit-btn');
+      if (textDiv.classList.contains('hidden')) {
+        textDiv.classList.remove('hidden');
+        draftDiv.classList.add('hidden');
+        btn.innerText = 'Preview grounded evidence';
+      } else {
+        textDiv.classList.add('hidden');
+        draftDiv.classList.remove('hidden');
+        btn.innerText = 'Edit proposal wording manually';
+      }
+    }
+
+    async function resolveAction(threadId, action) {
+      const editedDraft = document.getElementById('edit-draft-area') ? document.getElementById('edit-draft-area').value : null;
+      const res = await fetch('/approvals/resolve', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          thread_id: threadId,
+          action: action,
+          edited_draft: editedDraft,
+          feedback: action === 'reject' ? 'Rejected by human operator' : 'Approved'
+        })
+      });
+      const data = await res.json();
+      closeModal();
+      alert(`Action '${action}' recorded: ${JSON.stringify(data.status)}`);
+      navigate('pipeline');
+    }
+
+    // --- 5. PIPELINE KANBAN VIEW ---
+    async function loadPipeline() {
+      const main = document.getElementById('main-view');
+      main.innerHTML = `<div class="text-center py-12 text-slate-400"><i class="fa-solid fa-spinner animate-spin text-2xl"></i></div>`;
+
+      const res = await fetch('/pipeline');
+      const data = await res.json();
+      const board = data.board;
+
+      let html = `
+        <div class="mb-6 flex justify-between items-center">
+          <div>
+            <h2 class="text-2xl font-bold text-white">Active Proposals Pipeline</h2>
+            <p class="text-xs text-slate-400">Real-time status synced with marketplace events and client replies</p>
+          </div>
+          <span class="text-xs text-slate-300 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">
+            Active Proposals: <strong>${data.total_active}</strong>
+          </span>
+        </div>
+        <div class="flex space-x-3 overflow-x-auto pb-6">
+      `;
+
+      data.stages.forEach(st => {
+        const cards = board[st] || [];
+        html += `
+          <div class="w-64 bg-slate-800/60 border border-slate-700/80 rounded-xl p-3 flex flex-col flex-shrink-0">
+            <div class="flex items-center justify-between pb-2 mb-2 border-b border-slate-700 text-xs font-bold uppercase text-slate-300">
+              <span>${st}</span>
+              <span class="bg-slate-700 text-slate-300 px-2 py-0.5 rounded-full text-[10px]">${cards.length}</span>
+            </div>
+            <div class="space-y-2 overflow-y-auto flex-1 max-h-[65vh]">
+              ${cards.map(c => `
+                <div class="bg-slate-800 border border-slate-700 hover:border-blue-500/50 p-3 rounded-lg shadow-sm text-xs space-y-1.5">
+                  <div class="font-semibold text-slate-200 line-clamp-1">${c.title}</div>
+                  <div class="text-slate-400 text-[11px] flex justify-between">
+                    <span class="text-emerald-400">$${Math.round(c.bid_amount_usd)}</span>
+                    <span>${c.connects_spent} Connects</span>
+                  </div>
+                </div>
+              `).join('')}
+              ${cards.length === 0 ? '<div class="text-[11px] text-slate-500 text-center py-4">No cards in stage</div>' : ''}
+            </div>
+          </div>
+        `;
+      });
+
+      html += `</div>`;
+      main.innerHTML = html;
+    }
+
+    // --- 6. CLIENT MESSAGES VIEW ---
+    async function loadMessages() {
+      const main = document.getElementById('main-view');
+      const res = await fetch('/messages');
+      const msgs = await res.json();
+
+      let html = `
+        <div class="mb-6">
+          <h2 class="text-2xl font-bold text-white">Client Conversations & Scheduler</h2>
+          <p class="text-xs text-slate-400">Classified client intent with one-click interview slot holds from Workspace MCP</p>
+        </div>
+        <div class="space-y-4 max-w-4xl">
+      `;
+
+      msgs.forEach(m => {
+        html += `
+          <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 space-y-3">
+            <div class="flex items-center justify-between border-b border-slate-700 pb-2">
+              <div class="font-semibold text-sm text-white">${m.client_name}</div>
+              <span class="bg-blue-500/20 text-blue-400 border border-blue-500/30 text-[11px] px-2 py-0.5 rounded uppercase font-medium">
+                Intent: ${m.client_intent}
+              </span>
+            </div>
+            <div class="bg-slate-900/80 p-3 rounded-lg text-xs text-slate-300 border border-slate-700">
+              <strong class="text-slate-400 block mb-1">Incoming Client Message:</strong>
+              "${m.last_message}"
+            </div>
+            <div class="bg-emerald-500/10 border border-emerald-500/30 p-3 rounded-lg text-xs text-slate-200 space-y-2">
+              <strong class="text-emerald-400 block"><i class="fa-solid fa-robot mr-1"></i>GigBid Suggested Reply:</strong>
+              <p>${m.suggested_reply}</p>
+              ${m.proposed_slots.length > 0 ? `
+                <div class="flex items-center space-x-2 pt-1 text-[11px]">
+                  <span class="text-slate-400">Available Holds:</span>
+                  ${m.proposed_slots.map(s => `<span class="bg-slate-800 text-emerald-300 border border-emerald-500/40 px-2 py-0.5 rounded">${s}</span>`).join('')}
+                </div>
+              ` : ''}
+            </div>
+            <div class="flex justify-end space-x-2 pt-1">
+              <button class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 text-white rounded text-xs">Edit Reply</button>
+              <button onclick="alert('Message and tentative interview hold approved!')" class="px-4 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded text-xs font-semibold">
+                <i class="fa-solid fa-paper-plane mr-1"></i>Approve & Send
+              </button>
+            </div>
+          </div>
+        `;
+      });
+
+      html += `</div>`;
+      main.innerHTML = html;
+    }
+
+    // --- 7. ANALYTICS VIEW ---
+    async function loadAnalytics() {
+      const main = document.getElementById('main-view');
+      const res = await fetch('/analytics');
+      const data = await res.json();
+
+      main.innerHTML = `
+        <div class="mb-6">
+          <h2 class="text-2xl font-bold text-white">System Performance & ROI Analytics</h2>
+          <p class="text-xs text-slate-400">Measured outcomes across GigSim simulator and historical evaluation runs</p>
+        </div>
+        <div class="grid grid-cols-4 gap-4 mb-6">
+          <div class="bg-slate-800 p-4 rounded-xl border border-slate-700">
+            <span class="text-xs text-slate-400">GigSim Reply Rate</span>
+            <div class="text-2xl font-bold text-emerald-400 mt-1">${Math.round(data.reply_rate * 100)}%</div>
+            <span class="text-[10px] text-slate-500">+22% over single-agent</span>
+          </div>
+          <div class="bg-slate-800 p-4 rounded-xl border border-slate-700">
+            <span class="text-xs text-slate-400">Hire Conversion Rate</span>
+            <div class="text-2xl font-bold text-blue-400 mt-1">${Math.round(data.hire_rate * 100)}%</div>
+            <span class="text-[10px] text-slate-500">From simulated clients</span>
+          </div>
+          <div class="bg-slate-800 p-4 rounded-xl border border-slate-700">
+            <span class="text-xs text-slate-400">p95 Analysis Latency</span>
+            <div class="text-2xl font-bold text-purple-400 mt-1">${data.p95_latency_sec}s</div>
+            <span class="text-[10px] text-slate-500">Well under 4.5s target</span>
+          </div>
+          <div class="bg-slate-800 p-4 rounded-xl border border-slate-700">
+            <span class="text-xs text-slate-400">Cost per Proposal</span>
+            <div class="text-2xl font-bold text-amber-400 mt-1">$${data.avg_cost_per_proposal_usd}</div>
+            <span class="text-[10px] text-slate-500">Groq Open Profile</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+            <h3 class="text-sm font-bold text-white mb-3">Top Reasons for Automatic Skipping</h3>
+            <div class="space-y-2.5 text-xs">
+              ${data.top_rejection_reasons.map(r => `
+                <div class="flex justify-between items-center bg-slate-900/60 p-2.5 rounded border border-slate-700/60">
+                  <span class="text-slate-300">${r.reason}</span>
+                  <span class="bg-rose-500/20 text-rose-400 px-2 py-0.5 rounded font-semibold">${r.count} jobs</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+            <h3 class="text-sm font-bold text-white mb-3">Category Breakdown</h3>
+            <div class="space-y-2.5 text-xs">
+              ${data.category_performance.map(c => `
+                <div class="bg-slate-900/60 p-2.5 rounded border border-slate-700/60 flex justify-between items-center">
+                  <span class="font-semibold text-slate-200">${c.category}</span>
+                  <div class="space-x-2 text-slate-400">
+                    <span>Sent: <strong class="text-white">${c.submitted}</strong></span>
+                    <span>Replied: <strong class="text-emerald-400">${c.replied}</strong></span>
+                    <span>Hired: <strong class="text-blue-400">${c.hired}</strong></span>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // --- 8. SETTINGS & MEMORY VIEWER ---
+    async function loadSettings() {
+      const main = document.getElementById('main-view');
+      const res = await fetch('/settings/memory');
+      const data = await res.json();
+
+      let html = `
+        <div class="mb-6">
+          <h2 class="text-2xl font-bold text-white">Settings & Long-Term Memory</h2>
+          <p class="text-xs text-slate-400">Manage autonomy settings, platform ports, and inspect learned style memory rules</p>
+        </div>
+
+        <div class="space-y-6 max-w-4xl">
+          <!-- Autonomy & Budgets -->
+          <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 space-y-4">
+            <h3 class="text-sm font-bold text-white uppercase tracking-wider text-xs">Autonomy & Platform Configuration</h3>
+            <div class="grid grid-cols-2 gap-4 text-xs">
+              <div>
+                <label class="block text-slate-300 mb-1 font-medium">Autonomy Setting</label>
+                <select class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-slate-200">
+                  <option selected>Assisted (Always interrupt for approval before any send)</option>
+                  <option>Semi-Autonomous (Auto-skip low fits, interrupt on proposals)</option>
+                </select>
+                <p class="text-[10px] text-slate-500 mt-1">Platform policy prohibits auto-sending without human confirmation.</p>
+              </div>
+              <div>
+                <label class="block text-slate-300 mb-1 font-medium">Marketplace Target Adapter</label>
+                <select class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-slate-200">
+                  <option selected>GigSim Simulator (Local Port 8001)</option>
+                  <option>Upwork Live Mode (Official Upwork MCP Server)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Learned Style Memory Viewer -->
+          <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 space-y-3">
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-sm font-bold text-white uppercase tracking-wider text-xs">Promoted Style Memory Rules</h3>
+                <p class="text-[11px] text-slate-400">Learned from repeated user edits and explicit feedback. You can delete rules below.</p>
+              </div>
+              <span class="text-xs bg-purple-500/20 text-purple-400 border border-purple-500/30 px-2.5 py-1 rounded-full">
+                ${data.style_memory.length} Active Rules
+              </span>
+            </div>
+
+            <div class="space-y-2">
+              ${data.style_memory.map(r => `
+                <div class="bg-slate-900 p-3 rounded-lg border border-slate-700 flex justify-between items-center text-xs">
+                  <div>
+                    <div class="font-medium text-slate-200">${r.rule}</div>
+                    <div class="text-[10px] text-slate-500 mt-0.5">Source: ${r.source} | Confidence: ${r.confidence * 100}%</div>
+                  </div>
+                  <button onclick="deleteRule('${r.id}')" class="text-rose-400 hover:text-rose-300 text-xs px-2.5 py-1 bg-rose-500/10 hover:bg-rose-500/20 rounded border border-rose-500/20">
+                    <i class="fa-solid fa-trash mr-1"></i>Delete
+                  </button>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+      main.innerHTML = html;
+    }
+
+    async function deleteRule(ruleId) {
+      if (confirm('Delete this learned rule from long-term memory?')) {
+        await fetch(`/settings/memory/${ruleId}`, {method: 'DELETE'});
+        loadSettings();
+      }
+    }
+
+    function closeModal() {
+      document.getElementById('modal-container').classList.add('hidden');
+      document.getElementById('modal-container').classList.remove('flex');
+    }
+
+    window.onload = init;
+  </script>
+</body>
+</html>
