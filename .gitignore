@@ -16,3 +16,4 @@ starter_kit/
 data/processed/
 *.sqlite
 *.db
+rewrite_author.sh

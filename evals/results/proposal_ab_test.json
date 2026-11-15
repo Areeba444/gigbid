@@ -1,6 +1,6 @@
 {
   "extension": "Signature Extension X2 - Proposal Strategy A/B Testing in GigSim",
-  "timestamp": "2026-11-15T09:46:01Z",
+  "timestamp": "2026-11-15T15:22:33Z",
   "hypothesis": "Proposals opening with an immediate verified case study metric (Strategy B) generate significantly higher client reply rates than traditional capability-led summaries (Strategy A).",
   "strategy_A": {
     "name": "Capability-Led Overview",
