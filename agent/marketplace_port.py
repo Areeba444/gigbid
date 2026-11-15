@@ -13,27 +13,48 @@ class MarketplacePort(Protocol):
     def send_message(self, job_id: str, content: str, user_id: str = "default") -> Dict[str, Any]: ...
 
 class GigSimAdapter:
-    """Adapter targeting the local GigSim simulator REST service."""
+    """Adapter targeting the local GigSim simulator REST service with in-process fallback."""
     def __init__(self, base_url: Optional[str] = None):
         self.base_url = base_url or os.getenv("GIGSIM_API_URL", "http://localhost:8001")
         
     def search_jobs(self, query: Optional[str] = None, limit: int = 20, min_budget: Optional[float] = None) -> List[Dict[str, Any]]:
-        resp = requests.get(f"{self.base_url}/jobs", params={"query": query, "limit": limit, "min_budget": min_budget}, timeout=5)
-        return resp.json().get("jobs", [])
+        try:
+            resp = requests.get(f"{self.base_url}/jobs", params={"query": query, "limit": limit, "min_budget": min_budget}, timeout=3)
+            return resp.json().get("jobs", [])
+        except Exception:
+            from gigsim.server import search_jobs as internal_search
+            res = internal_search(query=query, limit=limit, offset=0, min_budget=min_budget)
+            return res.get("jobs", [])
         
     def get_job(self, job_id: str) -> Dict[str, Any]:
-        resp = requests.get(f"{self.base_url}/jobs/{job_id}", timeout=5)
-        if resp.status_code == 200:
-            return resp.json()
-        raise ValueError(f"Job {job_id} not found on GigSim")
+        try:
+            resp = requests.get(f"{self.base_url}/jobs/{job_id}", timeout=3)
+            if resp.status_code == 200:
+                return resp.json()
+        except Exception:
+            pass
+        from gigsim.server import get_job as internal_get
+        return internal_get(job_id)
         
     def get_client_history(self, client_id: str) -> Dict[str, Any]:
-        resp = requests.get(f"{self.base_url}/clients/{client_id}", timeout=5)
-        return resp.json()
+        try:
+            resp = requests.get(f"{self.base_url}/clients/{client_id}", timeout=3)
+            if resp.status_code == 200:
+                return resp.json()
+        except Exception:
+            pass
+        from gigsim.server import get_client as internal_client
+        return internal_client(client_id)
         
     def get_connects_balance(self, user_id: str = "default") -> Dict[str, Any]:
-        resp = requests.get(f"{self.base_url}/connects", params={"user_id": user_id}, timeout=5)
-        return resp.json()
+        try:
+            resp = requests.get(f"{self.base_url}/connects", params={"user_id": user_id}, timeout=3)
+            if resp.status_code == 200:
+                return resp.json()
+        except Exception:
+            pass
+        from gigsim.server import get_connects as internal_conn
+        return internal_conn(user_id)
         
     def submit_proposal(self, job_id: str, bid_amount_usd: float, cover_letter: str, screening_answers: List[str], idempotency_key: str, dry_run: bool = False) -> Dict[str, Any]:
         payload = {
@@ -44,15 +65,26 @@ class GigSimAdapter:
             "idempotency_key": idempotency_key,
             "dry_run": dry_run
         }
-        resp = requests.post(f"{self.base_url}/proposals", json=payload, timeout=8)
-        if resp.status_code == 200:
-            return resp.json()
-        raise RuntimeError(f"Submission failed: {resp.text}")
+        try:
+            resp = requests.post(f"{self.base_url}/proposals", json=payload, timeout=5)
+            if resp.status_code == 200:
+                return resp.json()
+        except Exception:
+            pass
+        from gigsim.server import submit_proposal as internal_sub, ProposalSubmission
+        sub_obj = ProposalSubmission(**payload)
+        return internal_sub(sub_obj)
         
     def send_message(self, job_id: str, content: str, user_id: str = "default") -> Dict[str, Any]:
         payload = {"job_id": job_id, "content": content, "user_id": user_id}
-        resp = requests.post(f"{self.base_url}/messages", json=payload, timeout=5)
-        return resp.json()
+        try:
+            resp = requests.post(f"{self.base_url}/messages", json=payload, timeout=3)
+            if resp.status_code == 200:
+                return resp.json()
+        except Exception:
+            pass
+        from gigsim.server import send_message as internal_msg, MessageSend
+        return internal_msg(MessageSend(**payload))
 
 class UpworkLiveAdapter:
     """Adapter targeting the official Upwork MCP server (OAuth 2.1 protected).

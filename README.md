@@ -1,6 +1,6 @@
 # GigBid — Autonomous Multi-Agent Freelancer Copilot
 
-[![CI Pipeline](https://github.com/gigbid/gigbid/actions/workflows/ci.yml/badge.svg)](https://github.com/gigbid/gigbid)
+[![CI Pipeline](https://github.com/Areeba444/gigbid/actions/workflows/ci.yml/badge.svg)](https://github.com/Areeba444/gigbid)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![LangGraph](https://img.shields.io/badge/orchestration-LangGraph_v1.2-purple.svg)](https://github.com/langchain-ai/langgraph)
 [![MCP](https://img.shields.io/badge/protocol-Model_Context_Protocol-orange.svg)](https://modelcontextprotocol.io/)
@@ -108,7 +108,7 @@ Randomized A/B test across 200 proposals in GigSim (`evals/results/proposal_ab_t
 ### 1. Environment Setup
 ```bash
 # Clone and enter repo
-git clone https://github.com/areeb/gigbid.git
+git clone https://github.com/Areeba444/gigbid.git
 cd gigbid
 
 # Setup environment variables
