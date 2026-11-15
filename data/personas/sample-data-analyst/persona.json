@@ -1,0 +1,30 @@
+{
+  "freelancer_id": "sample-data-analyst",
+  "display_name": "Marcus Vance",
+  "headline": "Senior Data Analyst & Analytics Engineer",
+  "hourly_rate_usd": 50,
+  "minimum_project_budget_usd": 350,
+  "availability_hours_per_week": 25,
+  "skills": [
+    "SQL",
+    "Python",
+    "Pandas",
+    "Power BI",
+    "Tableau",
+    "dbt",
+    "Snowflake",
+    "Statistical Modeling",
+    "A/B Testing",
+    "ETL",
+    "Excel"
+  ],
+  "bio": "Analytics engineer and data scientist turning messy transactional databases into executive dashboards, churn models, and revenue-attribution pipelines.",
+  "projects_focus": [
+    "analytics",
+    "bi",
+    "etl",
+    "churn",
+    "ab_testing",
+    "financial"
+  ]
+}

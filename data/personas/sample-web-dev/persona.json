@@ -1,0 +1,31 @@
+{
+  "freelancer_id": "sample-web-dev",
+  "display_name": "Priya Patel",
+  "headline": "Lead Full-Stack TypeScript & Python Architect",
+  "hourly_rate_usd": 60,
+  "minimum_project_budget_usd": 400,
+  "availability_hours_per_week": 35,
+  "skills": [
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "TailwindCSS",
+    "Redis",
+    "Docker",
+    "GraphQL",
+    "REST APIs"
+  ],
+  "bio": "Full-stack engineer with 7+ years architecting high-concurrency web apps, real-time dashboards with SSE/WebSockets, and modern Next.js/FastAPI production applications.",
+  "projects_focus": [
+    "fullstack",
+    "saas",
+    "dashboard",
+    "api",
+    "ecommerce",
+    "realtime"
+  ]
+}

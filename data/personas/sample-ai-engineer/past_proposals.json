@@ -1,0 +1,2102 @@
+[
+  {
+    "proposal_id": "sample-ai-engineer-prop-001",
+    "job_title": "Production MLOps Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 680.0,
+    "cover_letter": "I would be glad to help build this. My background in MLOps, FastAPI, vLLM covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "MLOps",
+      "FastAPI",
+      "vLLM"
+    ],
+    "date": "2024-02-02",
+    "evidence_case_id": "sample-ai-engineer-case-002"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-002",
+    "job_title": "Production Docker Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1110.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Docker, FastAPI, Ollama. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Docker",
+      "FastAPI",
+      "Ollama"
+    ],
+    "date": "2024-03-03",
+    "evidence_case_id": "sample-ai-engineer-case-003"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-003",
+    "job_title": "Production Vector Databases Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1420.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Vector Databases, LangChain, vLLM. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Vector Databases",
+      "LangChain",
+      "vLLM"
+    ],
+    "date": "2024-04-04",
+    "evidence_case_id": "sample-ai-engineer-case-004"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-004",
+    "job_title": "Production HuggingFace Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in HuggingFace, Vector Databases, RAG. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "HuggingFace",
+      "Vector Databases",
+      "RAG"
+    ],
+    "date": "2024-05-05",
+    "evidence_case_id": "sample-ai-engineer-case-005"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-005",
+    "job_title": "Production Ollama Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 740.0,
+    "cover_letter": "Your project caught my attention because Ollama, FastAPI, LangGraph is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Ollama",
+      "FastAPI",
+      "LangGraph"
+    ],
+    "date": "2024-06-06",
+    "evidence_case_id": "sample-ai-engineer-case-006"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-006",
+    "job_title": "Production PyTorch Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 570.0,
+    "cover_letter": "I would be glad to help build this. My background in PyTorch, Ollama, RAG covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "PyTorch",
+      "Ollama",
+      "RAG"
+    ],
+    "date": "2024-07-07",
+    "evidence_case_id": "sample-ai-engineer-case-007"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-007",
+    "job_title": "Production Ollama Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 980.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Ollama",
+      "LangChain",
+      "MLOps"
+    ],
+    "date": "2024-08-08",
+    "evidence_case_id": "sample-ai-engineer-case-008"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-008",
+    "job_title": "Production LangChain Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1110.0,
+    "cover_letter": "Having built production LangChain, FastAPI, vLLM systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "LangChain",
+      "FastAPI",
+      "vLLM"
+    ],
+    "date": "2024-09-09",
+    "evidence_case_id": "sample-ai-engineer-case-009"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-009",
+    "job_title": "Production vLLM Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 810.0,
+    "cover_letter": "I recently resolved this exact problem for a EdTech client by implementing vLLM, MLOps, LangGraph, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "vLLM",
+      "MLOps",
+      "LangGraph"
+    ],
+    "date": "2024-10-10",
+    "evidence_case_id": "sample-ai-engineer-case-010"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-010",
+    "job_title": "Production Docker Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 950.0,
+    "cover_letter": "Having built production Docker, Vector Databases, RAG systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Docker",
+      "Vector Databases",
+      "RAG"
+    ],
+    "date": "2024-11-11",
+    "evidence_case_id": "sample-ai-engineer-case-011"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-011",
+    "job_title": "Production LangGraph Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1090.0,
+    "cover_letter": "I noticed your requirement for LangGraph, PyTorch, Vector Databases. In my previous work with Fintech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "LangGraph",
+      "PyTorch",
+      "Vector Databases"
+    ],
+    "date": "2024-12-12",
+    "evidence_case_id": "sample-ai-engineer-case-012"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-012",
+    "job_title": "Production HuggingFace Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1210.0,
+    "cover_letter": "I noticed your requirement for HuggingFace, LangGraph, Python. In my previous work with Fintech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "HuggingFace",
+      "LangGraph",
+      "Python"
+    ],
+    "date": "2024-01-13",
+    "evidence_case_id": "sample-ai-engineer-case-013"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-013",
+    "job_title": "Production LangGraph Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 830.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing LangGraph, PyTorch, Python, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "LangGraph",
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2024-02-14",
+    "evidence_case_id": "sample-ai-engineer-case-014"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-014",
+    "job_title": "Production LangGraph Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 710.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "LangGraph",
+      "FastAPI",
+      "Docker"
+    ],
+    "date": "2024-03-15",
+    "evidence_case_id": "sample-ai-engineer-case-015"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-015",
+    "job_title": "Production MLOps Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 740.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in MLOps, HuggingFace, Ollama. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "MLOps",
+      "HuggingFace",
+      "Ollama"
+    ],
+    "date": "2024-04-16",
+    "evidence_case_id": "sample-ai-engineer-case-016"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-016",
+    "job_title": "Production Ollama Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 600.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Ollama, Fine-Tuning, LangGraph with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Ollama",
+      "Fine-Tuning",
+      "LangGraph"
+    ],
+    "date": "2024-05-17",
+    "evidence_case_id": "sample-ai-engineer-case-017"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-017",
+    "job_title": "Production Vector Databases Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1360.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Vector Databases",
+      "Fine-Tuning",
+      "MLOps"
+    ],
+    "date": "2024-06-18",
+    "evidence_case_id": "sample-ai-engineer-case-018"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-018",
+    "job_title": "Production Docker Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 560.0,
+    "cover_letter": "I recently resolved this exact problem for a Fintech client by implementing Docker, Ollama, MLOps, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Docker",
+      "Ollama",
+      "MLOps"
+    ],
+    "date": "2024-07-19",
+    "evidence_case_id": "sample-ai-engineer-case-019"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-019",
+    "job_title": "Production Vector Databases Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 690.0,
+    "cover_letter": "I would be glad to help build this. My background in Vector Databases, PyTorch, LangGraph covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Vector Databases",
+      "PyTorch",
+      "LangGraph"
+    ],
+    "date": "2024-08-20",
+    "evidence_case_id": "sample-ai-engineer-case-020"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-020",
+    "job_title": "Production LangChain Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 960.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: LangChain, Fine-Tuning, Ollama with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "LangChain",
+      "Fine-Tuning",
+      "Ollama"
+    ],
+    "date": "2024-09-21",
+    "evidence_case_id": "sample-ai-engineer-case-001"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-021",
+    "job_title": "Production RAG Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1150.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in RAG, vLLM, PyTorch. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "RAG",
+      "vLLM",
+      "PyTorch"
+    ],
+    "date": "2024-10-22",
+    "evidence_case_id": "sample-ai-engineer-case-002"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-022",
+    "job_title": "Production Python Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 910.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Python",
+      "PyTorch",
+      "LangGraph"
+    ],
+    "date": "2024-11-23",
+    "evidence_case_id": "sample-ai-engineer-case-003"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-023",
+    "job_title": "Production LangGraph Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Your project caught my attention because LangGraph, Fine-Tuning, Python is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "LangGraph",
+      "Fine-Tuning",
+      "Python"
+    ],
+    "date": "2024-12-24",
+    "evidence_case_id": "sample-ai-engineer-case-004"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-024",
+    "job_title": "Production FastAPI Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1200.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "FastAPI",
+      "RAG",
+      "Ollama"
+    ],
+    "date": "2024-01-25",
+    "evidence_case_id": "sample-ai-engineer-case-005"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-025",
+    "job_title": "Production Ollama Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 990.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Ollama",
+      "vLLM",
+      "Docker"
+    ],
+    "date": "2024-02-26",
+    "evidence_case_id": "sample-ai-engineer-case-006"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-026",
+    "job_title": "Production FastAPI Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1240.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in FastAPI, LangGraph, Python. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "FastAPI",
+      "LangGraph",
+      "Python"
+    ],
+    "date": "2024-03-27",
+    "evidence_case_id": "sample-ai-engineer-case-007"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-027",
+    "job_title": "Production MLOps Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1080.0,
+    "cover_letter": "I recently resolved this exact problem for a Fintech client by implementing MLOps, Vector Databases, Python, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "MLOps",
+      "Vector Databases",
+      "Python"
+    ],
+    "date": "2024-04-28",
+    "evidence_case_id": "sample-ai-engineer-case-008"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-028",
+    "job_title": "Production vLLM Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 580.0,
+    "cover_letter": "I would be glad to help build this. My background in vLLM, LangChain, Python covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "vLLM",
+      "LangChain",
+      "Python"
+    ],
+    "date": "2024-05-01",
+    "evidence_case_id": "sample-ai-engineer-case-009"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-029",
+    "job_title": "Production PyTorch Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1360.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in PyTorch, HuggingFace, Ollama. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "PyTorch",
+      "HuggingFace",
+      "Ollama"
+    ],
+    "date": "2024-06-02",
+    "evidence_case_id": "sample-ai-engineer-case-010"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-030",
+    "job_title": "Production PyTorch Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1090.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "PyTorch",
+      "HuggingFace",
+      "LangGraph"
+    ],
+    "date": "2024-07-03",
+    "evidence_case_id": "sample-ai-engineer-case-011"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-031",
+    "job_title": "Production PyTorch Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1070.0,
+    "cover_letter": "I would be glad to help build this. My background in PyTorch, Fine-Tuning, Docker covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "PyTorch",
+      "Fine-Tuning",
+      "Docker"
+    ],
+    "date": "2024-08-04",
+    "evidence_case_id": "sample-ai-engineer-case-012"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-032",
+    "job_title": "Production FastAPI Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 810.0,
+    "cover_letter": "Your project caught my attention because FastAPI, LangGraph, Docker is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "FastAPI",
+      "LangGraph",
+      "Docker"
+    ],
+    "date": "2024-09-05",
+    "evidence_case_id": "sample-ai-engineer-case-013"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-033",
+    "job_title": "Production Fine-Tuning Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 800.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Fine-Tuning, LangChain, Docker with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "LangChain",
+      "Docker"
+    ],
+    "date": "2024-10-06",
+    "evidence_case_id": "sample-ai-engineer-case-014"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-034",
+    "job_title": "Production Ollama Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1120.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Ollama",
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2024-11-07",
+    "evidence_case_id": "sample-ai-engineer-case-015"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-035",
+    "job_title": "Production PyTorch Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1010.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "PyTorch",
+      "Ollama",
+      "vLLM"
+    ],
+    "date": "2024-12-08",
+    "evidence_case_id": "sample-ai-engineer-case-016"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-036",
+    "job_title": "Production Vector Databases Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 780.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Vector Databases, PyTorch, LangGraph. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Vector Databases",
+      "PyTorch",
+      "LangGraph"
+    ],
+    "date": "2024-01-09",
+    "evidence_case_id": "sample-ai-engineer-case-017"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-037",
+    "job_title": "Production vLLM Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1480.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "vLLM",
+      "MLOps",
+      "FastAPI"
+    ],
+    "date": "2024-02-10",
+    "evidence_case_id": "sample-ai-engineer-case-018"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-038",
+    "job_title": "Production vLLM Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1050.0,
+    "cover_letter": "I would be glad to help build this. My background in vLLM, Python, Docker covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "vLLM",
+      "Python",
+      "Docker"
+    ],
+    "date": "2024-03-11",
+    "evidence_case_id": "sample-ai-engineer-case-019"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-039",
+    "job_title": "Production PyTorch Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1390.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "PyTorch",
+      "LangChain",
+      "FastAPI"
+    ],
+    "date": "2024-04-12",
+    "evidence_case_id": "sample-ai-engineer-case-020"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-040",
+    "job_title": "Production vLLM Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1100.0,
+    "cover_letter": "I would be glad to help build this. My background in vLLM, LangChain, FastAPI covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "vLLM",
+      "LangChain",
+      "FastAPI"
+    ],
+    "date": "2024-05-13",
+    "evidence_case_id": "sample-ai-engineer-case-001"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-041",
+    "job_title": "Production Vector Databases Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1350.0,
+    "cover_letter": "I would be glad to help build this. My background in Vector Databases, LangGraph, Docker covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Vector Databases",
+      "LangGraph",
+      "Docker"
+    ],
+    "date": "2024-06-14",
+    "evidence_case_id": "sample-ai-engineer-case-002"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-042",
+    "job_title": "Production RAG Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1130.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "RAG",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2024-07-15",
+    "evidence_case_id": "sample-ai-engineer-case-003"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-043",
+    "job_title": "Production Python Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 630.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Python",
+      "Ollama",
+      "Vector Databases"
+    ],
+    "date": "2024-08-16",
+    "evidence_case_id": "sample-ai-engineer-case-004"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-044",
+    "job_title": "Production LangChain Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1210.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: LangChain, MLOps, RAG with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "LangChain",
+      "MLOps",
+      "RAG"
+    ],
+    "date": "2024-09-17",
+    "evidence_case_id": "sample-ai-engineer-case-005"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-045",
+    "job_title": "Production Python Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1400.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Python",
+      "PyTorch",
+      "MLOps"
+    ],
+    "date": "2024-10-18",
+    "evidence_case_id": "sample-ai-engineer-case-006"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-046",
+    "job_title": "Production Python Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 650.0,
+    "cover_letter": "I would be glad to help build this. My background in Python, Vector Databases, HuggingFace covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Python",
+      "Vector Databases",
+      "HuggingFace"
+    ],
+    "date": "2024-11-19",
+    "evidence_case_id": "sample-ai-engineer-case-007"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-047",
+    "job_title": "Production Python Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1470.0,
+    "cover_letter": "I noticed your requirement for Python, FastAPI, Vector Databases. In my previous work with Media clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Python",
+      "FastAPI",
+      "Vector Databases"
+    ],
+    "date": "2024-12-20",
+    "evidence_case_id": "sample-ai-engineer-case-008"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-048",
+    "job_title": "Production Vector Databases Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1170.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Vector Databases, LangGraph, Docker. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Vector Databases",
+      "LangGraph",
+      "Docker"
+    ],
+    "date": "2024-01-21",
+    "evidence_case_id": "sample-ai-engineer-case-009"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-049",
+    "job_title": "Production Ollama Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1250.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Ollama",
+      "vLLM",
+      "Fine-Tuning"
+    ],
+    "date": "2024-02-22",
+    "evidence_case_id": "sample-ai-engineer-case-010"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-050",
+    "job_title": "Production LangChain Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 680.0,
+    "cover_letter": "I noticed your requirement for LangChain, Ollama, Fine-Tuning. In my previous work with Fintech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "LangChain",
+      "Ollama",
+      "Fine-Tuning"
+    ],
+    "date": "2024-03-23",
+    "evidence_case_id": "sample-ai-engineer-case-011"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-051",
+    "job_title": "Production Ollama Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1240.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Ollama",
+      "Fine-Tuning",
+      "Docker"
+    ],
+    "date": "2024-04-24",
+    "evidence_case_id": "sample-ai-engineer-case-012"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-052",
+    "job_title": "Production FastAPI Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1370.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in FastAPI, LangChain, PyTorch. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "FastAPI",
+      "LangChain",
+      "PyTorch"
+    ],
+    "date": "2024-05-25",
+    "evidence_case_id": "sample-ai-engineer-case-013"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-053",
+    "job_title": "Production LangGraph Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 810.0,
+    "cover_letter": "Your project caught my attention because LangGraph, Ollama, RAG is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "LangGraph",
+      "Ollama",
+      "RAG"
+    ],
+    "date": "2024-06-26",
+    "evidence_case_id": "sample-ai-engineer-case-014"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-054",
+    "job_title": "Production LangGraph Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 900.0,
+    "cover_letter": "I recently resolved this exact problem for a HealthTech client by implementing LangGraph, Python, Docker, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "LangGraph",
+      "Python",
+      "Docker"
+    ],
+    "date": "2024-07-27",
+    "evidence_case_id": "sample-ai-engineer-case-015"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-055",
+    "job_title": "Production PyTorch Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1010.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "PyTorch",
+      "FastAPI",
+      "Vector Databases"
+    ],
+    "date": "2024-08-28",
+    "evidence_case_id": "sample-ai-engineer-case-016"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-056",
+    "job_title": "Production vLLM Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1380.0,
+    "cover_letter": "Having built production vLLM, Vector Databases, Python systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "vLLM",
+      "Vector Databases",
+      "Python"
+    ],
+    "date": "2024-09-01",
+    "evidence_case_id": "sample-ai-engineer-case-017"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-057",
+    "job_title": "Production LangChain Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: LangChain, HuggingFace, FastAPI with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "LangChain",
+      "HuggingFace",
+      "FastAPI"
+    ],
+    "date": "2024-10-02",
+    "evidence_case_id": "sample-ai-engineer-case-018"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-058",
+    "job_title": "Production Vector Databases Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1110.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Vector Databases, MLOps, Ollama with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Vector Databases",
+      "MLOps",
+      "Ollama"
+    ],
+    "date": "2024-11-03",
+    "evidence_case_id": "sample-ai-engineer-case-019"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-059",
+    "job_title": "Production PyTorch Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "I would be glad to help build this. My background in PyTorch, Fine-Tuning, HuggingFace covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "PyTorch",
+      "Fine-Tuning",
+      "HuggingFace"
+    ],
+    "date": "2024-12-04",
+    "evidence_case_id": "sample-ai-engineer-case-020"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-060",
+    "job_title": "Production Fine-Tuning Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1040.0,
+    "cover_letter": "I would be glad to help build this. My background in Fine-Tuning, Python, vLLM covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "Python",
+      "vLLM"
+    ],
+    "date": "2024-01-05",
+    "evidence_case_id": "sample-ai-engineer-case-001"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-061",
+    "job_title": "Production MLOps Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 860.0,
+    "cover_letter": "Having built production MLOps, Ollama, Docker systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "MLOps",
+      "Ollama",
+      "Docker"
+    ],
+    "date": "2024-02-06",
+    "evidence_case_id": "sample-ai-engineer-case-002"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-062",
+    "job_title": "Production Docker Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1160.0,
+    "cover_letter": "I noticed your requirement for Docker, Vector Databases, HuggingFace. In my previous work with E-Commerce clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Docker",
+      "Vector Databases",
+      "HuggingFace"
+    ],
+    "date": "2024-03-07",
+    "evidence_case_id": "sample-ai-engineer-case-003"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-063",
+    "job_title": "Production MLOps Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1170.0,
+    "cover_letter": "I recently resolved this exact problem for a E-Commerce client by implementing MLOps, FastAPI, vLLM, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "MLOps",
+      "FastAPI",
+      "vLLM"
+    ],
+    "date": "2024-04-08",
+    "evidence_case_id": "sample-ai-engineer-case-004"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-064",
+    "job_title": "Production Fine-Tuning Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 630.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "MLOps",
+      "FastAPI"
+    ],
+    "date": "2024-05-09",
+    "evidence_case_id": "sample-ai-engineer-case-005"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-065",
+    "job_title": "Production Docker Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1400.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Docker, Fine-Tuning, Ollama with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Docker",
+      "Fine-Tuning",
+      "Ollama"
+    ],
+    "date": "2024-06-10",
+    "evidence_case_id": "sample-ai-engineer-case-006"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-066",
+    "job_title": "Production HuggingFace Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1330.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "HuggingFace",
+      "FastAPI",
+      "Fine-Tuning"
+    ],
+    "date": "2024-07-11",
+    "evidence_case_id": "sample-ai-engineer-case-007"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-067",
+    "job_title": "Production FastAPI Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1080.0,
+    "cover_letter": "Your project caught my attention because FastAPI, LangGraph, Fine-Tuning is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "FastAPI",
+      "LangGraph",
+      "Fine-Tuning"
+    ],
+    "date": "2024-08-12",
+    "evidence_case_id": "sample-ai-engineer-case-008"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-068",
+    "job_title": "Production Vector Databases Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1180.0,
+    "cover_letter": "I would be glad to help build this. My background in Vector Databases, RAG, MLOps covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Vector Databases",
+      "RAG",
+      "MLOps"
+    ],
+    "date": "2024-09-13",
+    "evidence_case_id": "sample-ai-engineer-case-009"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-069",
+    "job_title": "Production RAG Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 580.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "RAG",
+      "MLOps",
+      "LangChain"
+    ],
+    "date": "2024-10-14",
+    "evidence_case_id": "sample-ai-engineer-case-010"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-070",
+    "job_title": "Production Docker Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "I would be glad to help build this. My background in Docker, Ollama, HuggingFace covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Docker",
+      "Ollama",
+      "HuggingFace"
+    ],
+    "date": "2024-11-15",
+    "evidence_case_id": "sample-ai-engineer-case-011"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-071",
+    "job_title": "Production Docker Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 700.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing Docker, FastAPI, LangGraph, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Docker",
+      "FastAPI",
+      "LangGraph"
+    ],
+    "date": "2024-12-16",
+    "evidence_case_id": "sample-ai-engineer-case-012"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-072",
+    "job_title": "Production Python Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1350.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Python, LangGraph, RAG. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Python",
+      "LangGraph",
+      "RAG"
+    ],
+    "date": "2024-01-17",
+    "evidence_case_id": "sample-ai-engineer-case-013"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-073",
+    "job_title": "Production RAG Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 690.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing RAG, Fine-Tuning, Docker, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "RAG",
+      "Fine-Tuning",
+      "Docker"
+    ],
+    "date": "2024-02-18",
+    "evidence_case_id": "sample-ai-engineer-case-014"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-074",
+    "job_title": "Production Fine-Tuning Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 650.0,
+    "cover_letter": "Having built production Fine-Tuning, RAG, Ollama systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "RAG",
+      "Ollama"
+    ],
+    "date": "2024-03-19",
+    "evidence_case_id": "sample-ai-engineer-case-015"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-075",
+    "job_title": "Production Python Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 680.0,
+    "cover_letter": "Having built production Python, PyTorch, Fine-Tuning systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Python",
+      "PyTorch",
+      "Fine-Tuning"
+    ],
+    "date": "2024-04-20",
+    "evidence_case_id": "sample-ai-engineer-case-016"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-076",
+    "job_title": "Production vLLM Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "vLLM",
+      "RAG",
+      "Python"
+    ],
+    "date": "2024-05-21",
+    "evidence_case_id": "sample-ai-engineer-case-017"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-077",
+    "job_title": "Production RAG Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in RAG, LangChain, Ollama. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "RAG",
+      "LangChain",
+      "Ollama"
+    ],
+    "date": "2024-06-22",
+    "evidence_case_id": "sample-ai-engineer-case-018"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-078",
+    "job_title": "Production HuggingFace Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1320.0,
+    "cover_letter": "I would be glad to help build this. My background in HuggingFace, Vector Databases, RAG covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "HuggingFace",
+      "Vector Databases",
+      "RAG"
+    ],
+    "date": "2024-07-23",
+    "evidence_case_id": "sample-ai-engineer-case-019"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-079",
+    "job_title": "Production Fine-Tuning Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1240.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "vLLM",
+      "RAG"
+    ],
+    "date": "2024-08-24",
+    "evidence_case_id": "sample-ai-engineer-case-020"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-080",
+    "job_title": "Production RAG Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1140.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "RAG",
+      "FastAPI",
+      "LangGraph"
+    ],
+    "date": "2024-09-25",
+    "evidence_case_id": "sample-ai-engineer-case-001"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-081",
+    "job_title": "Production RAG Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 940.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "RAG",
+      "Docker",
+      "LangGraph"
+    ],
+    "date": "2024-10-26",
+    "evidence_case_id": "sample-ai-engineer-case-002"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-082",
+    "job_title": "Production FastAPI Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 820.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "FastAPI",
+      "LangGraph",
+      "Ollama"
+    ],
+    "date": "2024-11-27",
+    "evidence_case_id": "sample-ai-engineer-case-003"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-083",
+    "job_title": "Production PyTorch Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "PyTorch",
+      "LangChain",
+      "MLOps"
+    ],
+    "date": "2024-12-28",
+    "evidence_case_id": "sample-ai-engineer-case-004"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-084",
+    "job_title": "Production MLOps Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 910.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in MLOps, LangGraph, PyTorch. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "MLOps",
+      "LangGraph",
+      "PyTorch"
+    ],
+    "date": "2024-01-01",
+    "evidence_case_id": "sample-ai-engineer-case-005"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-085",
+    "job_title": "Production RAG Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1330.0,
+    "cover_letter": "I would be glad to help build this. My background in RAG, Fine-Tuning, Python covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "RAG",
+      "Fine-Tuning",
+      "Python"
+    ],
+    "date": "2024-02-02",
+    "evidence_case_id": "sample-ai-engineer-case-006"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-086",
+    "job_title": "Production Ollama Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1380.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Ollama",
+      "HuggingFace",
+      "Python"
+    ],
+    "date": "2024-03-03",
+    "evidence_case_id": "sample-ai-engineer-case-007"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-087",
+    "job_title": "Production Fine-Tuning Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 800.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "RAG",
+      "Python"
+    ],
+    "date": "2024-04-04",
+    "evidence_case_id": "sample-ai-engineer-case-008"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-088",
+    "job_title": "Production Fine-Tuning Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1100.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Fine-Tuning, vLLM, MLOps with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "vLLM",
+      "MLOps"
+    ],
+    "date": "2024-05-05",
+    "evidence_case_id": "sample-ai-engineer-case-009"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-089",
+    "job_title": "Production RAG Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 990.0,
+    "cover_letter": "I noticed your requirement for RAG, LangGraph, FastAPI. In my previous work with SaaS clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "RAG",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "date": "2024-06-06",
+    "evidence_case_id": "sample-ai-engineer-case-010"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-090",
+    "job_title": "Production Vector Databases Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 900.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Vector Databases",
+      "Docker",
+      "MLOps"
+    ],
+    "date": "2024-07-07",
+    "evidence_case_id": "sample-ai-engineer-case-011"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-091",
+    "job_title": "Production RAG Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 530.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in RAG, LangChain, HuggingFace. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "RAG",
+      "LangChain",
+      "HuggingFace"
+    ],
+    "date": "2024-08-08",
+    "evidence_case_id": "sample-ai-engineer-case-012"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-092",
+    "job_title": "Production HuggingFace Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 580.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "HuggingFace",
+      "Ollama",
+      "Docker"
+    ],
+    "date": "2024-09-09",
+    "evidence_case_id": "sample-ai-engineer-case-013"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-093",
+    "job_title": "Production LangChain Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 760.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: LangChain, RAG, Ollama with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "LangChain",
+      "RAG",
+      "Ollama"
+    ],
+    "date": "2024-10-10",
+    "evidence_case_id": "sample-ai-engineer-case-014"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-094",
+    "job_title": "Production LangGraph Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1260.0,
+    "cover_letter": "Your project caught my attention because LangGraph, RAG, Vector Databases is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "LangGraph",
+      "RAG",
+      "Vector Databases"
+    ],
+    "date": "2024-11-11",
+    "evidence_case_id": "sample-ai-engineer-case-015"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-095",
+    "job_title": "Production FastAPI Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 580.0,
+    "cover_letter": "Your project caught my attention because FastAPI, Fine-Tuning, Ollama is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "FastAPI",
+      "Fine-Tuning",
+      "Ollama"
+    ],
+    "date": "2024-12-12",
+    "evidence_case_id": "sample-ai-engineer-case-016"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-096",
+    "job_title": "Production MLOps Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 720.0,
+    "cover_letter": "I noticed your requirement for MLOps, vLLM, Python. In my previous work with E-Commerce clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "MLOps",
+      "vLLM",
+      "Python"
+    ],
+    "date": "2024-01-13",
+    "evidence_case_id": "sample-ai-engineer-case-017"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-097",
+    "job_title": "Production Ollama Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 530.0,
+    "cover_letter": "I noticed your requirement for Ollama, Docker, Python. In my previous work with Media clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Ollama",
+      "Docker",
+      "Python"
+    ],
+    "date": "2024-02-14",
+    "evidence_case_id": "sample-ai-engineer-case-018"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-098",
+    "job_title": "Production LangGraph Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 740.0,
+    "cover_letter": "I recently resolved this exact problem for a HealthTech client by implementing LangGraph, Python, HuggingFace, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "LangGraph",
+      "Python",
+      "HuggingFace"
+    ],
+    "date": "2024-03-15",
+    "evidence_case_id": "sample-ai-engineer-case-019"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-099",
+    "job_title": "Production Docker Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 970.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Docker",
+      "PyTorch",
+      "HuggingFace"
+    ],
+    "date": "2024-04-16",
+    "evidence_case_id": "sample-ai-engineer-case-020"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-100",
+    "job_title": "Production Ollama Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1110.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Ollama, Vector Databases, LangChain with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Ollama",
+      "Vector Databases",
+      "LangChain"
+    ],
+    "date": "2024-05-17",
+    "evidence_case_id": "sample-ai-engineer-case-001"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-101",
+    "job_title": "Production MLOps Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "MLOps",
+      "PyTorch",
+      "LangChain"
+    ],
+    "date": "2024-06-18",
+    "evidence_case_id": "sample-ai-engineer-case-002"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-102",
+    "job_title": "Production FastAPI Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 900.0,
+    "cover_letter": "I recently resolved this exact problem for a SaaS client by implementing FastAPI, HuggingFace, Docker, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "FastAPI",
+      "HuggingFace",
+      "Docker"
+    ],
+    "date": "2024-07-19",
+    "evidence_case_id": "sample-ai-engineer-case-003"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-103",
+    "job_title": "Production LangGraph Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1330.0,
+    "cover_letter": "I would be glad to help build this. My background in LangGraph, PyTorch, HuggingFace covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "LangGraph",
+      "PyTorch",
+      "HuggingFace"
+    ],
+    "date": "2024-08-20",
+    "evidence_case_id": "sample-ai-engineer-case-004"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-104",
+    "job_title": "Production PyTorch Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1180.0,
+    "cover_letter": "I noticed your requirement for PyTorch, MLOps, FastAPI. In my previous work with Media clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "PyTorch",
+      "MLOps",
+      "FastAPI"
+    ],
+    "date": "2024-09-21",
+    "evidence_case_id": "sample-ai-engineer-case-005"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-105",
+    "job_title": "Production Ollama Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Ollama, HuggingFace, Python. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Ollama",
+      "HuggingFace",
+      "Python"
+    ],
+    "date": "2024-10-22",
+    "evidence_case_id": "sample-ai-engineer-case-006"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-106",
+    "job_title": "Production Vector Databases Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 840.0,
+    "cover_letter": "Having built production Vector Databases, PyTorch, vLLM systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Vector Databases",
+      "PyTorch",
+      "vLLM"
+    ],
+    "date": "2024-11-23",
+    "evidence_case_id": "sample-ai-engineer-case-007"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-107",
+    "job_title": "Production RAG Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1140.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "RAG",
+      "PyTorch",
+      "Fine-Tuning"
+    ],
+    "date": "2024-12-24",
+    "evidence_case_id": "sample-ai-engineer-case-008"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-108",
+    "job_title": "Production MLOps Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1230.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: MLOps, LangChain, Fine-Tuning with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "MLOps",
+      "LangChain",
+      "Fine-Tuning"
+    ],
+    "date": "2024-01-25",
+    "evidence_case_id": "sample-ai-engineer-case-009"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-109",
+    "job_title": "Production FastAPI Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 980.0,
+    "cover_letter": "I would be glad to help build this. My background in FastAPI, HuggingFace, vLLM covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "FastAPI",
+      "HuggingFace",
+      "vLLM"
+    ],
+    "date": "2024-02-26",
+    "evidence_case_id": "sample-ai-engineer-case-010"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-110",
+    "job_title": "Production MLOps Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1350.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: MLOps, HuggingFace, FastAPI with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "MLOps",
+      "HuggingFace",
+      "FastAPI"
+    ],
+    "date": "2024-03-27",
+    "evidence_case_id": "sample-ai-engineer-case-011"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-111",
+    "job_title": "Production FastAPI Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 960.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in FastAPI, RAG, LangGraph. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "FastAPI",
+      "RAG",
+      "LangGraph"
+    ],
+    "date": "2024-04-28",
+    "evidence_case_id": "sample-ai-engineer-case-012"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-112",
+    "job_title": "Production Docker Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 990.0,
+    "cover_letter": "I would be glad to help build this. My background in Docker, Fine-Tuning, Vector Databases covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Docker",
+      "Fine-Tuning",
+      "Vector Databases"
+    ],
+    "date": "2024-05-01",
+    "evidence_case_id": "sample-ai-engineer-case-013"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-113",
+    "job_title": "Production LangChain Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1300.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: LangChain, RAG, LangGraph with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "LangChain",
+      "RAG",
+      "LangGraph"
+    ],
+    "date": "2024-06-02",
+    "evidence_case_id": "sample-ai-engineer-case-014"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-114",
+    "job_title": "Production FastAPI Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 510.0,
+    "cover_letter": "Your project caught my attention because FastAPI, HuggingFace, Ollama is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "FastAPI",
+      "HuggingFace",
+      "Ollama"
+    ],
+    "date": "2024-07-03",
+    "evidence_case_id": "sample-ai-engineer-case-015"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-115",
+    "job_title": "Production PyTorch Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1060.0,
+    "cover_letter": "I recently resolved this exact problem for a SaaS client by implementing PyTorch, LangGraph, Fine-Tuning, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "PyTorch",
+      "LangGraph",
+      "Fine-Tuning"
+    ],
+    "date": "2024-08-04",
+    "evidence_case_id": "sample-ai-engineer-case-016"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-116",
+    "job_title": "Production MLOps Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 990.0,
+    "cover_letter": "I recently resolved this exact problem for a EdTech client by implementing MLOps, RAG, Docker, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "MLOps",
+      "RAG",
+      "Docker"
+    ],
+    "date": "2024-09-05",
+    "evidence_case_id": "sample-ai-engineer-case-017"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-117",
+    "job_title": "Production PyTorch Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1190.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in PyTorch, FastAPI, LangGraph. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "PyTorch",
+      "FastAPI",
+      "LangGraph"
+    ],
+    "date": "2024-10-06",
+    "evidence_case_id": "sample-ai-engineer-case-018"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-118",
+    "job_title": "Production Docker Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1050.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Docker",
+      "HuggingFace",
+      "Vector Databases"
+    ],
+    "date": "2024-11-07",
+    "evidence_case_id": "sample-ai-engineer-case-019"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-119",
+    "job_title": "Production Fine-Tuning Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 850.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Fine-Tuning, MLOps, vLLM with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "MLOps",
+      "vLLM"
+    ],
+    "date": "2024-12-08",
+    "evidence_case_id": "sample-ai-engineer-case-020"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-120",
+    "job_title": "Production FastAPI Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 620.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: FastAPI, Ollama, MLOps with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "FastAPI",
+      "Ollama",
+      "MLOps"
+    ],
+    "date": "2024-01-09",
+    "evidence_case_id": "sample-ai-engineer-case-001"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-121",
+    "job_title": "Production Vector Databases Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1190.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Vector Databases, PyTorch, vLLM. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Vector Databases",
+      "PyTorch",
+      "vLLM"
+    ],
+    "date": "2024-02-10",
+    "evidence_case_id": "sample-ai-engineer-case-002"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-122",
+    "job_title": "Production LangGraph Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1220.0,
+    "cover_letter": "I recently resolved this exact problem for a E-Commerce client by implementing LangGraph, MLOps, RAG, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "LangGraph",
+      "MLOps",
+      "RAG"
+    ],
+    "date": "2024-03-11",
+    "evidence_case_id": "sample-ai-engineer-case-003"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-123",
+    "job_title": "Production HuggingFace Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 690.0,
+    "cover_letter": "I would be glad to help build this. My background in HuggingFace, FastAPI, PyTorch covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "HuggingFace",
+      "FastAPI",
+      "PyTorch"
+    ],
+    "date": "2024-04-12",
+    "evidence_case_id": "sample-ai-engineer-case-004"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-124",
+    "job_title": "Production Vector Databases Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1210.0,
+    "cover_letter": "I noticed your requirement for Vector Databases, LangChain, FastAPI. In my previous work with Fintech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Vector Databases",
+      "LangChain",
+      "FastAPI"
+    ],
+    "date": "2024-05-13",
+    "evidence_case_id": "sample-ai-engineer-case-005"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-125",
+    "job_title": "Production FastAPI Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 790.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing FastAPI, Python, MLOps, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "FastAPI",
+      "Python",
+      "MLOps"
+    ],
+    "date": "2024-06-14",
+    "evidence_case_id": "sample-ai-engineer-case-006"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-126",
+    "job_title": "Production Docker Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 510.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Docker, RAG, PyTorch. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Docker",
+      "RAG",
+      "PyTorch"
+    ],
+    "date": "2024-07-15",
+    "evidence_case_id": "sample-ai-engineer-case-007"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-127",
+    "job_title": "Production RAG Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 680.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "RAG",
+      "Ollama",
+      "MLOps"
+    ],
+    "date": "2024-08-16",
+    "evidence_case_id": "sample-ai-engineer-case-008"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-128",
+    "job_title": "Production FastAPI Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 570.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing FastAPI, RAG, PyTorch, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "FastAPI",
+      "RAG",
+      "PyTorch"
+    ],
+    "date": "2024-09-17",
+    "evidence_case_id": "sample-ai-engineer-case-009"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-129",
+    "job_title": "Production PyTorch Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 550.0,
+    "cover_letter": "Your project caught my attention because PyTorch, HuggingFace, Docker is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "PyTorch",
+      "HuggingFace",
+      "Docker"
+    ],
+    "date": "2024-10-18",
+    "evidence_case_id": "sample-ai-engineer-case-010"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-130",
+    "job_title": "Production Ollama Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1490.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Ollama, HuggingFace, FastAPI. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Ollama",
+      "HuggingFace",
+      "FastAPI"
+    ],
+    "date": "2024-11-19",
+    "evidence_case_id": "sample-ai-engineer-case-011"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-131",
+    "job_title": "Production vLLM Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1290.0,
+    "cover_letter": "I noticed your requirement for vLLM, Fine-Tuning, HuggingFace. In my previous work with Logistics clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "vLLM",
+      "Fine-Tuning",
+      "HuggingFace"
+    ],
+    "date": "2024-12-20",
+    "evidence_case_id": "sample-ai-engineer-case-012"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-132",
+    "job_title": "Production Ollama Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1410.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Ollama, vLLM, Fine-Tuning. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Ollama",
+      "vLLM",
+      "Fine-Tuning"
+    ],
+    "date": "2024-01-21",
+    "evidence_case_id": "sample-ai-engineer-case-013"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-133",
+    "job_title": "Production HuggingFace Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1120.0,
+    "cover_letter": "Your project caught my attention because HuggingFace, Fine-Tuning, FastAPI is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "HuggingFace",
+      "Fine-Tuning",
+      "FastAPI"
+    ],
+    "date": "2024-02-22",
+    "evidence_case_id": "sample-ai-engineer-case-014"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-134",
+    "job_title": "Production MLOps Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 710.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "MLOps",
+      "PyTorch",
+      "LangGraph"
+    ],
+    "date": "2024-03-23",
+    "evidence_case_id": "sample-ai-engineer-case-015"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-135",
+    "job_title": "Production PyTorch Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1050.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "PyTorch",
+      "LangChain",
+      "LangGraph"
+    ],
+    "date": "2024-04-24",
+    "evidence_case_id": "sample-ai-engineer-case-016"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-136",
+    "job_title": "Production Python Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1090.0,
+    "cover_letter": "I noticed your requirement for Python, Fine-Tuning, RAG. In my previous work with EdTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Python",
+      "Fine-Tuning",
+      "RAG"
+    ],
+    "date": "2024-05-25",
+    "evidence_case_id": "sample-ai-engineer-case-017"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-137",
+    "job_title": "Production Python Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 780.0,
+    "cover_letter": "Your project caught my attention because Python, LangGraph, FastAPI is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Python",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "date": "2024-06-26",
+    "evidence_case_id": "sample-ai-engineer-case-018"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-138",
+    "job_title": "Production PyTorch Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1290.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: PyTorch, Docker, LangGraph with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "PyTorch",
+      "Docker",
+      "LangGraph"
+    ],
+    "date": "2024-07-27",
+    "evidence_case_id": "sample-ai-engineer-case-019"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-139",
+    "job_title": "Production HuggingFace Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Having built production HuggingFace, Docker, LangGraph systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "HuggingFace",
+      "Docker",
+      "LangGraph"
+    ],
+    "date": "2024-08-28",
+    "evidence_case_id": "sample-ai-engineer-case-020"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-140",
+    "job_title": "Production Docker Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 640.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing Docker, LangChain, FastAPI, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Docker",
+      "LangChain",
+      "FastAPI"
+    ],
+    "date": "2024-09-01",
+    "evidence_case_id": "sample-ai-engineer-case-001"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-141",
+    "job_title": "Production LangChain Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1320.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in LangChain, FastAPI, HuggingFace. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "LangChain",
+      "FastAPI",
+      "HuggingFace"
+    ],
+    "date": "2024-10-02",
+    "evidence_case_id": "sample-ai-engineer-case-002"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-142",
+    "job_title": "Production RAG Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 800.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: RAG, PyTorch, Ollama with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "RAG",
+      "PyTorch",
+      "Ollama"
+    ],
+    "date": "2024-11-03",
+    "evidence_case_id": "sample-ai-engineer-case-003"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-143",
+    "job_title": "Production FastAPI Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 940.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "FastAPI",
+      "vLLM",
+      "MLOps"
+    ],
+    "date": "2024-12-04",
+    "evidence_case_id": "sample-ai-engineer-case-004"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-144",
+    "job_title": "Production Python Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "Having built production Python, Fine-Tuning, Vector Databases systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Python",
+      "Fine-Tuning",
+      "Vector Databases"
+    ],
+    "date": "2024-01-05",
+    "evidence_case_id": "sample-ai-engineer-case-005"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-145",
+    "job_title": "Production LangGraph Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1450.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing LangGraph, Docker, HuggingFace, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "LangGraph",
+      "Docker",
+      "HuggingFace"
+    ],
+    "date": "2024-02-06",
+    "evidence_case_id": "sample-ai-engineer-case-006"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-146",
+    "job_title": "Production FastAPI Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1260.0,
+    "cover_letter": "I would be glad to help build this. My background in FastAPI, HuggingFace, Python covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "FastAPI",
+      "HuggingFace",
+      "Python"
+    ],
+    "date": "2024-03-07",
+    "evidence_case_id": "sample-ai-engineer-case-007"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-147",
+    "job_title": "Production vLLM Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 680.0,
+    "cover_letter": "Your project caught my attention because vLLM, Docker, RAG is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "vLLM",
+      "Docker",
+      "RAG"
+    ],
+    "date": "2024-04-08",
+    "evidence_case_id": "sample-ai-engineer-case-008"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-148",
+    "job_title": "Production Fine-Tuning Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 970.0,
+    "cover_letter": "I would be glad to help build this. My background in Fine-Tuning, Docker, RAG covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "Docker",
+      "RAG"
+    ],
+    "date": "2024-05-09",
+    "evidence_case_id": "sample-ai-engineer-case-009"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-149",
+    "job_title": "Production Vector Databases Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1360.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Vector Databases, Ollama, Docker with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Vector Databases",
+      "Ollama",
+      "Docker"
+    ],
+    "date": "2024-06-10",
+    "evidence_case_id": "sample-ai-engineer-case-010"
+  },
+  {
+    "proposal_id": "sample-ai-engineer-prop-150",
+    "job_title": "Production Fine-Tuning Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1160.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Fine-Tuning, MLOps, RAG with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Fine-Tuning",
+      "MLOps",
+      "RAG"
+    ],
+    "date": "2024-07-11",
+    "evidence_case_id": "sample-ai-engineer-case-011"
+  }
+]

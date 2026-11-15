@@ -1,0 +1,32 @@
+{
+  "freelancer_id": "sample-ai-engineer",
+  "display_name": "Alex Morgan",
+  "headline": "Senior AI/ML & LLM Systems Engineer",
+  "hourly_rate_usd": 65,
+  "minimum_project_budget_usd": 500,
+  "availability_hours_per_week": 30,
+  "skills": [
+    "Python",
+    "PyTorch",
+    "LangChain",
+    "LangGraph",
+    "FastAPI",
+    "Vector Databases",
+    "Fine-Tuning",
+    "RAG",
+    "vLLM",
+    "HuggingFace",
+    "Docker",
+    "MLOps",
+    "Ollama"
+  ],
+  "bio": "AI/ML Engineer with 6+ years specializing in production Retrieval-Augmented Generation (RAG), agentic workflows with LangGraph, and open-source LLM deployment on vLLM and Triton. Delivered over 40 enterprise LLM applications.",
+  "projects_focus": [
+    "rag",
+    "llm",
+    "cv",
+    "nlp",
+    "mlops",
+    "churn"
+  ]
+}

@@ -1,0 +1,2102 @@
+[
+  {
+    "proposal_id": "sample-data-analyst-prop-001",
+    "job_title": "Production Snowflake Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 730.0,
+    "cover_letter": "I noticed your requirement for Snowflake, A/B Testing, Statistical Modeling. In my previous work with Media clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Snowflake",
+      "A/B Testing",
+      "Statistical Modeling"
+    ],
+    "date": "2024-02-02",
+    "evidence_case_id": "sample-data-analyst-case-002"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-002",
+    "job_title": "Production Excel Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "Having built production Excel, ETL, Python systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Excel",
+      "ETL",
+      "Python"
+    ],
+    "date": "2024-03-03",
+    "evidence_case_id": "sample-data-analyst-case-003"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-003",
+    "job_title": "Production dbt Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: dbt, Excel, A/B Testing with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "dbt",
+      "Excel",
+      "A/B Testing"
+    ],
+    "date": "2024-04-04",
+    "evidence_case_id": "sample-data-analyst-case-004"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-004",
+    "job_title": "Production ETL Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 380.0,
+    "cover_letter": "I noticed your requirement for ETL, A/B Testing, Snowflake. In my previous work with Logistics clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "ETL",
+      "A/B Testing",
+      "Snowflake"
+    ],
+    "date": "2024-05-05",
+    "evidence_case_id": "sample-data-analyst-case-005"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-005",
+    "job_title": "Production Pandas Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 670.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing Pandas, dbt, Statistical Modeling, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Pandas",
+      "dbt",
+      "Statistical Modeling"
+    ],
+    "date": "2024-06-06",
+    "evidence_case_id": "sample-data-analyst-case-006"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-006",
+    "job_title": "Production A/B Testing Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 570.0,
+    "cover_letter": "I would be glad to help build this. My background in A/B Testing, Pandas, dbt covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "A/B Testing",
+      "Pandas",
+      "dbt"
+    ],
+    "date": "2024-07-07",
+    "evidence_case_id": "sample-data-analyst-case-007"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-007",
+    "job_title": "Production ETL Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 930.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "ETL",
+      "Tableau",
+      "dbt"
+    ],
+    "date": "2024-08-08",
+    "evidence_case_id": "sample-data-analyst-case-008"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-008",
+    "job_title": "Production Statistical Modeling Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 920.0,
+    "cover_letter": "Having built production Statistical Modeling, ETL, Tableau systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "ETL",
+      "Tableau"
+    ],
+    "date": "2024-09-09",
+    "evidence_case_id": "sample-data-analyst-case-009"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-009",
+    "job_title": "Production dbt Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 570.0,
+    "cover_letter": "Your project caught my attention because dbt, Python, Snowflake is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "dbt",
+      "Python",
+      "Snowflake"
+    ],
+    "date": "2024-10-10",
+    "evidence_case_id": "sample-data-analyst-case-010"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-010",
+    "job_title": "Production Excel Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Excel",
+      "SQL",
+      "Statistical Modeling"
+    ],
+    "date": "2024-11-11",
+    "evidence_case_id": "sample-data-analyst-case-011"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-011",
+    "job_title": "Production ETL Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 690.0,
+    "cover_letter": "Having built production ETL, Power BI, SQL systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "ETL",
+      "Power BI",
+      "SQL"
+    ],
+    "date": "2024-12-12",
+    "evidence_case_id": "sample-data-analyst-case-012"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-012",
+    "job_title": "Production Excel Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 930.0,
+    "cover_letter": "Having built production Excel, ETL, Snowflake systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Excel",
+      "ETL",
+      "Snowflake"
+    ],
+    "date": "2024-01-13",
+    "evidence_case_id": "sample-data-analyst-case-013"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-013",
+    "job_title": "Production SQL Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 360.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in SQL, ETL, Python. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "SQL",
+      "ETL",
+      "Python"
+    ],
+    "date": "2024-02-14",
+    "evidence_case_id": "sample-data-analyst-case-014"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-014",
+    "job_title": "Production Snowflake Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 490.0,
+    "cover_letter": "Your project caught my attention because Snowflake, Pandas, Excel is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Snowflake",
+      "Pandas",
+      "Excel"
+    ],
+    "date": "2024-03-15",
+    "evidence_case_id": "sample-data-analyst-case-015"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-015",
+    "job_title": "Production ETL Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 450.0,
+    "cover_letter": "Having built production ETL, Statistical Modeling, SQL systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "ETL",
+      "Statistical Modeling",
+      "SQL"
+    ],
+    "date": "2024-04-16",
+    "evidence_case_id": "sample-data-analyst-case-016"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-016",
+    "job_title": "Production A/B Testing Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing A/B Testing, dbt, Statistical Modeling, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "A/B Testing",
+      "dbt",
+      "Statistical Modeling"
+    ],
+    "date": "2024-05-17",
+    "evidence_case_id": "sample-data-analyst-case-017"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-017",
+    "job_title": "Production Statistical Modeling Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 600.0,
+    "cover_letter": "I noticed your requirement for Statistical Modeling, A/B Testing, dbt. In my previous work with Logistics clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "A/B Testing",
+      "dbt"
+    ],
+    "date": "2024-06-18",
+    "evidence_case_id": "sample-data-analyst-case-018"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-018",
+    "job_title": "Production Excel Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1020.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Excel",
+      "Tableau",
+      "Statistical Modeling"
+    ],
+    "date": "2024-07-19",
+    "evidence_case_id": "sample-data-analyst-case-019"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-019",
+    "job_title": "Production A/B Testing Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 890.0,
+    "cover_letter": "Your project caught my attention because A/B Testing, Tableau, Power BI is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "A/B Testing",
+      "Tableau",
+      "Power BI"
+    ],
+    "date": "2024-08-20",
+    "evidence_case_id": "sample-data-analyst-case-020"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-020",
+    "job_title": "Production Power BI Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Power BI",
+      "Statistical Modeling",
+      "dbt"
+    ],
+    "date": "2024-09-21",
+    "evidence_case_id": "sample-data-analyst-case-001"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-021",
+    "job_title": "Production Tableau Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 820.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Tableau",
+      "Excel",
+      "Python"
+    ],
+    "date": "2024-10-22",
+    "evidence_case_id": "sample-data-analyst-case-002"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-022",
+    "job_title": "Production Snowflake Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 380.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Snowflake, dbt, Pandas with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Snowflake",
+      "dbt",
+      "Pandas"
+    ],
+    "date": "2024-11-23",
+    "evidence_case_id": "sample-data-analyst-case-003"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-023",
+    "job_title": "Production Python Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 530.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Python",
+      "dbt",
+      "Statistical Modeling"
+    ],
+    "date": "2024-12-24",
+    "evidence_case_id": "sample-data-analyst-case-004"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-024",
+    "job_title": "Production Power BI Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1000.0,
+    "cover_letter": "Your project caught my attention because Power BI, Excel, A/B Testing is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Power BI",
+      "Excel",
+      "A/B Testing"
+    ],
+    "date": "2024-01-25",
+    "evidence_case_id": "sample-data-analyst-case-005"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-025",
+    "job_title": "Production Tableau Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 870.0,
+    "cover_letter": "I would be glad to help build this. My background in Tableau, Pandas, Python covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Tableau",
+      "Pandas",
+      "Python"
+    ],
+    "date": "2024-02-26",
+    "evidence_case_id": "sample-data-analyst-case-006"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-026",
+    "job_title": "Production Power BI Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 800.0,
+    "cover_letter": "I noticed your requirement for Power BI, SQL, A/B Testing. In my previous work with HealthTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Power BI",
+      "SQL",
+      "A/B Testing"
+    ],
+    "date": "2024-03-27",
+    "evidence_case_id": "sample-data-analyst-case-007"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-027",
+    "job_title": "Production Python Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 680.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Python, Snowflake, dbt. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Python",
+      "Snowflake",
+      "dbt"
+    ],
+    "date": "2024-04-28",
+    "evidence_case_id": "sample-data-analyst-case-008"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-028",
+    "job_title": "Production Pandas Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 630.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Pandas",
+      "SQL",
+      "A/B Testing"
+    ],
+    "date": "2024-05-01",
+    "evidence_case_id": "sample-data-analyst-case-009"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-029",
+    "job_title": "Production Statistical Modeling Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 550.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "Power BI",
+      "Tableau"
+    ],
+    "date": "2024-06-02",
+    "evidence_case_id": "sample-data-analyst-case-010"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-030",
+    "job_title": "Production Python Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 870.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing Python, ETL, Power BI, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Python",
+      "ETL",
+      "Power BI"
+    ],
+    "date": "2024-07-03",
+    "evidence_case_id": "sample-data-analyst-case-011"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-031",
+    "job_title": "Production Pandas Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1050.0,
+    "cover_letter": "I recently resolved this exact problem for a Fintech client by implementing Pandas, Snowflake, Excel, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Pandas",
+      "Snowflake",
+      "Excel"
+    ],
+    "date": "2024-08-04",
+    "evidence_case_id": "sample-data-analyst-case-012"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-032",
+    "job_title": "Production Statistical Modeling Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 360.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "Pandas",
+      "Tableau"
+    ],
+    "date": "2024-09-05",
+    "evidence_case_id": "sample-data-analyst-case-013"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-033",
+    "job_title": "Production ETL Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 670.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "ETL",
+      "Python",
+      "dbt"
+    ],
+    "date": "2024-10-06",
+    "evidence_case_id": "sample-data-analyst-case-014"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-034",
+    "job_title": "Production A/B Testing Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 950.0,
+    "cover_letter": "I would be glad to help build this. My background in A/B Testing, Excel, Statistical Modeling covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "A/B Testing",
+      "Excel",
+      "Statistical Modeling"
+    ],
+    "date": "2024-11-07",
+    "evidence_case_id": "sample-data-analyst-case-015"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-035",
+    "job_title": "Production Tableau Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 460.0,
+    "cover_letter": "Your project caught my attention because Tableau, Power BI, Python is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Tableau",
+      "Power BI",
+      "Python"
+    ],
+    "date": "2024-12-08",
+    "evidence_case_id": "sample-data-analyst-case-016"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-036",
+    "job_title": "Production Excel Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 870.0,
+    "cover_letter": "Your project caught my attention because Excel, Tableau, Pandas is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Excel",
+      "Tableau",
+      "Pandas"
+    ],
+    "date": "2024-01-09",
+    "evidence_case_id": "sample-data-analyst-case-017"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-037",
+    "job_title": "Production ETL Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 950.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "ETL",
+      "Power BI",
+      "Pandas"
+    ],
+    "date": "2024-02-10",
+    "evidence_case_id": "sample-data-analyst-case-018"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-038",
+    "job_title": "Production Snowflake Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 630.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Snowflake",
+      "A/B Testing",
+      "dbt"
+    ],
+    "date": "2024-03-11",
+    "evidence_case_id": "sample-data-analyst-case-019"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-039",
+    "job_title": "Production Pandas Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1010.0,
+    "cover_letter": "I recently resolved this exact problem for a E-Commerce client by implementing Pandas, Excel, Statistical Modeling, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Pandas",
+      "Excel",
+      "Statistical Modeling"
+    ],
+    "date": "2024-04-12",
+    "evidence_case_id": "sample-data-analyst-case-020"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-040",
+    "job_title": "Production Tableau Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Tableau, Snowflake, Power BI. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Tableau",
+      "Snowflake",
+      "Power BI"
+    ],
+    "date": "2024-05-13",
+    "evidence_case_id": "sample-data-analyst-case-001"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-041",
+    "job_title": "Production Tableau Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 810.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Tableau, ETL, SQL with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Tableau",
+      "ETL",
+      "SQL"
+    ],
+    "date": "2024-06-14",
+    "evidence_case_id": "sample-data-analyst-case-002"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-042",
+    "job_title": "Production Power BI Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 560.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Power BI",
+      "SQL",
+      "Python"
+    ],
+    "date": "2024-07-15",
+    "evidence_case_id": "sample-data-analyst-case-003"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-043",
+    "job_title": "Production Excel Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 430.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Excel",
+      "A/B Testing",
+      "Tableau"
+    ],
+    "date": "2024-08-16",
+    "evidence_case_id": "sample-data-analyst-case-004"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-044",
+    "job_title": "Production dbt Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1020.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "dbt",
+      "ETL",
+      "Power BI"
+    ],
+    "date": "2024-09-17",
+    "evidence_case_id": "sample-data-analyst-case-005"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-045",
+    "job_title": "Production Pandas Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 840.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Pandas",
+      "Statistical Modeling",
+      "dbt"
+    ],
+    "date": "2024-10-18",
+    "evidence_case_id": "sample-data-analyst-case-006"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-046",
+    "job_title": "Production A/B Testing Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "A/B Testing",
+      "Power BI",
+      "ETL"
+    ],
+    "date": "2024-11-19",
+    "evidence_case_id": "sample-data-analyst-case-007"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-047",
+    "job_title": "Production A/B Testing Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 600.0,
+    "cover_letter": "I recently resolved this exact problem for a EdTech client by implementing A/B Testing, Statistical Modeling, Excel, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "A/B Testing",
+      "Statistical Modeling",
+      "Excel"
+    ],
+    "date": "2024-12-20",
+    "evidence_case_id": "sample-data-analyst-case-008"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-048",
+    "job_title": "Production Python Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 490.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Python",
+      "SQL",
+      "A/B Testing"
+    ],
+    "date": "2024-01-21",
+    "evidence_case_id": "sample-data-analyst-case-009"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-049",
+    "job_title": "Production Pandas Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 710.0,
+    "cover_letter": "I would be glad to help build this. My background in Pandas, Excel, dbt covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Pandas",
+      "Excel",
+      "dbt"
+    ],
+    "date": "2024-02-22",
+    "evidence_case_id": "sample-data-analyst-case-010"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-050",
+    "job_title": "Production Excel Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 980.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Excel, Power BI, Statistical Modeling. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Excel",
+      "Power BI",
+      "Statistical Modeling"
+    ],
+    "date": "2024-03-23",
+    "evidence_case_id": "sample-data-analyst-case-011"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-051",
+    "job_title": "Production SQL Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 640.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "SQL",
+      "Statistical Modeling",
+      "Pandas"
+    ],
+    "date": "2024-04-24",
+    "evidence_case_id": "sample-data-analyst-case-012"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-052",
+    "job_title": "Production SQL Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 910.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "SQL",
+      "A/B Testing",
+      "Statistical Modeling"
+    ],
+    "date": "2024-05-25",
+    "evidence_case_id": "sample-data-analyst-case-013"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-053",
+    "job_title": "Production SQL Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 350.0,
+    "cover_letter": "Having built production SQL, Snowflake, Tableau systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "SQL",
+      "Snowflake",
+      "Tableau"
+    ],
+    "date": "2024-06-26",
+    "evidence_case_id": "sample-data-analyst-case-014"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-054",
+    "job_title": "Production ETL Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "I recently resolved this exact problem for a SaaS client by implementing ETL, Python, SQL, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "ETL",
+      "Python",
+      "SQL"
+    ],
+    "date": "2024-07-27",
+    "evidence_case_id": "sample-data-analyst-case-015"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-055",
+    "job_title": "Production A/B Testing Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 370.0,
+    "cover_letter": "I noticed your requirement for A/B Testing, SQL, Python. In my previous work with SaaS clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "A/B Testing",
+      "SQL",
+      "Python"
+    ],
+    "date": "2024-08-28",
+    "evidence_case_id": "sample-data-analyst-case-016"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-056",
+    "job_title": "Production Pandas Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1040.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Pandas, Excel, Snowflake with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Pandas",
+      "Excel",
+      "Snowflake"
+    ],
+    "date": "2024-09-01",
+    "evidence_case_id": "sample-data-analyst-case-017"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-057",
+    "job_title": "Production Statistical Modeling Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 830.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Statistical Modeling, Snowflake, ETL with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "Snowflake",
+      "ETL"
+    ],
+    "date": "2024-10-02",
+    "evidence_case_id": "sample-data-analyst-case-018"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-058",
+    "job_title": "Production A/B Testing Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 470.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "A/B Testing",
+      "Pandas",
+      "dbt"
+    ],
+    "date": "2024-11-03",
+    "evidence_case_id": "sample-data-analyst-case-019"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-059",
+    "job_title": "Production Snowflake Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1040.0,
+    "cover_letter": "Having built production Snowflake, A/B Testing, Pandas systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Snowflake",
+      "A/B Testing",
+      "Pandas"
+    ],
+    "date": "2024-12-04",
+    "evidence_case_id": "sample-data-analyst-case-020"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-060",
+    "job_title": "Production SQL Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 850.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in SQL, Tableau, Statistical Modeling. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "SQL",
+      "Tableau",
+      "Statistical Modeling"
+    ],
+    "date": "2024-01-05",
+    "evidence_case_id": "sample-data-analyst-case-001"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-061",
+    "job_title": "Production A/B Testing Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 670.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "A/B Testing",
+      "Snowflake",
+      "Power BI"
+    ],
+    "date": "2024-02-06",
+    "evidence_case_id": "sample-data-analyst-case-002"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-062",
+    "job_title": "Production Tableau Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 920.0,
+    "cover_letter": "I recently resolved this exact problem for a Fintech client by implementing Tableau, Power BI, Python, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Tableau",
+      "Power BI",
+      "Python"
+    ],
+    "date": "2024-03-07",
+    "evidence_case_id": "sample-data-analyst-case-003"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-063",
+    "job_title": "Production ETL Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 400.0,
+    "cover_letter": "Your project caught my attention because ETL, SQL, Power BI is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "ETL",
+      "SQL",
+      "Power BI"
+    ],
+    "date": "2024-04-08",
+    "evidence_case_id": "sample-data-analyst-case-004"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-064",
+    "job_title": "Production SQL Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 870.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "SQL",
+      "Statistical Modeling",
+      "Excel"
+    ],
+    "date": "2024-05-09",
+    "evidence_case_id": "sample-data-analyst-case-005"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-065",
+    "job_title": "Production Statistical Modeling Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Your project caught my attention because Statistical Modeling, Power BI, A/B Testing is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "Power BI",
+      "A/B Testing"
+    ],
+    "date": "2024-06-10",
+    "evidence_case_id": "sample-data-analyst-case-006"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-066",
+    "job_title": "Production Pandas Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 920.0,
+    "cover_letter": "I recently resolved this exact problem for a HealthTech client by implementing Pandas, A/B Testing, Tableau, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Pandas",
+      "A/B Testing",
+      "Tableau"
+    ],
+    "date": "2024-07-11",
+    "evidence_case_id": "sample-data-analyst-case-007"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-067",
+    "job_title": "Production ETL Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 560.0,
+    "cover_letter": "I would be glad to help build this. My background in ETL, dbt, Excel covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "ETL",
+      "dbt",
+      "Excel"
+    ],
+    "date": "2024-08-12",
+    "evidence_case_id": "sample-data-analyst-case-008"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-068",
+    "job_title": "Production Excel Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 560.0,
+    "cover_letter": "I recently resolved this exact problem for a SaaS client by implementing Excel, A/B Testing, Power BI, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Excel",
+      "A/B Testing",
+      "Power BI"
+    ],
+    "date": "2024-09-13",
+    "evidence_case_id": "sample-data-analyst-case-009"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-069",
+    "job_title": "Production A/B Testing Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 830.0,
+    "cover_letter": "I recently resolved this exact problem for a EdTech client by implementing A/B Testing, ETL, Pandas, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "A/B Testing",
+      "ETL",
+      "Pandas"
+    ],
+    "date": "2024-10-14",
+    "evidence_case_id": "sample-data-analyst-case-010"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-070",
+    "job_title": "Production Statistical Modeling Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 820.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "SQL",
+      "dbt"
+    ],
+    "date": "2024-11-15",
+    "evidence_case_id": "sample-data-analyst-case-011"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-071",
+    "job_title": "Production dbt Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 560.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "dbt",
+      "Snowflake",
+      "ETL"
+    ],
+    "date": "2024-12-16",
+    "evidence_case_id": "sample-data-analyst-case-012"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-072",
+    "job_title": "Production A/B Testing Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 510.0,
+    "cover_letter": "I noticed your requirement for A/B Testing, Statistical Modeling, Power BI. In my previous work with Media clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "A/B Testing",
+      "Statistical Modeling",
+      "Power BI"
+    ],
+    "date": "2024-01-17",
+    "evidence_case_id": "sample-data-analyst-case-013"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-073",
+    "job_title": "Production Pandas Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 640.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Pandas",
+      "Statistical Modeling",
+      "SQL"
+    ],
+    "date": "2024-02-18",
+    "evidence_case_id": "sample-data-analyst-case-014"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-074",
+    "job_title": "Production A/B Testing Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 520.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "A/B Testing",
+      "Excel",
+      "Pandas"
+    ],
+    "date": "2024-03-19",
+    "evidence_case_id": "sample-data-analyst-case-015"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-075",
+    "job_title": "Production dbt Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "I noticed your requirement for dbt, Python, Statistical Modeling. In my previous work with Media clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "dbt",
+      "Python",
+      "Statistical Modeling"
+    ],
+    "date": "2024-04-20",
+    "evidence_case_id": "sample-data-analyst-case-016"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-076",
+    "job_title": "Production Power BI Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 820.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Power BI",
+      "SQL",
+      "Tableau"
+    ],
+    "date": "2024-05-21",
+    "evidence_case_id": "sample-data-analyst-case-017"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-077",
+    "job_title": "Production SQL Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Having built production SQL, Python, Power BI systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2024-06-22",
+    "evidence_case_id": "sample-data-analyst-case-018"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-078",
+    "job_title": "Production Excel Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 500.0,
+    "cover_letter": "Having built production Excel, A/B Testing, Power BI systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Excel",
+      "A/B Testing",
+      "Power BI"
+    ],
+    "date": "2024-07-23",
+    "evidence_case_id": "sample-data-analyst-case-019"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-079",
+    "job_title": "Production Tableau Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1020.0,
+    "cover_letter": "Your project caught my attention because Tableau, SQL, Power BI is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Tableau",
+      "SQL",
+      "Power BI"
+    ],
+    "date": "2024-08-24",
+    "evidence_case_id": "sample-data-analyst-case-020"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-080",
+    "job_title": "Production Statistical Modeling Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 990.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Statistical Modeling, Power BI, ETL. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "Power BI",
+      "ETL"
+    ],
+    "date": "2024-09-25",
+    "evidence_case_id": "sample-data-analyst-case-001"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-081",
+    "job_title": "Production dbt Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 720.0,
+    "cover_letter": "I would be glad to help build this. My background in dbt, Tableau, Snowflake covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "dbt",
+      "Tableau",
+      "Snowflake"
+    ],
+    "date": "2024-10-26",
+    "evidence_case_id": "sample-data-analyst-case-002"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-082",
+    "job_title": "Production Tableau Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 970.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Tableau",
+      "Excel",
+      "dbt"
+    ],
+    "date": "2024-11-27",
+    "evidence_case_id": "sample-data-analyst-case-003"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-083",
+    "job_title": "Production Python Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Your project caught my attention because Python, Statistical Modeling, dbt is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Python",
+      "Statistical Modeling",
+      "dbt"
+    ],
+    "date": "2024-12-28",
+    "evidence_case_id": "sample-data-analyst-case-004"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-084",
+    "job_title": "Production SQL Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 450.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "SQL",
+      "ETL",
+      "Power BI"
+    ],
+    "date": "2024-01-01",
+    "evidence_case_id": "sample-data-analyst-case-005"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-085",
+    "job_title": "Production A/B Testing Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 460.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "A/B Testing",
+      "ETL",
+      "Snowflake"
+    ],
+    "date": "2024-02-02",
+    "evidence_case_id": "sample-data-analyst-case-006"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-086",
+    "job_title": "Production Power BI Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 740.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Power BI, Snowflake, Excel with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Power BI",
+      "Snowflake",
+      "Excel"
+    ],
+    "date": "2024-03-03",
+    "evidence_case_id": "sample-data-analyst-case-007"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-087",
+    "job_title": "Production dbt Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 800.0,
+    "cover_letter": "I would be glad to help build this. My background in dbt, Tableau, Statistical Modeling covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "dbt",
+      "Tableau",
+      "Statistical Modeling"
+    ],
+    "date": "2024-04-04",
+    "evidence_case_id": "sample-data-analyst-case-008"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-088",
+    "job_title": "Production Statistical Modeling Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 450.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "Pandas",
+      "dbt"
+    ],
+    "date": "2024-05-05",
+    "evidence_case_id": "sample-data-analyst-case-009"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-089",
+    "job_title": "Production Statistical Modeling Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1020.0,
+    "cover_letter": "I would be glad to help build this. My background in Statistical Modeling, Pandas, A/B Testing covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "Pandas",
+      "A/B Testing"
+    ],
+    "date": "2024-06-06",
+    "evidence_case_id": "sample-data-analyst-case-010"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-090",
+    "job_title": "Production SQL Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 350.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "SQL",
+      "Python",
+      "Excel"
+    ],
+    "date": "2024-07-07",
+    "evidence_case_id": "sample-data-analyst-case-011"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-091",
+    "job_title": "Production Excel Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 460.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Excel, Power BI, Python. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Excel",
+      "Power BI",
+      "Python"
+    ],
+    "date": "2024-08-08",
+    "evidence_case_id": "sample-data-analyst-case-012"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-092",
+    "job_title": "Production A/B Testing Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 780.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in A/B Testing, Statistical Modeling, dbt. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "A/B Testing",
+      "Statistical Modeling",
+      "dbt"
+    ],
+    "date": "2024-09-09",
+    "evidence_case_id": "sample-data-analyst-case-013"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-093",
+    "job_title": "Production ETL Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 350.0,
+    "cover_letter": "I would be glad to help build this. My background in ETL, Statistical Modeling, Excel covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "ETL",
+      "Statistical Modeling",
+      "Excel"
+    ],
+    "date": "2024-10-10",
+    "evidence_case_id": "sample-data-analyst-case-014"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-094",
+    "job_title": "Production Snowflake Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 860.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Snowflake",
+      "SQL",
+      "ETL"
+    ],
+    "date": "2024-11-11",
+    "evidence_case_id": "sample-data-analyst-case-015"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-095",
+    "job_title": "Production Tableau Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 840.0,
+    "cover_letter": "Having built production Tableau, SQL, A/B Testing systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Tableau",
+      "SQL",
+      "A/B Testing"
+    ],
+    "date": "2024-12-12",
+    "evidence_case_id": "sample-data-analyst-case-016"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-096",
+    "job_title": "Production Pandas Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 450.0,
+    "cover_letter": "Your project caught my attention because Pandas, Python, ETL is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Pandas",
+      "Python",
+      "ETL"
+    ],
+    "date": "2024-01-13",
+    "evidence_case_id": "sample-data-analyst-case-017"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-097",
+    "job_title": "Production ETL Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 600.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in ETL, A/B Testing, Tableau. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "ETL",
+      "A/B Testing",
+      "Tableau"
+    ],
+    "date": "2024-02-14",
+    "evidence_case_id": "sample-data-analyst-case-018"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-098",
+    "job_title": "Production Python Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "Your project caught my attention because Python, dbt, Snowflake is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Python",
+      "dbt",
+      "Snowflake"
+    ],
+    "date": "2024-03-15",
+    "evidence_case_id": "sample-data-analyst-case-019"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-099",
+    "job_title": "Production Power BI Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1040.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Power BI",
+      "Tableau",
+      "Python"
+    ],
+    "date": "2024-04-16",
+    "evidence_case_id": "sample-data-analyst-case-020"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-100",
+    "job_title": "Production SQL Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "SQL",
+      "Python",
+      "Snowflake"
+    ],
+    "date": "2024-05-17",
+    "evidence_case_id": "sample-data-analyst-case-001"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-101",
+    "job_title": "Production SQL Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 700.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "SQL",
+      "Excel",
+      "Pandas"
+    ],
+    "date": "2024-06-18",
+    "evidence_case_id": "sample-data-analyst-case-002"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-102",
+    "job_title": "Production Excel Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 990.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Excel, dbt, Python with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Excel",
+      "dbt",
+      "Python"
+    ],
+    "date": "2024-07-19",
+    "evidence_case_id": "sample-data-analyst-case-003"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-103",
+    "job_title": "Production Power BI Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 380.0,
+    "cover_letter": "I recently resolved this exact problem for a E-Commerce client by implementing Power BI, ETL, Statistical Modeling, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Power BI",
+      "ETL",
+      "Statistical Modeling"
+    ],
+    "date": "2024-08-20",
+    "evidence_case_id": "sample-data-analyst-case-004"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-104",
+    "job_title": "Production Excel Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 810.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing Excel, Tableau, A/B Testing, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Excel",
+      "Tableau",
+      "A/B Testing"
+    ],
+    "date": "2024-09-21",
+    "evidence_case_id": "sample-data-analyst-case-005"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-105",
+    "job_title": "Production dbt Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 450.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in dbt, SQL, Power BI. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "dbt",
+      "SQL",
+      "Power BI"
+    ],
+    "date": "2024-10-22",
+    "evidence_case_id": "sample-data-analyst-case-006"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-106",
+    "job_title": "Production Snowflake Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 740.0,
+    "cover_letter": "Having built production Snowflake, Python, Tableau systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Snowflake",
+      "Python",
+      "Tableau"
+    ],
+    "date": "2024-11-23",
+    "evidence_case_id": "sample-data-analyst-case-007"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-107",
+    "job_title": "Production Snowflake Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Snowflake",
+      "A/B Testing",
+      "dbt"
+    ],
+    "date": "2024-12-24",
+    "evidence_case_id": "sample-data-analyst-case-008"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-108",
+    "job_title": "Production Python Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 420.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Python, A/B Testing, dbt. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Python",
+      "A/B Testing",
+      "dbt"
+    ],
+    "date": "2024-01-25",
+    "evidence_case_id": "sample-data-analyst-case-009"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-109",
+    "job_title": "Production Python Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 580.0,
+    "cover_letter": "I noticed your requirement for Python, dbt, Snowflake. In my previous work with Media clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Python",
+      "dbt",
+      "Snowflake"
+    ],
+    "date": "2024-02-26",
+    "evidence_case_id": "sample-data-analyst-case-010"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-110",
+    "job_title": "Production Tableau Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 600.0,
+    "cover_letter": "I would be glad to help build this. My background in Tableau, Statistical Modeling, ETL covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Tableau",
+      "Statistical Modeling",
+      "ETL"
+    ],
+    "date": "2024-03-27",
+    "evidence_case_id": "sample-data-analyst-case-011"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-111",
+    "job_title": "Production Snowflake Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 890.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Snowflake",
+      "Pandas",
+      "Excel"
+    ],
+    "date": "2024-04-28",
+    "evidence_case_id": "sample-data-analyst-case-012"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-112",
+    "job_title": "Production Power BI Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 460.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Power BI, Python, ETL with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Power BI",
+      "Python",
+      "ETL"
+    ],
+    "date": "2024-05-01",
+    "evidence_case_id": "sample-data-analyst-case-013"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-113",
+    "job_title": "Production Excel Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 600.0,
+    "cover_letter": "I would be glad to help build this. My background in Excel, Pandas, Snowflake covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Excel",
+      "Pandas",
+      "Snowflake"
+    ],
+    "date": "2024-06-02",
+    "evidence_case_id": "sample-data-analyst-case-014"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-114",
+    "job_title": "Production SQL Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "I noticed your requirement for SQL, Tableau, Statistical Modeling. In my previous work with E-Commerce clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "SQL",
+      "Tableau",
+      "Statistical Modeling"
+    ],
+    "date": "2024-07-03",
+    "evidence_case_id": "sample-data-analyst-case-015"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-115",
+    "job_title": "Production Pandas Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 660.0,
+    "cover_letter": "I recently resolved this exact problem for a SaaS client by implementing Pandas, Python, Excel, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Pandas",
+      "Python",
+      "Excel"
+    ],
+    "date": "2024-08-04",
+    "evidence_case_id": "sample-data-analyst-case-016"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-116",
+    "job_title": "Production A/B Testing Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 410.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "A/B Testing",
+      "Snowflake",
+      "Python"
+    ],
+    "date": "2024-09-05",
+    "evidence_case_id": "sample-data-analyst-case-017"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-117",
+    "job_title": "Production Python Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 620.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Python",
+      "ETL",
+      "dbt"
+    ],
+    "date": "2024-10-06",
+    "evidence_case_id": "sample-data-analyst-case-018"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-118",
+    "job_title": "Production Snowflake Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 980.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Snowflake, Excel, Python with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Snowflake",
+      "Excel",
+      "Python"
+    ],
+    "date": "2024-11-07",
+    "evidence_case_id": "sample-data-analyst-case-019"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-119",
+    "job_title": "Production ETL Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 620.0,
+    "cover_letter": "I noticed your requirement for ETL, A/B Testing, Pandas. In my previous work with EdTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "ETL",
+      "A/B Testing",
+      "Pandas"
+    ],
+    "date": "2024-12-08",
+    "evidence_case_id": "sample-data-analyst-case-020"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-120",
+    "job_title": "Production Tableau Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 450.0,
+    "cover_letter": "I noticed your requirement for Tableau, Excel, ETL. In my previous work with SaaS clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Tableau",
+      "Excel",
+      "ETL"
+    ],
+    "date": "2024-01-09",
+    "evidence_case_id": "sample-data-analyst-case-001"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-121",
+    "job_title": "Production Snowflake Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 690.0,
+    "cover_letter": "I recently resolved this exact problem for a E-Commerce client by implementing Snowflake, Tableau, Excel, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Snowflake",
+      "Tableau",
+      "Excel"
+    ],
+    "date": "2024-02-10",
+    "evidence_case_id": "sample-data-analyst-case-002"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-122",
+    "job_title": "Production dbt Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 790.0,
+    "cover_letter": "I noticed your requirement for dbt, Tableau, Power BI. In my previous work with EdTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "dbt",
+      "Tableau",
+      "Power BI"
+    ],
+    "date": "2024-03-11",
+    "evidence_case_id": "sample-data-analyst-case-003"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-123",
+    "job_title": "Production ETL Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 440.0,
+    "cover_letter": "Having built production ETL, Power BI, Statistical Modeling systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "ETL",
+      "Power BI",
+      "Statistical Modeling"
+    ],
+    "date": "2024-04-12",
+    "evidence_case_id": "sample-data-analyst-case-004"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-124",
+    "job_title": "Production Snowflake Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 950.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing Snowflake, dbt, Excel, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Snowflake",
+      "dbt",
+      "Excel"
+    ],
+    "date": "2024-05-13",
+    "evidence_case_id": "sample-data-analyst-case-005"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-125",
+    "job_title": "Production dbt Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 570.0,
+    "cover_letter": "Your project caught my attention because dbt, Snowflake, Pandas is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "dbt",
+      "Snowflake",
+      "Pandas"
+    ],
+    "date": "2024-06-14",
+    "evidence_case_id": "sample-data-analyst-case-006"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-126",
+    "job_title": "Production Power BI Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Power BI",
+      "Statistical Modeling",
+      "dbt"
+    ],
+    "date": "2024-07-15",
+    "evidence_case_id": "sample-data-analyst-case-007"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-127",
+    "job_title": "Production Tableau Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Your project caught my attention because Tableau, Statistical Modeling, Power BI is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Tableau",
+      "Statistical Modeling",
+      "Power BI"
+    ],
+    "date": "2024-08-16",
+    "evidence_case_id": "sample-data-analyst-case-008"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-128",
+    "job_title": "Production dbt Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1050.0,
+    "cover_letter": "Your project caught my attention because dbt, Python, Power BI is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "dbt",
+      "Python",
+      "Power BI"
+    ],
+    "date": "2024-09-17",
+    "evidence_case_id": "sample-data-analyst-case-009"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-129",
+    "job_title": "Production Excel Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 670.0,
+    "cover_letter": "I noticed your requirement for Excel, A/B Testing, SQL. In my previous work with EdTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Excel",
+      "A/B Testing",
+      "SQL"
+    ],
+    "date": "2024-10-18",
+    "evidence_case_id": "sample-data-analyst-case-010"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-130",
+    "job_title": "Production Power BI Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 830.0,
+    "cover_letter": "Having built production Power BI, Statistical Modeling, Tableau systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Power BI",
+      "Statistical Modeling",
+      "Tableau"
+    ],
+    "date": "2024-11-19",
+    "evidence_case_id": "sample-data-analyst-case-011"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-131",
+    "job_title": "Production Excel Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 560.0,
+    "cover_letter": "Your project caught my attention because Excel, Statistical Modeling, Pandas is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Excel",
+      "Statistical Modeling",
+      "Pandas"
+    ],
+    "date": "2024-12-20",
+    "evidence_case_id": "sample-data-analyst-case-012"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-132",
+    "job_title": "Production Excel Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Excel",
+      "Pandas",
+      "Snowflake"
+    ],
+    "date": "2024-01-21",
+    "evidence_case_id": "sample-data-analyst-case-013"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-133",
+    "job_title": "Production ETL Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 700.0,
+    "cover_letter": "Your project caught my attention because ETL, Statistical Modeling, Snowflake is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "ETL",
+      "Statistical Modeling",
+      "Snowflake"
+    ],
+    "date": "2024-02-22",
+    "evidence_case_id": "sample-data-analyst-case-014"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-134",
+    "job_title": "Production Snowflake Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "I would be glad to help build this. My background in Snowflake, A/B Testing, SQL covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Snowflake",
+      "A/B Testing",
+      "SQL"
+    ],
+    "date": "2024-03-23",
+    "evidence_case_id": "sample-data-analyst-case-015"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-135",
+    "job_title": "Production A/B Testing Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 890.0,
+    "cover_letter": "Having built production A/B Testing, ETL, Python systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "A/B Testing",
+      "ETL",
+      "Python"
+    ],
+    "date": "2024-04-24",
+    "evidence_case_id": "sample-data-analyst-case-016"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-136",
+    "job_title": "Production Excel Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 780.0,
+    "cover_letter": "Having built production Excel, dbt, Pandas systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Excel",
+      "dbt",
+      "Pandas"
+    ],
+    "date": "2024-05-25",
+    "evidence_case_id": "sample-data-analyst-case-017"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-137",
+    "job_title": "Production Excel Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 650.0,
+    "cover_letter": "I would be glad to help build this. My background in Excel, Snowflake, dbt covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Excel",
+      "Snowflake",
+      "dbt"
+    ],
+    "date": "2024-06-26",
+    "evidence_case_id": "sample-data-analyst-case-018"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-138",
+    "job_title": "Production Python Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 870.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing Python, Tableau, Power BI, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Python",
+      "Tableau",
+      "Power BI"
+    ],
+    "date": "2024-07-27",
+    "evidence_case_id": "sample-data-analyst-case-019"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-139",
+    "job_title": "Production ETL Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "ETL",
+      "Excel",
+      "Power BI"
+    ],
+    "date": "2024-08-28",
+    "evidence_case_id": "sample-data-analyst-case-020"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-140",
+    "job_title": "Production Excel Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Excel, ETL, A/B Testing with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Excel",
+      "ETL",
+      "A/B Testing"
+    ],
+    "date": "2024-09-01",
+    "evidence_case_id": "sample-data-analyst-case-001"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-141",
+    "job_title": "Production Statistical Modeling Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 990.0,
+    "cover_letter": "I recently resolved this exact problem for a SaaS client by implementing Statistical Modeling, Python, Tableau, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "Python",
+      "Tableau"
+    ],
+    "date": "2024-10-02",
+    "evidence_case_id": "sample-data-analyst-case-002"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-142",
+    "job_title": "Production Python Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Python, Pandas, dbt. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Python",
+      "Pandas",
+      "dbt"
+    ],
+    "date": "2024-11-03",
+    "evidence_case_id": "sample-data-analyst-case-003"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-143",
+    "job_title": "Production A/B Testing Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 420.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in A/B Testing, Statistical Modeling, dbt. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "A/B Testing",
+      "Statistical Modeling",
+      "dbt"
+    ],
+    "date": "2024-12-04",
+    "evidence_case_id": "sample-data-analyst-case-004"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-144",
+    "job_title": "Production Statistical Modeling Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 380.0,
+    "cover_letter": "Having built production Statistical Modeling, dbt, Python systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "dbt",
+      "Python"
+    ],
+    "date": "2024-01-05",
+    "evidence_case_id": "sample-data-analyst-case-005"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-145",
+    "job_title": "Production Python Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 430.0,
+    "cover_letter": "I would be glad to help build this. My background in Python, SQL, dbt covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Python",
+      "SQL",
+      "dbt"
+    ],
+    "date": "2024-02-06",
+    "evidence_case_id": "sample-data-analyst-case-006"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-146",
+    "job_title": "Production Power BI Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 460.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Power BI, A/B Testing, Pandas. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Power BI",
+      "A/B Testing",
+      "Pandas"
+    ],
+    "date": "2024-03-07",
+    "evidence_case_id": "sample-data-analyst-case-007"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-147",
+    "job_title": "Production Snowflake Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 630.0,
+    "cover_letter": "Having built production Snowflake, Statistical Modeling, Power BI systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Snowflake",
+      "Statistical Modeling",
+      "Power BI"
+    ],
+    "date": "2024-04-08",
+    "evidence_case_id": "sample-data-analyst-case-008"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-148",
+    "job_title": "Production Pandas Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 870.0,
+    "cover_letter": "I noticed your requirement for Pandas, Snowflake, ETL. In my previous work with Fintech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Pandas",
+      "Snowflake",
+      "ETL"
+    ],
+    "date": "2024-05-09",
+    "evidence_case_id": "sample-data-analyst-case-009"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-149",
+    "job_title": "Production Statistical Modeling Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 350.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Statistical Modeling, ETL, Snowflake. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Statistical Modeling",
+      "ETL",
+      "Snowflake"
+    ],
+    "date": "2024-06-10",
+    "evidence_case_id": "sample-data-analyst-case-010"
+  },
+  {
+    "proposal_id": "sample-data-analyst-prop-150",
+    "job_title": "Production Power BI Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 420.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Power BI, Tableau, Python. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Power BI",
+      "Tableau",
+      "Python"
+    ],
+    "date": "2024-07-11",
+    "evidence_case_id": "sample-data-analyst-case-011"
+  }
+]

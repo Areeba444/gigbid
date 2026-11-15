@@ -1,0 +1,330 @@
+[
+  {
+    "id": "sample-data-analyst-case-001",
+    "title": "SaaS Cohort Retention & Churn Analytics Suite (Phase 1)",
+    "client_industry": "SaaS",
+    "skills": [
+      "SQL",
+      "Snowflake",
+      "dbt",
+      "Power BI",
+      "Python"
+    ],
+    "problem": "Leadership had no granular visibility into monthly cohort renewal rates across customer tiers.",
+    "solution": "Modeled 3-year historical subscription data in dbt; created dynamic retention matrices and hazard curves.",
+    "outcome_metrics": "Identified that month-3 drop-offs were driven by onboarding gaps; interventions saved $340k ARR.",
+    "date": "2024-02-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/saas-cohort-retention-&-churn-analytics-suite"
+  },
+  {
+    "id": "sample-data-analyst-case-002",
+    "title": "Executive Revenue & Pipeline Attribution Dashboard (Phase 1)",
+    "client_industry": "B2B Tech",
+    "skills": [
+      "SQL",
+      "Tableau",
+      "Salesforce API",
+      "PostgreSQL"
+    ],
+    "problem": "Marketing and sales teams argued over attribution across multi-touch lead funnels.",
+    "solution": "Built W-shaped multi-touch attribution model joining HubSpot marketing touchpoints with Salesforce opportunities.",
+    "outcome_metrics": "Reallocated 25% of underperforming ad spend into high-converting webinars, increasing pipeline ROI by 38%.",
+    "date": "2024-03-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/executive-revenue-&-pipeline-attribution-dashboard"
+  },
+  {
+    "id": "sample-data-analyst-case-003",
+    "title": "Supply Chain Inventory Optimization & Reorder Engine (Phase 1)",
+    "client_industry": "Manufacturing",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Scipy",
+      "Streamlit",
+      "PostgreSQL"
+    ],
+    "problem": "Factory faced frequent stockouts of critical micro-components causing 5-day assembly delays.",
+    "solution": "Formulated safety stock and economic order quantity (EOQ) optimization models with seasonal forecasting.",
+    "outcome_metrics": "Reduced component stockout incidents by 82% while decreasing total held inventory capital by $180,000.",
+    "date": "2024-04-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/supply-chain-inventory-optimization-&-reorder-engine"
+  },
+  {
+    "id": "sample-data-analyst-case-004",
+    "title": "A/B Test Evaluation Platform & Statistical Engine (Phase 1)",
+    "client_industry": "E-Commerce",
+    "skills": [
+      "Python",
+      "Statsmodels",
+      "SQL",
+      "FastAPI"
+    ],
+    "problem": "Product managers frequently declared winning variants prematurely due to p-hacking.",
+    "solution": "Built automated sequential testing framework with Bonferroni correction and sample size calculators.",
+    "outcome_metrics": "Eliminated false positive feature rollouts, protecting an estimated $1.2M in annual GMV.",
+    "date": "2024-05-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/a/b-test-evaluation-platform-&-statistical-engine"
+  },
+  {
+    "id": "sample-data-analyst-case-005",
+    "title": "Healthcare Operational Flow & Bed Capacity Model (Phase 1)",
+    "client_industry": "Healthcare",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Power BI",
+      "SQL Server"
+    ],
+    "problem": "Hospital ER faced severe bottlenecking and average wait times exceeding 4.2 hours.",
+    "solution": "Analyzed 120,000 patient admission records to simulate hourly patient arrival distributions and bed turnover.",
+    "outcome_metrics": "Optimized nurse staffing shifts, reducing average ER wait times by 46 minutes (18% drop).",
+    "date": "2024-06-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/healthcare-operational-flow-&-bed-capacity-model"
+  },
+  {
+    "id": "sample-data-analyst-case-006",
+    "title": "SaaS Cohort Retention & Churn Analytics Suite (Phase 2)",
+    "client_industry": "SaaS",
+    "skills": [
+      "SQL",
+      "Snowflake",
+      "dbt",
+      "Power BI",
+      "Python"
+    ],
+    "problem": "Leadership had no granular visibility into monthly cohort renewal rates across customer tiers.",
+    "solution": "Modeled 3-year historical subscription data in dbt; created dynamic retention matrices and hazard curves.",
+    "outcome_metrics": "Identified that month-3 drop-offs were driven by onboarding gaps; interventions saved $340k ARR.",
+    "date": "2024-07-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/saas-cohort-retention-&-churn-analytics-suite"
+  },
+  {
+    "id": "sample-data-analyst-case-007",
+    "title": "Executive Revenue & Pipeline Attribution Dashboard (Phase 2)",
+    "client_industry": "B2B Tech",
+    "skills": [
+      "SQL",
+      "Tableau",
+      "Salesforce API",
+      "PostgreSQL"
+    ],
+    "problem": "Marketing and sales teams argued over attribution across multi-touch lead funnels.",
+    "solution": "Built W-shaped multi-touch attribution model joining HubSpot marketing touchpoints with Salesforce opportunities.",
+    "outcome_metrics": "Reallocated 25% of underperforming ad spend into high-converting webinars, increasing pipeline ROI by 38%.",
+    "date": "2024-08-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/executive-revenue-&-pipeline-attribution-dashboard"
+  },
+  {
+    "id": "sample-data-analyst-case-008",
+    "title": "Supply Chain Inventory Optimization & Reorder Engine (Phase 2)",
+    "client_industry": "Manufacturing",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Scipy",
+      "Streamlit",
+      "PostgreSQL"
+    ],
+    "problem": "Factory faced frequent stockouts of critical micro-components causing 5-day assembly delays.",
+    "solution": "Formulated safety stock and economic order quantity (EOQ) optimization models with seasonal forecasting.",
+    "outcome_metrics": "Reduced component stockout incidents by 82% while decreasing total held inventory capital by $180,000.",
+    "date": "2024-09-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/supply-chain-inventory-optimization-&-reorder-engine"
+  },
+  {
+    "id": "sample-data-analyst-case-009",
+    "title": "A/B Test Evaluation Platform & Statistical Engine (Phase 2)",
+    "client_industry": "E-Commerce",
+    "skills": [
+      "Python",
+      "Statsmodels",
+      "SQL",
+      "FastAPI"
+    ],
+    "problem": "Product managers frequently declared winning variants prematurely due to p-hacking.",
+    "solution": "Built automated sequential testing framework with Bonferroni correction and sample size calculators.",
+    "outcome_metrics": "Eliminated false positive feature rollouts, protecting an estimated $1.2M in annual GMV.",
+    "date": "2024-10-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/a/b-test-evaluation-platform-&-statistical-engine"
+  },
+  {
+    "id": "sample-data-analyst-case-010",
+    "title": "Healthcare Operational Flow & Bed Capacity Model (Phase 2)",
+    "client_industry": "Healthcare",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Power BI",
+      "SQL Server"
+    ],
+    "problem": "Hospital ER faced severe bottlenecking and average wait times exceeding 4.2 hours.",
+    "solution": "Analyzed 120,000 patient admission records to simulate hourly patient arrival distributions and bed turnover.",
+    "outcome_metrics": "Optimized nurse staffing shifts, reducing average ER wait times by 46 minutes (18% drop).",
+    "date": "2024-11-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/healthcare-operational-flow-&-bed-capacity-model"
+  },
+  {
+    "id": "sample-data-analyst-case-011",
+    "title": "SaaS Cohort Retention & Churn Analytics Suite (Phase 3)",
+    "client_industry": "SaaS",
+    "skills": [
+      "SQL",
+      "Snowflake",
+      "dbt",
+      "Power BI",
+      "Python"
+    ],
+    "problem": "Leadership had no granular visibility into monthly cohort renewal rates across customer tiers.",
+    "solution": "Modeled 3-year historical subscription data in dbt; created dynamic retention matrices and hazard curves.",
+    "outcome_metrics": "Identified that month-3 drop-offs were driven by onboarding gaps; interventions saved $340k ARR.",
+    "date": "2024-12-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/saas-cohort-retention-&-churn-analytics-suite"
+  },
+  {
+    "id": "sample-data-analyst-case-012",
+    "title": "Executive Revenue & Pipeline Attribution Dashboard (Phase 3)",
+    "client_industry": "B2B Tech",
+    "skills": [
+      "SQL",
+      "Tableau",
+      "Salesforce API",
+      "PostgreSQL"
+    ],
+    "problem": "Marketing and sales teams argued over attribution across multi-touch lead funnels.",
+    "solution": "Built W-shaped multi-touch attribution model joining HubSpot marketing touchpoints with Salesforce opportunities.",
+    "outcome_metrics": "Reallocated 25% of underperforming ad spend into high-converting webinars, increasing pipeline ROI by 38%.",
+    "date": "2024-01-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/executive-revenue-&-pipeline-attribution-dashboard"
+  },
+  {
+    "id": "sample-data-analyst-case-013",
+    "title": "Supply Chain Inventory Optimization & Reorder Engine (Phase 3)",
+    "client_industry": "Manufacturing",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Scipy",
+      "Streamlit",
+      "PostgreSQL"
+    ],
+    "problem": "Factory faced frequent stockouts of critical micro-components causing 5-day assembly delays.",
+    "solution": "Formulated safety stock and economic order quantity (EOQ) optimization models with seasonal forecasting.",
+    "outcome_metrics": "Reduced component stockout incidents by 82% while decreasing total held inventory capital by $180,000.",
+    "date": "2024-02-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/supply-chain-inventory-optimization-&-reorder-engine"
+  },
+  {
+    "id": "sample-data-analyst-case-014",
+    "title": "A/B Test Evaluation Platform & Statistical Engine (Phase 3)",
+    "client_industry": "E-Commerce",
+    "skills": [
+      "Python",
+      "Statsmodels",
+      "SQL",
+      "FastAPI"
+    ],
+    "problem": "Product managers frequently declared winning variants prematurely due to p-hacking.",
+    "solution": "Built automated sequential testing framework with Bonferroni correction and sample size calculators.",
+    "outcome_metrics": "Eliminated false positive feature rollouts, protecting an estimated $1.2M in annual GMV.",
+    "date": "2024-03-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/a/b-test-evaluation-platform-&-statistical-engine"
+  },
+  {
+    "id": "sample-data-analyst-case-015",
+    "title": "Healthcare Operational Flow & Bed Capacity Model (Phase 3)",
+    "client_industry": "Healthcare",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Power BI",
+      "SQL Server"
+    ],
+    "problem": "Hospital ER faced severe bottlenecking and average wait times exceeding 4.2 hours.",
+    "solution": "Analyzed 120,000 patient admission records to simulate hourly patient arrival distributions and bed turnover.",
+    "outcome_metrics": "Optimized nurse staffing shifts, reducing average ER wait times by 46 minutes (18% drop).",
+    "date": "2024-04-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/healthcare-operational-flow-&-bed-capacity-model"
+  },
+  {
+    "id": "sample-data-analyst-case-016",
+    "title": "SaaS Cohort Retention & Churn Analytics Suite (Phase 4)",
+    "client_industry": "SaaS",
+    "skills": [
+      "SQL",
+      "Snowflake",
+      "dbt",
+      "Power BI",
+      "Python"
+    ],
+    "problem": "Leadership had no granular visibility into monthly cohort renewal rates across customer tiers.",
+    "solution": "Modeled 3-year historical subscription data in dbt; created dynamic retention matrices and hazard curves.",
+    "outcome_metrics": "Identified that month-3 drop-offs were driven by onboarding gaps; interventions saved $340k ARR.",
+    "date": "2024-05-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/saas-cohort-retention-&-churn-analytics-suite"
+  },
+  {
+    "id": "sample-data-analyst-case-017",
+    "title": "Executive Revenue & Pipeline Attribution Dashboard (Phase 4)",
+    "client_industry": "B2B Tech",
+    "skills": [
+      "SQL",
+      "Tableau",
+      "Salesforce API",
+      "PostgreSQL"
+    ],
+    "problem": "Marketing and sales teams argued over attribution across multi-touch lead funnels.",
+    "solution": "Built W-shaped multi-touch attribution model joining HubSpot marketing touchpoints with Salesforce opportunities.",
+    "outcome_metrics": "Reallocated 25% of underperforming ad spend into high-converting webinars, increasing pipeline ROI by 38%.",
+    "date": "2024-06-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/executive-revenue-&-pipeline-attribution-dashboard"
+  },
+  {
+    "id": "sample-data-analyst-case-018",
+    "title": "Supply Chain Inventory Optimization & Reorder Engine (Phase 4)",
+    "client_industry": "Manufacturing",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Scipy",
+      "Streamlit",
+      "PostgreSQL"
+    ],
+    "problem": "Factory faced frequent stockouts of critical micro-components causing 5-day assembly delays.",
+    "solution": "Formulated safety stock and economic order quantity (EOQ) optimization models with seasonal forecasting.",
+    "outcome_metrics": "Reduced component stockout incidents by 82% while decreasing total held inventory capital by $180,000.",
+    "date": "2024-07-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/supply-chain-inventory-optimization-&-reorder-engine"
+  },
+  {
+    "id": "sample-data-analyst-case-019",
+    "title": "A/B Test Evaluation Platform & Statistical Engine (Phase 4)",
+    "client_industry": "E-Commerce",
+    "skills": [
+      "Python",
+      "Statsmodels",
+      "SQL",
+      "FastAPI"
+    ],
+    "problem": "Product managers frequently declared winning variants prematurely due to p-hacking.",
+    "solution": "Built automated sequential testing framework with Bonferroni correction and sample size calculators.",
+    "outcome_metrics": "Eliminated false positive feature rollouts, protecting an estimated $1.2M in annual GMV.",
+    "date": "2024-08-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/a/b-test-evaluation-platform-&-statistical-engine"
+  },
+  {
+    "id": "sample-data-analyst-case-020",
+    "title": "Healthcare Operational Flow & Bed Capacity Model (Phase 4)",
+    "client_industry": "Healthcare",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Power BI",
+      "SQL Server"
+    ],
+    "problem": "Hospital ER faced severe bottlenecking and average wait times exceeding 4.2 hours.",
+    "solution": "Analyzed 120,000 patient admission records to simulate hourly patient arrival distributions and bed turnover.",
+    "outcome_metrics": "Optimized nurse staffing shifts, reducing average ER wait times by 46 minutes (18% drop).",
+    "date": "2024-09-15",
+    "repo_url": "https://github.com/gigbid-sample-data-analyst/healthcare-operational-flow-&-bed-capacity-model"
+  }
+]

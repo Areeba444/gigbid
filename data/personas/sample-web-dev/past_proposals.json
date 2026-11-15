@@ -1,0 +1,2102 @@
+[
+  {
+    "proposal_id": "sample-web-dev-prop-001",
+    "job_title": "Production Python Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 460.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Python",
+      "GraphQL",
+      "Redis"
+    ],
+    "date": "2024-02-02",
+    "evidence_case_id": "sample-web-dev-case-002"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-002",
+    "job_title": "Production Docker Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 600.0,
+    "cover_letter": "Your project caught my attention because Docker, Python, PostgreSQL is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Docker",
+      "Python",
+      "PostgreSQL"
+    ],
+    "date": "2024-03-03",
+    "evidence_case_id": "sample-web-dev-case-003"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-003",
+    "job_title": "Production Node.js Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Node.js, PostgreSQL, TailwindCSS with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Node.js",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "date": "2024-04-04",
+    "evidence_case_id": "sample-web-dev-case-004"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-004",
+    "job_title": "Production FastAPI Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 640.0,
+    "cover_letter": "I would be glad to help build this. My background in FastAPI, Docker, Python covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "FastAPI",
+      "Docker",
+      "Python"
+    ],
+    "date": "2024-05-05",
+    "evidence_case_id": "sample-web-dev-case-005"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-005",
+    "job_title": "Production PostgreSQL Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1090.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "PostgreSQL",
+      "Python",
+      "TypeScript"
+    ],
+    "date": "2024-06-06",
+    "evidence_case_id": "sample-web-dev-case-006"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-006",
+    "job_title": "Production TypeScript Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1120.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "TypeScript",
+      "Docker",
+      "TailwindCSS"
+    ],
+    "date": "2024-07-07",
+    "evidence_case_id": "sample-web-dev-case-007"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-007",
+    "job_title": "Production Node.js Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 910.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Node.js",
+      "Docker",
+      "FastAPI"
+    ],
+    "date": "2024-08-08",
+    "evidence_case_id": "sample-web-dev-case-008"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-008",
+    "job_title": "Production Python Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 480.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Python",
+      "GraphQL",
+      "Next.js"
+    ],
+    "date": "2024-09-09",
+    "evidence_case_id": "sample-web-dev-case-009"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-009",
+    "job_title": "Production GraphQL Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "I would be glad to help build this. My background in GraphQL, TypeScript, Python covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "GraphQL",
+      "TypeScript",
+      "Python"
+    ],
+    "date": "2024-10-10",
+    "evidence_case_id": "sample-web-dev-case-010"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-010",
+    "job_title": "Production FastAPI Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 660.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "FastAPI",
+      "Next.js",
+      "React"
+    ],
+    "date": "2024-11-11",
+    "evidence_case_id": "sample-web-dev-case-011"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-011",
+    "job_title": "Production Next.js Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 830.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Next.js",
+      "Node.js",
+      "REST APIs"
+    ],
+    "date": "2024-12-12",
+    "evidence_case_id": "sample-web-dev-case-012"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-012",
+    "job_title": "Production Redis Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 530.0,
+    "cover_letter": "Your project caught my attention because Redis, REST APIs, Python is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Redis",
+      "REST APIs",
+      "Python"
+    ],
+    "date": "2024-01-13",
+    "evidence_case_id": "sample-web-dev-case-013"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-013",
+    "job_title": "Production Python Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1170.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Python",
+      "FastAPI",
+      "React"
+    ],
+    "date": "2024-02-14",
+    "evidence_case_id": "sample-web-dev-case-014"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-014",
+    "job_title": "Production Node.js Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1040.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing Node.js, GraphQL, PostgreSQL, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Node.js",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "date": "2024-03-15",
+    "evidence_case_id": "sample-web-dev-case-015"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-015",
+    "job_title": "Production React Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 830.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "React",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "date": "2024-04-16",
+    "evidence_case_id": "sample-web-dev-case-016"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-016",
+    "job_title": "Production FastAPI Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 700.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "FastAPI",
+      "GraphQL",
+      "Python"
+    ],
+    "date": "2024-05-17",
+    "evidence_case_id": "sample-web-dev-case-017"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-017",
+    "job_title": "Production FastAPI Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 420.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "FastAPI",
+      "React",
+      "Node.js"
+    ],
+    "date": "2024-06-18",
+    "evidence_case_id": "sample-web-dev-case-018"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-018",
+    "job_title": "Production FastAPI Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 450.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "FastAPI",
+      "Docker",
+      "Node.js"
+    ],
+    "date": "2024-07-19",
+    "evidence_case_id": "sample-web-dev-case-019"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-019",
+    "job_title": "Production REST APIs Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 510.0,
+    "cover_letter": "Your project caught my attention because REST APIs, Python, PostgreSQL is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "REST APIs",
+      "Python",
+      "PostgreSQL"
+    ],
+    "date": "2024-08-20",
+    "evidence_case_id": "sample-web-dev-case-020"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-020",
+    "job_title": "Production Python Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "I recently resolved this exact problem for a Fintech client by implementing Python, TailwindCSS, React, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Python",
+      "TailwindCSS",
+      "React"
+    ],
+    "date": "2024-09-21",
+    "evidence_case_id": "sample-web-dev-case-001"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-021",
+    "job_title": "Production Next.js Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 940.0,
+    "cover_letter": "I would be glad to help build this. My background in Next.js, PostgreSQL, TailwindCSS covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Next.js",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "date": "2024-10-22",
+    "evidence_case_id": "sample-web-dev-case-002"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-022",
+    "job_title": "Production REST APIs Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 990.0,
+    "cover_letter": "Having built production REST APIs, Redis, PostgreSQL systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "REST APIs",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "date": "2024-11-23",
+    "evidence_case_id": "sample-web-dev-case-003"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-023",
+    "job_title": "Production PostgreSQL Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 790.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in PostgreSQL, GraphQL, React. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "PostgreSQL",
+      "GraphQL",
+      "React"
+    ],
+    "date": "2024-12-24",
+    "evidence_case_id": "sample-web-dev-case-004"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-024",
+    "job_title": "Production Python Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Python, TypeScript, FastAPI with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Python",
+      "TypeScript",
+      "FastAPI"
+    ],
+    "date": "2024-01-25",
+    "evidence_case_id": "sample-web-dev-case-005"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-025",
+    "job_title": "Production FastAPI Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1120.0,
+    "cover_letter": "I noticed your requirement for FastAPI, React, REST APIs. In my previous work with Logistics clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "FastAPI",
+      "React",
+      "REST APIs"
+    ],
+    "date": "2024-02-26",
+    "evidence_case_id": "sample-web-dev-case-006"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-026",
+    "job_title": "Production FastAPI Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 550.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "FastAPI",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2024-03-27",
+    "evidence_case_id": "sample-web-dev-case-007"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-027",
+    "job_title": "Production TailwindCSS Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 910.0,
+    "cover_letter": "I noticed your requirement for TailwindCSS, React, Node.js. In my previous work with EdTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "TailwindCSS",
+      "React",
+      "Node.js"
+    ],
+    "date": "2024-04-28",
+    "evidence_case_id": "sample-web-dev-case-008"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-028",
+    "job_title": "Production TypeScript Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "I recently resolved this exact problem for a HealthTech client by implementing TypeScript, FastAPI, Node.js, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "TypeScript",
+      "FastAPI",
+      "Node.js"
+    ],
+    "date": "2024-05-01",
+    "evidence_case_id": "sample-web-dev-case-009"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-029",
+    "job_title": "Production React Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 570.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in React, Redis, Node.js. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "React",
+      "Redis",
+      "Node.js"
+    ],
+    "date": "2024-06-02",
+    "evidence_case_id": "sample-web-dev-case-010"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-030",
+    "job_title": "Production FastAPI Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 620.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in FastAPI, Next.js, Docker. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "FastAPI",
+      "Next.js",
+      "Docker"
+    ],
+    "date": "2024-07-03",
+    "evidence_case_id": "sample-web-dev-case-011"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-031",
+    "job_title": "Production Next.js Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 540.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing Next.js, Redis, Python, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Next.js",
+      "Redis",
+      "Python"
+    ],
+    "date": "2024-08-04",
+    "evidence_case_id": "sample-web-dev-case-012"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-032",
+    "job_title": "Production TypeScript Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "TypeScript",
+      "Next.js",
+      "REST APIs"
+    ],
+    "date": "2024-09-05",
+    "evidence_case_id": "sample-web-dev-case-013"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-033",
+    "job_title": "Production Docker Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "I recently resolved this exact problem for a HealthTech client by implementing Docker, FastAPI, TypeScript, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Docker",
+      "FastAPI",
+      "TypeScript"
+    ],
+    "date": "2024-10-06",
+    "evidence_case_id": "sample-web-dev-case-014"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-034",
+    "job_title": "Production REST APIs Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1000.0,
+    "cover_letter": "I recently resolved this exact problem for a Fintech client by implementing REST APIs, PostgreSQL, Redis, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "REST APIs",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "date": "2024-11-07",
+    "evidence_case_id": "sample-web-dev-case-015"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-035",
+    "job_title": "Production TailwindCSS Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 490.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "TailwindCSS",
+      "FastAPI",
+      "Redis"
+    ],
+    "date": "2024-12-08",
+    "evidence_case_id": "sample-web-dev-case-016"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-036",
+    "job_title": "Production Node.js Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "Having built production Node.js, Docker, TypeScript systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Node.js",
+      "Docker",
+      "TypeScript"
+    ],
+    "date": "2024-01-09",
+    "evidence_case_id": "sample-web-dev-case-017"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-037",
+    "job_title": "Production Redis Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1170.0,
+    "cover_letter": "Having built production Redis, Python, TailwindCSS systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Redis",
+      "Python",
+      "TailwindCSS"
+    ],
+    "date": "2024-02-10",
+    "evidence_case_id": "sample-web-dev-case-018"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-038",
+    "job_title": "Production TailwindCSS Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 490.0,
+    "cover_letter": "I noticed your requirement for TailwindCSS, PostgreSQL, GraphQL. In my previous work with EdTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "TailwindCSS",
+      "PostgreSQL",
+      "GraphQL"
+    ],
+    "date": "2024-03-11",
+    "evidence_case_id": "sample-web-dev-case-019"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-039",
+    "job_title": "Production TailwindCSS Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 890.0,
+    "cover_letter": "Having built production TailwindCSS, React, GraphQL systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "TailwindCSS",
+      "React",
+      "GraphQL"
+    ],
+    "date": "2024-04-12",
+    "evidence_case_id": "sample-web-dev-case-020"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-040",
+    "job_title": "Production Next.js Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 870.0,
+    "cover_letter": "I noticed your requirement for Next.js, Python, Docker. In my previous work with EdTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Next.js",
+      "Python",
+      "Docker"
+    ],
+    "date": "2024-05-13",
+    "evidence_case_id": "sample-web-dev-case-001"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-041",
+    "job_title": "Production FastAPI Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 640.0,
+    "cover_letter": "I would be glad to help build this. My background in FastAPI, PostgreSQL, Docker covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "date": "2024-06-14",
+    "evidence_case_id": "sample-web-dev-case-002"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-042",
+    "job_title": "Production Docker Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 960.0,
+    "cover_letter": "Having built production Docker, PostgreSQL, React systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Docker",
+      "PostgreSQL",
+      "React"
+    ],
+    "date": "2024-07-15",
+    "evidence_case_id": "sample-web-dev-case-003"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-043",
+    "job_title": "Production GraphQL Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 760.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "GraphQL",
+      "Redis",
+      "Node.js"
+    ],
+    "date": "2024-08-16",
+    "evidence_case_id": "sample-web-dev-case-004"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-044",
+    "job_title": "Production PostgreSQL Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 730.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in PostgreSQL, FastAPI, TailwindCSS. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "PostgreSQL",
+      "FastAPI",
+      "TailwindCSS"
+    ],
+    "date": "2024-09-17",
+    "evidence_case_id": "sample-web-dev-case-005"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-045",
+    "job_title": "Production FastAPI Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 600.0,
+    "cover_letter": "I recently resolved this exact problem for a EdTech client by implementing FastAPI, PostgreSQL, REST APIs, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "FastAPI",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "date": "2024-10-18",
+    "evidence_case_id": "sample-web-dev-case-006"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-046",
+    "job_title": "Production GraphQL Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1070.0,
+    "cover_letter": "I noticed your requirement for GraphQL, TailwindCSS, React. In my previous work with Fintech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "GraphQL",
+      "TailwindCSS",
+      "React"
+    ],
+    "date": "2024-11-19",
+    "evidence_case_id": "sample-web-dev-case-007"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-047",
+    "job_title": "Production PostgreSQL Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 500.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing PostgreSQL, React, FastAPI, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "PostgreSQL",
+      "React",
+      "FastAPI"
+    ],
+    "date": "2024-12-20",
+    "evidence_case_id": "sample-web-dev-case-008"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-048",
+    "job_title": "Production Docker Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 940.0,
+    "cover_letter": "I noticed your requirement for Docker, Redis, GraphQL. In my previous work with E-Commerce clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Docker",
+      "Redis",
+      "GraphQL"
+    ],
+    "date": "2024-01-21",
+    "evidence_case_id": "sample-web-dev-case-009"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-049",
+    "job_title": "Production FastAPI Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1130.0,
+    "cover_letter": "Your project caught my attention because FastAPI, GraphQL, PostgreSQL is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "FastAPI",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "date": "2024-02-22",
+    "evidence_case_id": "sample-web-dev-case-010"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-050",
+    "job_title": "Production Python Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 480.0,
+    "cover_letter": "I recently resolved this exact problem for a E-Commerce client by implementing Python, Docker, REST APIs, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Python",
+      "Docker",
+      "REST APIs"
+    ],
+    "date": "2024-03-23",
+    "evidence_case_id": "sample-web-dev-case-011"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-051",
+    "job_title": "Production Node.js Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1080.0,
+    "cover_letter": "I would be glad to help build this. My background in Node.js, Next.js, TailwindCSS covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Node.js",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "date": "2024-04-24",
+    "evidence_case_id": "sample-web-dev-case-012"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-052",
+    "job_title": "Production Redis Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 620.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Redis",
+      "FastAPI",
+      "React"
+    ],
+    "date": "2024-05-25",
+    "evidence_case_id": "sample-web-dev-case-013"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-053",
+    "job_title": "Production PostgreSQL Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 940.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in PostgreSQL, Redis, Docker. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "PostgreSQL",
+      "Redis",
+      "Docker"
+    ],
+    "date": "2024-06-26",
+    "evidence_case_id": "sample-web-dev-case-014"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-054",
+    "job_title": "Production TypeScript Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 540.0,
+    "cover_letter": "I would be glad to help build this. My background in TypeScript, Docker, Python covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "TypeScript",
+      "Docker",
+      "Python"
+    ],
+    "date": "2024-07-27",
+    "evidence_case_id": "sample-web-dev-case-015"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-055",
+    "job_title": "Production Python Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 550.0,
+    "cover_letter": "I would be glad to help build this. My background in Python, FastAPI, GraphQL covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Python",
+      "FastAPI",
+      "GraphQL"
+    ],
+    "date": "2024-08-28",
+    "evidence_case_id": "sample-web-dev-case-016"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-056",
+    "job_title": "Production Docker Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 510.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Docker, GraphQL, PostgreSQL. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Docker",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "date": "2024-09-01",
+    "evidence_case_id": "sample-web-dev-case-017"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-057",
+    "job_title": "Production TypeScript Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 700.0,
+    "cover_letter": "Having built production TypeScript, React, Redis systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "TypeScript",
+      "React",
+      "Redis"
+    ],
+    "date": "2024-10-02",
+    "evidence_case_id": "sample-web-dev-case-018"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-058",
+    "job_title": "Production FastAPI Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 980.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "FastAPI",
+      "Next.js",
+      "REST APIs"
+    ],
+    "date": "2024-11-03",
+    "evidence_case_id": "sample-web-dev-case-019"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-059",
+    "job_title": "Production Docker Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 530.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Docker",
+      "React",
+      "TypeScript"
+    ],
+    "date": "2024-12-04",
+    "evidence_case_id": "sample-web-dev-case-020"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-060",
+    "job_title": "Production TypeScript Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "Having built production TypeScript, GraphQL, React systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "TypeScript",
+      "GraphQL",
+      "React"
+    ],
+    "date": "2024-01-05",
+    "evidence_case_id": "sample-web-dev-case-001"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-061",
+    "job_title": "Production TailwindCSS Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 620.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "TailwindCSS",
+      "Docker",
+      "REST APIs"
+    ],
+    "date": "2024-02-06",
+    "evidence_case_id": "sample-web-dev-case-002"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-062",
+    "job_title": "Production React Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 630.0,
+    "cover_letter": "I would be glad to help build this. My background in React, FastAPI, PostgreSQL covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "React",
+      "FastAPI",
+      "PostgreSQL"
+    ],
+    "date": "2024-03-07",
+    "evidence_case_id": "sample-web-dev-case-003"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-063",
+    "job_title": "Production Docker Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 650.0,
+    "cover_letter": "I would be glad to help build this. My background in Docker, TailwindCSS, Redis covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Docker",
+      "TailwindCSS",
+      "Redis"
+    ],
+    "date": "2024-04-08",
+    "evidence_case_id": "sample-web-dev-case-004"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-064",
+    "job_title": "Production PostgreSQL Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 560.0,
+    "cover_letter": "I recently resolved this exact problem for a Fintech client by implementing PostgreSQL, Docker, TypeScript, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "PostgreSQL",
+      "Docker",
+      "TypeScript"
+    ],
+    "date": "2024-05-09",
+    "evidence_case_id": "sample-web-dev-case-005"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-065",
+    "job_title": "Production Next.js Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 500.0,
+    "cover_letter": "I noticed your requirement for Next.js, Python, GraphQL. In my previous work with E-Commerce clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Next.js",
+      "Python",
+      "GraphQL"
+    ],
+    "date": "2024-06-10",
+    "evidence_case_id": "sample-web-dev-case-006"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-066",
+    "job_title": "Production REST APIs Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 700.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "REST APIs",
+      "PostgreSQL",
+      "Next.js"
+    ],
+    "date": "2024-07-11",
+    "evidence_case_id": "sample-web-dev-case-007"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-067",
+    "job_title": "Production Node.js Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 930.0,
+    "cover_letter": "Having built production Node.js, Redis, GraphQL systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Node.js",
+      "Redis",
+      "GraphQL"
+    ],
+    "date": "2024-08-12",
+    "evidence_case_id": "sample-web-dev-case-008"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-068",
+    "job_title": "Production React Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 410.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: React, PostgreSQL, TypeScript with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "React",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "date": "2024-09-13",
+    "evidence_case_id": "sample-web-dev-case-009"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-069",
+    "job_title": "Production FastAPI Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 720.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in FastAPI, Docker, PostgreSQL. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "FastAPI",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "date": "2024-10-14",
+    "evidence_case_id": "sample-web-dev-case-010"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-070",
+    "job_title": "Production PostgreSQL Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 420.0,
+    "cover_letter": "I would be glad to help build this. My background in PostgreSQL, Python, React covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "PostgreSQL",
+      "Python",
+      "React"
+    ],
+    "date": "2024-11-15",
+    "evidence_case_id": "sample-web-dev-case-011"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-071",
+    "job_title": "Production Next.js Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 950.0,
+    "cover_letter": "Your project caught my attention because Next.js, Docker, TailwindCSS is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Next.js",
+      "Docker",
+      "TailwindCSS"
+    ],
+    "date": "2024-12-16",
+    "evidence_case_id": "sample-web-dev-case-012"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-072",
+    "job_title": "Production React Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "Your project caught my attention because React, PostgreSQL, REST APIs is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "React",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "date": "2024-01-17",
+    "evidence_case_id": "sample-web-dev-case-013"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-073",
+    "job_title": "Production Redis Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 650.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Redis, React, PostgreSQL with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Redis",
+      "React",
+      "PostgreSQL"
+    ],
+    "date": "2024-02-18",
+    "evidence_case_id": "sample-web-dev-case-014"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-074",
+    "job_title": "Production Node.js Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 810.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Node.js",
+      "FastAPI",
+      "Next.js"
+    ],
+    "date": "2024-03-19",
+    "evidence_case_id": "sample-web-dev-case-015"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-075",
+    "job_title": "Production Redis Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 680.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Redis, REST APIs, Node.js. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Redis",
+      "REST APIs",
+      "Node.js"
+    ],
+    "date": "2024-04-20",
+    "evidence_case_id": "sample-web-dev-case-016"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-076",
+    "job_title": "Production GraphQL Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 520.0,
+    "cover_letter": "Having built production GraphQL, Next.js, Node.js systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "GraphQL",
+      "Next.js",
+      "Node.js"
+    ],
+    "date": "2024-05-21",
+    "evidence_case_id": "sample-web-dev-case-017"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-077",
+    "job_title": "Production Next.js Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1010.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing Next.js, Docker, REST APIs, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Next.js",
+      "Docker",
+      "REST APIs"
+    ],
+    "date": "2024-06-22",
+    "evidence_case_id": "sample-web-dev-case-018"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-078",
+    "job_title": "Production Next.js Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1000.0,
+    "cover_letter": "I noticed your requirement for Next.js, GraphQL, TailwindCSS. In my previous work with SaaS clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Next.js",
+      "GraphQL",
+      "TailwindCSS"
+    ],
+    "date": "2024-07-23",
+    "evidence_case_id": "sample-web-dev-case-019"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-079",
+    "job_title": "Production TailwindCSS Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 910.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "TailwindCSS",
+      "GraphQL",
+      "Docker"
+    ],
+    "date": "2024-08-24",
+    "evidence_case_id": "sample-web-dev-case-020"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-080",
+    "job_title": "Production FastAPI Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "I would be glad to help build this. My background in FastAPI, GraphQL, REST APIs covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "FastAPI",
+      "GraphQL",
+      "REST APIs"
+    ],
+    "date": "2024-09-25",
+    "evidence_case_id": "sample-web-dev-case-001"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-081",
+    "job_title": "Production TailwindCSS Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 620.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "TailwindCSS",
+      "GraphQL",
+      "Python"
+    ],
+    "date": "2024-10-26",
+    "evidence_case_id": "sample-web-dev-case-002"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-082",
+    "job_title": "Production FastAPI Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 770.0,
+    "cover_letter": "I noticed your requirement for FastAPI, Redis, React. In my previous work with E-Commerce clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "FastAPI",
+      "Redis",
+      "React"
+    ],
+    "date": "2024-11-27",
+    "evidence_case_id": "sample-web-dev-case-003"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-083",
+    "job_title": "Production TypeScript Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 920.0,
+    "cover_letter": "I recently resolved this exact problem for a Fintech client by implementing TypeScript, FastAPI, Python, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "TypeScript",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2024-12-28",
+    "evidence_case_id": "sample-web-dev-case-004"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-084",
+    "job_title": "Production Docker Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 770.0,
+    "cover_letter": "I recently resolved this exact problem for a SaaS client by implementing Docker, REST APIs, Redis, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Docker",
+      "REST APIs",
+      "Redis"
+    ],
+    "date": "2024-01-01",
+    "evidence_case_id": "sample-web-dev-case-005"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-085",
+    "job_title": "Production REST APIs Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 860.0,
+    "cover_letter": "I would be glad to help build this. My background in REST APIs, TypeScript, TailwindCSS covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "REST APIs",
+      "TypeScript",
+      "TailwindCSS"
+    ],
+    "date": "2024-02-02",
+    "evidence_case_id": "sample-web-dev-case-006"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-086",
+    "job_title": "Production FastAPI Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 520.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in FastAPI, Docker, TailwindCSS. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "FastAPI",
+      "Docker",
+      "TailwindCSS"
+    ],
+    "date": "2024-03-03",
+    "evidence_case_id": "sample-web-dev-case-007"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-087",
+    "job_title": "Production TailwindCSS Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 470.0,
+    "cover_letter": "I noticed your requirement for TailwindCSS, React, FastAPI. In my previous work with EdTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "TailwindCSS",
+      "React",
+      "FastAPI"
+    ],
+    "date": "2024-04-04",
+    "evidence_case_id": "sample-web-dev-case-008"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-088",
+    "job_title": "Production Next.js Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 750.0,
+    "cover_letter": "I would be glad to help build this. My background in Next.js, TypeScript, Node.js covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Next.js",
+      "TypeScript",
+      "Node.js"
+    ],
+    "date": "2024-05-05",
+    "evidence_case_id": "sample-web-dev-case-009"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-089",
+    "job_title": "Production Redis Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 690.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Redis",
+      "REST APIs",
+      "Docker"
+    ],
+    "date": "2024-06-06",
+    "evidence_case_id": "sample-web-dev-case-010"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-090",
+    "job_title": "Production PostgreSQL Implementation for EdTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: PostgreSQL, REST APIs, FastAPI with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "PostgreSQL",
+      "REST APIs",
+      "FastAPI"
+    ],
+    "date": "2024-07-07",
+    "evidence_case_id": "sample-web-dev-case-011"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-091",
+    "job_title": "Production GraphQL Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 480.0,
+    "cover_letter": "Having built production GraphQL, FastAPI, React systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "GraphQL",
+      "FastAPI",
+      "React"
+    ],
+    "date": "2024-08-08",
+    "evidence_case_id": "sample-web-dev-case-012"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-092",
+    "job_title": "Production PostgreSQL Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1080.0,
+    "cover_letter": "I would be glad to help build this. My background in PostgreSQL, Python, GraphQL covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "PostgreSQL",
+      "Python",
+      "GraphQL"
+    ],
+    "date": "2024-09-09",
+    "evidence_case_id": "sample-web-dev-case-013"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-093",
+    "job_title": "Production Next.js Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 930.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Next.js",
+      "FastAPI",
+      "React"
+    ],
+    "date": "2024-10-10",
+    "evidence_case_id": "sample-web-dev-case-014"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-094",
+    "job_title": "Production Python Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Python",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "date": "2024-11-11",
+    "evidence_case_id": "sample-web-dev-case-015"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-095",
+    "job_title": "Production Python Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1030.0,
+    "cover_letter": "I noticed your requirement for Python, Redis, PostgreSQL. In my previous work with EdTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Python",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "date": "2024-12-12",
+    "evidence_case_id": "sample-web-dev-case-016"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-096",
+    "job_title": "Production GraphQL Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 920.0,
+    "cover_letter": "I recently resolved this exact problem for a Fintech client by implementing GraphQL, REST APIs, Redis, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "GraphQL",
+      "REST APIs",
+      "Redis"
+    ],
+    "date": "2024-01-13",
+    "evidence_case_id": "sample-web-dev-case-017"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-097",
+    "job_title": "Production Redis Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 650.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Redis, FastAPI, TypeScript with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Redis",
+      "FastAPI",
+      "TypeScript"
+    ],
+    "date": "2024-02-14",
+    "evidence_case_id": "sample-web-dev-case-018"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-098",
+    "job_title": "Production FastAPI Implementation for HealthTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1200.0,
+    "cover_letter": "I noticed your requirement for FastAPI, TailwindCSS, Node.js. In my previous work with HealthTech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "FastAPI",
+      "TailwindCSS",
+      "Node.js"
+    ],
+    "date": "2024-03-15",
+    "evidence_case_id": "sample-web-dev-case-019"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-099",
+    "job_title": "Production React Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1020.0,
+    "cover_letter": "I noticed your requirement for React, Python, REST APIs. In my previous work with Logistics clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "React",
+      "Python",
+      "REST APIs"
+    ],
+    "date": "2024-04-16",
+    "evidence_case_id": "sample-web-dev-case-020"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-100",
+    "job_title": "Production Redis Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 890.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Redis",
+      "TypeScript",
+      "FastAPI"
+    ],
+    "date": "2024-05-17",
+    "evidence_case_id": "sample-web-dev-case-001"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-101",
+    "job_title": "Production PostgreSQL Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1070.0,
+    "cover_letter": "Having built production PostgreSQL, Next.js, GraphQL systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "PostgreSQL",
+      "Next.js",
+      "GraphQL"
+    ],
+    "date": "2024-06-18",
+    "evidence_case_id": "sample-web-dev-case-002"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-102",
+    "job_title": "Production Next.js Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 690.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Next.js",
+      "TailwindCSS",
+      "TypeScript"
+    ],
+    "date": "2024-07-19",
+    "evidence_case_id": "sample-web-dev-case-003"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-103",
+    "job_title": "Production Node.js Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1000.0,
+    "cover_letter": "I would be glad to help build this. My background in Node.js, TailwindCSS, Docker covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Node.js",
+      "TailwindCSS",
+      "Docker"
+    ],
+    "date": "2024-08-20",
+    "evidence_case_id": "sample-web-dev-case-004"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-104",
+    "job_title": "Production Node.js Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1170.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Node.js",
+      "Redis",
+      "REST APIs"
+    ],
+    "date": "2024-09-21",
+    "evidence_case_id": "sample-web-dev-case-005"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-105",
+    "job_title": "Production Node.js Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 770.0,
+    "cover_letter": "Your project caught my attention because Node.js, FastAPI, Docker is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Node.js",
+      "FastAPI",
+      "Docker"
+    ],
+    "date": "2024-10-22",
+    "evidence_case_id": "sample-web-dev-case-006"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-106",
+    "job_title": "Production PostgreSQL Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1170.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: PostgreSQL, Redis, GraphQL with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "PostgreSQL",
+      "Redis",
+      "GraphQL"
+    ],
+    "date": "2024-11-23",
+    "evidence_case_id": "sample-web-dev-case-007"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-107",
+    "job_title": "Production Docker Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 910.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Docker, Next.js, Python. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Docker",
+      "Next.js",
+      "Python"
+    ],
+    "date": "2024-12-24",
+    "evidence_case_id": "sample-web-dev-case-008"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-108",
+    "job_title": "Production Redis Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 500.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Redis, React, REST APIs with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Redis",
+      "React",
+      "REST APIs"
+    ],
+    "date": "2024-01-25",
+    "evidence_case_id": "sample-web-dev-case-009"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-109",
+    "job_title": "Production Next.js Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 520.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing Next.js, Python, TailwindCSS, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Next.js",
+      "Python",
+      "TailwindCSS"
+    ],
+    "date": "2024-02-26",
+    "evidence_case_id": "sample-web-dev-case-010"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-110",
+    "job_title": "Production React Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1140.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "React",
+      "Node.js",
+      "TailwindCSS"
+    ],
+    "date": "2024-03-27",
+    "evidence_case_id": "sample-web-dev-case-011"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-111",
+    "job_title": "Production TypeScript Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: TypeScript, PostgreSQL, Redis with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "date": "2024-04-28",
+    "evidence_case_id": "sample-web-dev-case-012"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-112",
+    "job_title": "Production FastAPI Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1140.0,
+    "cover_letter": "I noticed your requirement for FastAPI, Node.js, TypeScript. In my previous work with E-Commerce clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "FastAPI",
+      "Node.js",
+      "TypeScript"
+    ],
+    "date": "2024-05-01",
+    "evidence_case_id": "sample-web-dev-case-013"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-113",
+    "job_title": "Production GraphQL Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 430.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "GraphQL",
+      "FastAPI",
+      "Next.js"
+    ],
+    "date": "2024-06-02",
+    "evidence_case_id": "sample-web-dev-case-014"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-114",
+    "job_title": "Production REST APIs Implementation for SaaS Platform",
+    "outcome": "won",
+    "bid_amount_usd": 890.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: REST APIs, Next.js, TailwindCSS with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "REST APIs",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "date": "2024-07-03",
+    "evidence_case_id": "sample-web-dev-case-015"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-115",
+    "job_title": "Production TypeScript Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 520.0,
+    "cover_letter": "I noticed your requirement for TypeScript, Python, Node.js. In my previous work with Media clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "TypeScript",
+      "Python",
+      "Node.js"
+    ],
+    "date": "2024-08-04",
+    "evidence_case_id": "sample-web-dev-case-016"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-116",
+    "job_title": "Production Docker Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1020.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Docker",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "date": "2024-09-05",
+    "evidence_case_id": "sample-web-dev-case-017"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-117",
+    "job_title": "Production Python Implementation for HealthTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 740.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Python, React, TypeScript. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Python",
+      "React",
+      "TypeScript"
+    ],
+    "date": "2024-10-06",
+    "evidence_case_id": "sample-web-dev-case-018"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-118",
+    "job_title": "Production TailwindCSS Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1120.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "TailwindCSS",
+      "React",
+      "GraphQL"
+    ],
+    "date": "2024-11-07",
+    "evidence_case_id": "sample-web-dev-case-019"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-119",
+    "job_title": "Production Redis Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "Having built production Redis, TypeScript, REST APIs systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Redis",
+      "TypeScript",
+      "REST APIs"
+    ],
+    "date": "2024-12-08",
+    "evidence_case_id": "sample-web-dev-case-020"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-120",
+    "job_title": "Production Python Implementation for Logistics Platform",
+    "outcome": "won",
+    "bid_amount_usd": 680.0,
+    "cover_letter": "I recently resolved this exact problem for a Logistics client by implementing Python, PostgreSQL, TypeScript, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Python",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "date": "2024-01-09",
+    "evidence_case_id": "sample-web-dev-case-001"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-121",
+    "job_title": "Production PostgreSQL Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 1180.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "PostgreSQL",
+      "Next.js",
+      "React"
+    ],
+    "date": "2024-02-10",
+    "evidence_case_id": "sample-web-dev-case-002"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-122",
+    "job_title": "Production Redis Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1190.0,
+    "cover_letter": "I recently resolved this exact problem for a Media client by implementing Redis, REST APIs, GraphQL, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "Redis",
+      "REST APIs",
+      "GraphQL"
+    ],
+    "date": "2024-03-11",
+    "evidence_case_id": "sample-web-dev-case-003"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-123",
+    "job_title": "Production TypeScript Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 910.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "date": "2024-04-12",
+    "evidence_case_id": "sample-web-dev-case-004"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-124",
+    "job_title": "Production Python Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 450.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Python",
+      "TypeScript",
+      "FastAPI"
+    ],
+    "date": "2024-05-13",
+    "evidence_case_id": "sample-web-dev-case-005"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-125",
+    "job_title": "Production REST APIs Implementation for Media Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 870.0,
+    "cover_letter": "I noticed your requirement for REST APIs, GraphQL, React. In my previous work with Media clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "REST APIs",
+      "GraphQL",
+      "React"
+    ],
+    "date": "2024-06-14",
+    "evidence_case_id": "sample-web-dev-case-006"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-126",
+    "job_title": "Production Next.js Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 670.0,
+    "cover_letter": "Your project caught my attention because Next.js, TypeScript, FastAPI is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Next.js",
+      "TypeScript",
+      "FastAPI"
+    ],
+    "date": "2024-07-15",
+    "evidence_case_id": "sample-web-dev-case-007"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-127",
+    "job_title": "Production Next.js Implementation for EdTech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 780.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "Next.js",
+      "GraphQL",
+      "TailwindCSS"
+    ],
+    "date": "2024-08-16",
+    "evidence_case_id": "sample-web-dev-case-008"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-128",
+    "job_title": "Production Next.js Implementation for Fintech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 630.0,
+    "cover_letter": "I noticed your requirement for Next.js, React, TailwindCSS. In my previous work with Fintech clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Next.js",
+      "React",
+      "TailwindCSS"
+    ],
+    "date": "2024-09-17",
+    "evidence_case_id": "sample-web-dev-case-009"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-129",
+    "job_title": "Production Node.js Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 810.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Node.js, TypeScript, FastAPI. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Node.js",
+      "TypeScript",
+      "FastAPI"
+    ],
+    "date": "2024-10-18",
+    "evidence_case_id": "sample-web-dev-case-010"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-130",
+    "job_title": "Production TailwindCSS Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 920.0,
+    "cover_letter": "Having built production TailwindCSS, Python, TypeScript systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "TailwindCSS",
+      "Python",
+      "TypeScript"
+    ],
+    "date": "2024-11-19",
+    "evidence_case_id": "sample-web-dev-case-011"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-131",
+    "job_title": "Production FastAPI Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 500.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "FastAPI",
+      "TypeScript",
+      "REST APIs"
+    ],
+    "date": "2024-12-20",
+    "evidence_case_id": "sample-web-dev-case-012"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-132",
+    "job_title": "Production PostgreSQL Implementation for SaaS Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 670.0,
+    "cover_letter": "Your project caught my attention because PostgreSQL, REST APIs, TailwindCSS is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "PostgreSQL",
+      "REST APIs",
+      "TailwindCSS"
+    ],
+    "date": "2024-01-21",
+    "evidence_case_id": "sample-web-dev-case-013"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-133",
+    "job_title": "Production TailwindCSS Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 820.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in TailwindCSS, REST APIs, FastAPI. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "TailwindCSS",
+      "REST APIs",
+      "FastAPI"
+    ],
+    "date": "2024-02-22",
+    "evidence_case_id": "sample-web-dev-case-014"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-134",
+    "job_title": "Production REST APIs Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 880.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in REST APIs, PostgreSQL, React. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "REST APIs",
+      "PostgreSQL",
+      "React"
+    ],
+    "date": "2024-03-23",
+    "evidence_case_id": "sample-web-dev-case-015"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-135",
+    "job_title": "Production Redis Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 460.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in Redis, Python, FastAPI. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "Redis",
+      "Python",
+      "FastAPI"
+    ],
+    "date": "2024-04-24",
+    "evidence_case_id": "sample-web-dev-case-016"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-136",
+    "job_title": "Production Python Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 970.0,
+    "cover_letter": "I would be glad to help build this. My background in Python, REST APIs, TailwindCSS covers exactly these deliverables. When are you available for a brief sync?",
+    "relevance_skills": [
+      "Python",
+      "REST APIs",
+      "TailwindCSS"
+    ],
+    "date": "2024-05-25",
+    "evidence_case_id": "sample-web-dev-case-017"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-137",
+    "job_title": "Production REST APIs Implementation for SaaS Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 430.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in REST APIs, TailwindCSS, FastAPI. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "REST APIs",
+      "TailwindCSS",
+      "FastAPI"
+    ],
+    "date": "2024-06-26",
+    "evidence_case_id": "sample-web-dev-case-018"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-138",
+    "job_title": "Production Docker Implementation for EdTech Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 1180.0,
+    "cover_letter": "Your project caught my attention because Docker, PostgreSQL, Python is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "Docker",
+      "PostgreSQL",
+      "Python"
+    ],
+    "date": "2024-07-27",
+    "evidence_case_id": "sample-web-dev-case-019"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-139",
+    "job_title": "Production React Implementation for E-Commerce Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 810.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in React, GraphQL, PostgreSQL. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "React",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "date": "2024-08-28",
+    "evidence_case_id": "sample-web-dev-case-020"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-140",
+    "job_title": "Production GraphQL Implementation for HealthTech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 1080.0,
+    "cover_letter": "Having built production GraphQL, Next.js, TypeScript systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "GraphQL",
+      "Next.js",
+      "TypeScript"
+    ],
+    "date": "2024-09-01",
+    "evidence_case_id": "sample-web-dev-case-001"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-141",
+    "job_title": "Production TailwindCSS Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 590.0,
+    "cover_letter": "Having built production TailwindCSS, TypeScript, Next.js systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "TailwindCSS",
+      "TypeScript",
+      "Next.js"
+    ],
+    "date": "2024-10-02",
+    "evidence_case_id": "sample-web-dev-case-002"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-142",
+    "job_title": "Production FastAPI Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 430.0,
+    "cover_letter": "Hi, I read your job post. I am an expert in everything required. Send me a message so we can discuss the price.",
+    "relevance_skills": [
+      "FastAPI",
+      "REST APIs",
+      "PostgreSQL"
+    ],
+    "date": "2024-11-03",
+    "evidence_case_id": "sample-web-dev-case-003"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-143",
+    "job_title": "Production GraphQL Implementation for E-Commerce Platform",
+    "outcome": "won",
+    "bid_amount_usd": 760.0,
+    "cover_letter": "I recently resolved this exact problem for a E-Commerce client by implementing GraphQL, TailwindCSS, FastAPI, achieving 35% latency reduction and zero downtime. Here is how we will structure your project:",
+    "relevance_skills": [
+      "GraphQL",
+      "TailwindCSS",
+      "FastAPI"
+    ],
+    "date": "2024-12-04",
+    "evidence_case_id": "sample-web-dev-case-004"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-144",
+    "job_title": "Production Docker Implementation for E-Commerce Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 720.0,
+    "cover_letter": "I noticed your requirement for Docker, Next.js, Redis. In my previous work with E-Commerce clients, we tackled this with a modular pipeline with comprehensive unit and contract tests. What is your current deployment setup?",
+    "relevance_skills": [
+      "Docker",
+      "Next.js",
+      "Redis"
+    ],
+    "date": "2024-01-05",
+    "evidence_case_id": "sample-web-dev-case-005"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-145",
+    "job_title": "Production Python Implementation for Fintech Platform",
+    "outcome": "won",
+    "bid_amount_usd": 990.0,
+    "cover_letter": "Having built production Python, Node.js, React systems handling high throughput, I reviewed your spec and can deliver a clean, tested implementation within your timeline.",
+    "relevance_skills": [
+      "Python",
+      "Node.js",
+      "React"
+    ],
+    "date": "2024-02-06",
+    "evidence_case_id": "sample-web-dev-case-006"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-146",
+    "job_title": "Production Redis Implementation for Fintech Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 610.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "Redis",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "date": "2024-03-07",
+    "evidence_case_id": "sample-web-dev-case-007"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-147",
+    "job_title": "Production REST APIs Implementation for Logistics Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 630.0,
+    "cover_letter": "Hello, I have 10 years experience in software development and I can complete this task easily. Looking forward to working with you.",
+    "relevance_skills": [
+      "REST APIs",
+      "TailwindCSS",
+      "Node.js"
+    ],
+    "date": "2024-04-08",
+    "evidence_case_id": "sample-web-dev-case-008"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-148",
+    "job_title": "Production Node.js Implementation for Media Platform",
+    "outcome": "won",
+    "bid_amount_usd": 460.0,
+    "cover_letter": "Your requirements directly match a system I deployed last quarter: Node.js, React, Next.js with verified benchmark performance. Here is my 3-step execution plan:",
+    "relevance_skills": [
+      "Node.js",
+      "React",
+      "Next.js"
+    ],
+    "date": "2024-05-09",
+    "evidence_case_id": "sample-web-dev-case-009"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-149",
+    "job_title": "Production REST APIs Implementation for Media Platform",
+    "outcome": "ignored",
+    "bid_amount_usd": 950.0,
+    "cover_letter": "Dear Hiring Manager, I am a professional developer with great experience in REST APIs, TailwindCSS, React. I can do your job quickly and cheaply. Please hire me.",
+    "relevance_skills": [
+      "REST APIs",
+      "TailwindCSS",
+      "React"
+    ],
+    "date": "2024-06-10",
+    "evidence_case_id": "sample-web-dev-case-010"
+  },
+  {
+    "proposal_id": "sample-web-dev-prop-150",
+    "job_title": "Production GraphQL Implementation for Logistics Platform",
+    "outcome": "replied",
+    "bid_amount_usd": 830.0,
+    "cover_letter": "Your project caught my attention because GraphQL, FastAPI, React is my core focus. I have a few specific questions regarding your data volume and architecture:",
+    "relevance_skills": [
+      "GraphQL",
+      "FastAPI",
+      "React"
+    ],
+    "date": "2024-07-11",
+    "evidence_case_id": "sample-web-dev-case-011"
+  }
+]

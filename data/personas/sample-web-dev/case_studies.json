@@ -1,0 +1,338 @@
+[
+  {
+    "id": "sample-web-dev-case-001",
+    "title": "Real-Time Logistics Tracking Dashboard (Phase 1)",
+    "client_industry": "Logistics",
+    "skills": [
+      "TypeScript",
+      "Next.js",
+      "FastAPI",
+      "WebSockets",
+      "TailwindCSS"
+    ],
+    "problem": "Fleet managers lacked live visibility into 1,200 active freight trucks across 4 states.",
+    "solution": "Architected a Next.js 14 frontend with map rendering and FastAPI SSE streaming server.",
+    "outcome_metrics": "Streamed sub-second telemetry updates with 99.98% uptime; reduced dispatch inquiry tickets by 45%.",
+    "date": "2024-02-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/real-time-logistics-tracking-dashboard"
+  },
+  {
+    "id": "sample-web-dev-case-002",
+    "title": "Multi-Tenant B2B SaaS Billing Platform (Phase 1)",
+    "client_industry": "Fintech",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Stripe"
+    ],
+    "problem": "SaaS startup had manual billing workflows resulting in 18% delayed invoice collections.",
+    "solution": "Engineered automated Stripe Billing integration with webhooks, seat management, and usage metering.",
+    "outcome_metrics": "Automated 100% of recurring invoicing; reduced dunning churn by 28% within 90 days.",
+    "date": "2024-03-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/multi-tenant-b2b-saas-billing-platform"
+  },
+  {
+    "id": "sample-web-dev-case-003",
+    "title": "High-Performance E-Commerce Headless Storefront (Phase 1)",
+    "client_industry": "Retail",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "GraphQL",
+      "Shopify Storefront API"
+    ],
+    "problem": "Legacy monolithic storefront suffered 4.8s mobile load times and 68% bounce rates.",
+    "solution": "Built headless Next.js frontend with Incremental Static Regeneration (ISR) and Edge caching.",
+    "outcome_metrics": "Lighthouse performance score jumped from 38 to 96; mobile checkout conversion rose by 32%.",
+    "date": "2024-04-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/high-performance-e-commerce-headless-storefront"
+  },
+  {
+    "id": "sample-web-dev-case-004",
+    "title": "HIPAA-Compliant Patient Portal (Phase 1)",
+    "client_industry": "Healthcare",
+    "skills": [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "problem": "Medical practice needed secure patient appointment booking, messaging, and lab records portal.",
+    "solution": "Implemented AES-256 encrypted fields, OAuth2/OIDC role-based access control, and audit trail logging.",
+    "outcome_metrics": "Onboarded 8,500 active patients in 6 months with zero security findings in SOC2 audit.",
+    "date": "2024-05-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/hipaa-compliant-patient-portal"
+  },
+  {
+    "id": "sample-web-dev-case-005",
+    "title": "Collaborative Document Annotation Canvas (Phase 1)",
+    "client_industry": "EdTech",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Canvas API",
+      "Redis",
+      "WebSockets"
+    ],
+    "problem": "Teachers needed interactive live PDF grading and markup tool for remote classrooms.",
+    "solution": "Engineered WebSockets synchronization layer with CRDT conflict resolution on HTML5 Canvas.",
+    "outcome_metrics": "Handled 50 simultaneous student drawing streams per session at 60fps with zero desync.",
+    "date": "2024-06-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/collaborative-document-annotation-canvas"
+  },
+  {
+    "id": "sample-web-dev-case-006",
+    "title": "Real-Time Logistics Tracking Dashboard (Phase 2)",
+    "client_industry": "Logistics",
+    "skills": [
+      "TypeScript",
+      "Next.js",
+      "FastAPI",
+      "WebSockets",
+      "TailwindCSS"
+    ],
+    "problem": "Fleet managers lacked live visibility into 1,200 active freight trucks across 4 states.",
+    "solution": "Architected a Next.js 14 frontend with map rendering and FastAPI SSE streaming server.",
+    "outcome_metrics": "Streamed sub-second telemetry updates with 99.98% uptime; reduced dispatch inquiry tickets by 45%.",
+    "date": "2024-07-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/real-time-logistics-tracking-dashboard"
+  },
+  {
+    "id": "sample-web-dev-case-007",
+    "title": "Multi-Tenant B2B SaaS Billing Platform (Phase 2)",
+    "client_industry": "Fintech",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Stripe"
+    ],
+    "problem": "SaaS startup had manual billing workflows resulting in 18% delayed invoice collections.",
+    "solution": "Engineered automated Stripe Billing integration with webhooks, seat management, and usage metering.",
+    "outcome_metrics": "Automated 100% of recurring invoicing; reduced dunning churn by 28% within 90 days.",
+    "date": "2024-08-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/multi-tenant-b2b-saas-billing-platform"
+  },
+  {
+    "id": "sample-web-dev-case-008",
+    "title": "High-Performance E-Commerce Headless Storefront (Phase 2)",
+    "client_industry": "Retail",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "GraphQL",
+      "Shopify Storefront API"
+    ],
+    "problem": "Legacy monolithic storefront suffered 4.8s mobile load times and 68% bounce rates.",
+    "solution": "Built headless Next.js frontend with Incremental Static Regeneration (ISR) and Edge caching.",
+    "outcome_metrics": "Lighthouse performance score jumped from 38 to 96; mobile checkout conversion rose by 32%.",
+    "date": "2024-09-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/high-performance-e-commerce-headless-storefront"
+  },
+  {
+    "id": "sample-web-dev-case-009",
+    "title": "HIPAA-Compliant Patient Portal (Phase 2)",
+    "client_industry": "Healthcare",
+    "skills": [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "problem": "Medical practice needed secure patient appointment booking, messaging, and lab records portal.",
+    "solution": "Implemented AES-256 encrypted fields, OAuth2/OIDC role-based access control, and audit trail logging.",
+    "outcome_metrics": "Onboarded 8,500 active patients in 6 months with zero security findings in SOC2 audit.",
+    "date": "2024-10-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/hipaa-compliant-patient-portal"
+  },
+  {
+    "id": "sample-web-dev-case-010",
+    "title": "Collaborative Document Annotation Canvas (Phase 2)",
+    "client_industry": "EdTech",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Canvas API",
+      "Redis",
+      "WebSockets"
+    ],
+    "problem": "Teachers needed interactive live PDF grading and markup tool for remote classrooms.",
+    "solution": "Engineered WebSockets synchronization layer with CRDT conflict resolution on HTML5 Canvas.",
+    "outcome_metrics": "Handled 50 simultaneous student drawing streams per session at 60fps with zero desync.",
+    "date": "2024-11-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/collaborative-document-annotation-canvas"
+  },
+  {
+    "id": "sample-web-dev-case-011",
+    "title": "Real-Time Logistics Tracking Dashboard (Phase 3)",
+    "client_industry": "Logistics",
+    "skills": [
+      "TypeScript",
+      "Next.js",
+      "FastAPI",
+      "WebSockets",
+      "TailwindCSS"
+    ],
+    "problem": "Fleet managers lacked live visibility into 1,200 active freight trucks across 4 states.",
+    "solution": "Architected a Next.js 14 frontend with map rendering and FastAPI SSE streaming server.",
+    "outcome_metrics": "Streamed sub-second telemetry updates with 99.98% uptime; reduced dispatch inquiry tickets by 45%.",
+    "date": "2024-12-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/real-time-logistics-tracking-dashboard"
+  },
+  {
+    "id": "sample-web-dev-case-012",
+    "title": "Multi-Tenant B2B SaaS Billing Platform (Phase 3)",
+    "client_industry": "Fintech",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Stripe"
+    ],
+    "problem": "SaaS startup had manual billing workflows resulting in 18% delayed invoice collections.",
+    "solution": "Engineered automated Stripe Billing integration with webhooks, seat management, and usage metering.",
+    "outcome_metrics": "Automated 100% of recurring invoicing; reduced dunning churn by 28% within 90 days.",
+    "date": "2024-01-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/multi-tenant-b2b-saas-billing-platform"
+  },
+  {
+    "id": "sample-web-dev-case-013",
+    "title": "High-Performance E-Commerce Headless Storefront (Phase 3)",
+    "client_industry": "Retail",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "GraphQL",
+      "Shopify Storefront API"
+    ],
+    "problem": "Legacy monolithic storefront suffered 4.8s mobile load times and 68% bounce rates.",
+    "solution": "Built headless Next.js frontend with Incremental Static Regeneration (ISR) and Edge caching.",
+    "outcome_metrics": "Lighthouse performance score jumped from 38 to 96; mobile checkout conversion rose by 32%.",
+    "date": "2024-02-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/high-performance-e-commerce-headless-storefront"
+  },
+  {
+    "id": "sample-web-dev-case-014",
+    "title": "HIPAA-Compliant Patient Portal (Phase 3)",
+    "client_industry": "Healthcare",
+    "skills": [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "problem": "Medical practice needed secure patient appointment booking, messaging, and lab records portal.",
+    "solution": "Implemented AES-256 encrypted fields, OAuth2/OIDC role-based access control, and audit trail logging.",
+    "outcome_metrics": "Onboarded 8,500 active patients in 6 months with zero security findings in SOC2 audit.",
+    "date": "2024-03-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/hipaa-compliant-patient-portal"
+  },
+  {
+    "id": "sample-web-dev-case-015",
+    "title": "Collaborative Document Annotation Canvas (Phase 3)",
+    "client_industry": "EdTech",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Canvas API",
+      "Redis",
+      "WebSockets"
+    ],
+    "problem": "Teachers needed interactive live PDF grading and markup tool for remote classrooms.",
+    "solution": "Engineered WebSockets synchronization layer with CRDT conflict resolution on HTML5 Canvas.",
+    "outcome_metrics": "Handled 50 simultaneous student drawing streams per session at 60fps with zero desync.",
+    "date": "2024-04-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/collaborative-document-annotation-canvas"
+  },
+  {
+    "id": "sample-web-dev-case-016",
+    "title": "Real-Time Logistics Tracking Dashboard (Phase 4)",
+    "client_industry": "Logistics",
+    "skills": [
+      "TypeScript",
+      "Next.js",
+      "FastAPI",
+      "WebSockets",
+      "TailwindCSS"
+    ],
+    "problem": "Fleet managers lacked live visibility into 1,200 active freight trucks across 4 states.",
+    "solution": "Architected a Next.js 14 frontend with map rendering and FastAPI SSE streaming server.",
+    "outcome_metrics": "Streamed sub-second telemetry updates with 99.98% uptime; reduced dispatch inquiry tickets by 45%.",
+    "date": "2024-05-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/real-time-logistics-tracking-dashboard"
+  },
+  {
+    "id": "sample-web-dev-case-017",
+    "title": "Multi-Tenant B2B SaaS Billing Platform (Phase 4)",
+    "client_industry": "Fintech",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Stripe"
+    ],
+    "problem": "SaaS startup had manual billing workflows resulting in 18% delayed invoice collections.",
+    "solution": "Engineered automated Stripe Billing integration with webhooks, seat management, and usage metering.",
+    "outcome_metrics": "Automated 100% of recurring invoicing; reduced dunning churn by 28% within 90 days.",
+    "date": "2024-06-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/multi-tenant-b2b-saas-billing-platform"
+  },
+  {
+    "id": "sample-web-dev-case-018",
+    "title": "High-Performance E-Commerce Headless Storefront (Phase 4)",
+    "client_industry": "Retail",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "GraphQL",
+      "Shopify Storefront API"
+    ],
+    "problem": "Legacy monolithic storefront suffered 4.8s mobile load times and 68% bounce rates.",
+    "solution": "Built headless Next.js frontend with Incremental Static Regeneration (ISR) and Edge caching.",
+    "outcome_metrics": "Lighthouse performance score jumped from 38 to 96; mobile checkout conversion rose by 32%.",
+    "date": "2024-07-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/high-performance-e-commerce-headless-storefront"
+  },
+  {
+    "id": "sample-web-dev-case-019",
+    "title": "HIPAA-Compliant Patient Portal (Phase 4)",
+    "client_industry": "Healthcare",
+    "skills": [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "problem": "Medical practice needed secure patient appointment booking, messaging, and lab records portal.",
+    "solution": "Implemented AES-256 encrypted fields, OAuth2/OIDC role-based access control, and audit trail logging.",
+    "outcome_metrics": "Onboarded 8,500 active patients in 6 months with zero security findings in SOC2 audit.",
+    "date": "2024-08-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/hipaa-compliant-patient-portal"
+  },
+  {
+    "id": "sample-web-dev-case-020",
+    "title": "Collaborative Document Annotation Canvas (Phase 4)",
+    "client_industry": "EdTech",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Canvas API",
+      "Redis",
+      "WebSockets"
+    ],
+    "problem": "Teachers needed interactive live PDF grading and markup tool for remote classrooms.",
+    "solution": "Engineered WebSockets synchronization layer with CRDT conflict resolution on HTML5 Canvas.",
+    "outcome_metrics": "Handled 50 simultaneous student drawing streams per session at 60fps with zero desync.",
+    "date": "2024-09-15",
+    "repo_url": "https://github.com/gigbid-sample-web-dev/collaborative-document-annotation-canvas"
+  }
+]

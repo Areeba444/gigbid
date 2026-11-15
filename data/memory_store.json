@@ -1,0 +1,42 @@
+{
+  "style_memory": [
+    {
+      "id": "style-001",
+      "rule": "Never include opening pleasantries like 'Dear Hiring Manager' or 'Hope you are well'. Hook straight into relevant technical delivery.",
+      "created_at": 1794649281.8047924,
+      "confidence": 0.95,
+      "source": "repeated_user_edit"
+    },
+    {
+      "id": "style-002",
+      "rule": "Always explicitly name the database/framework version (e.g., 'FastAPI 0.115', 'LangGraph 1.2') when quoting architecture.",
+      "created_at": 1794692481.8047924,
+      "confidence": 0.88,
+      "source": "user_explicit_preference"
+    }
+  ],
+  "outcome_memory": [
+    {
+      "id": "out-001",
+      "category": "AI/ML & LLMs",
+      "winning_features": [
+        "hybrid BM25+dense citation",
+        "benchmark latency under 300ms",
+        "vLLM experience"
+      ],
+      "optimal_bid_ratio": 0.95,
+      "reply_rate": 0.68
+    },
+    {
+      "id": "out-002",
+      "category": "Full-Stack Web Development",
+      "winning_features": [
+        "Next.js App router",
+        "SSE streaming proof",
+        "PostgreSQL schema sample"
+      ],
+      "optimal_bid_ratio": 0.9,
+      "reply_rate": 0.62
+    }
+  ]
+}

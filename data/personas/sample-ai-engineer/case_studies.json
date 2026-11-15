@@ -1,0 +1,334 @@
+[
+  {
+    "id": "sample-ai-engineer-case-001",
+    "title": "Enterprise Multi-Document RAG Engine (Phase 1)",
+    "client_industry": "Fintech",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "LangGraph",
+      "ChromaDB",
+      "bge-reranker"
+    ],
+    "problem": "Client had 15,000 regulatory compliance PDFs with poor searchability and 35% hallucination rate.",
+    "solution": "Designed hybrid BM25 + dense retrieval with Cross-Encoder reranking and citation-claim verification pipeline.",
+    "outcome_metrics": "Reduced hallucination to <1.5%, boosted retrieval Recall@5 from 62% to 94.2%, saved 400 hours/month of analyst time.",
+    "date": "2024-02-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/enterprise-multi-document-rag-engine"
+  },
+  {
+    "id": "sample-ai-engineer-case-002",
+    "title": "Customer Churn Prediction Baseline & API (Phase 1)",
+    "client_industry": "Telecom",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "FastAPI",
+      "Docker",
+      "XGBoost"
+    ],
+    "problem": "Telecom provider experiencing 12% annual subscriber churn without early-warning signals.",
+    "solution": "Engineered 45 behavioral features from raw call/billing logs, trained tuned XGBoost model with SHAP explanations.",
+    "outcome_metrics": "Achieved 0.88 ROC-AUC, 81% precision in identifying high-risk churners 30 days prior to cancellation.",
+    "date": "2024-03-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/customer-churn-prediction-baseline-&-api"
+  },
+  {
+    "id": "sample-ai-engineer-case-003",
+    "title": "Local vLLM Inference Gateway with Rate Limiting (Phase 1)",
+    "client_industry": "HealthTech",
+    "skills": [
+      "Python",
+      "vLLM",
+      "Docker",
+      "FastAPI",
+      "Redis"
+    ],
+    "problem": "Client needed HIPAA-compliant on-premises LLM serving without external API egress.",
+    "solution": "Deployed dual RTX 4090 vLLM cluster with continuous batching and token-bucket rate limiting.",
+    "outcome_metrics": "Achieved 145 tokens/sec throughput with p95 latency under 220ms; zero data leakage.",
+    "date": "2024-04-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/local-vllm-inference-gateway-with-rate-limiting"
+  },
+  {
+    "id": "sample-ai-engineer-case-004",
+    "title": "Automated Code Review Agent with LangGraph (Phase 1)",
+    "client_industry": "DevTools",
+    "skills": [
+      "Python",
+      "LangGraph",
+      "GitHub API",
+      "OpenAI"
+    ],
+    "problem": "PRs waiting 48 hours for preliminary lint, security, and schema reviews.",
+    "solution": "Built multi-agent reviewer graph with parallel security, type, and style critique loops.",
+    "outcome_metrics": "Cut median PR turnaround time by 60%; caught 94% of syntax/schema regressions prior to human review.",
+    "date": "2024-05-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/automated-code-review-agent-with-langgraph"
+  },
+  {
+    "id": "sample-ai-engineer-case-005",
+    "title": "E-Commerce Semantic Search & Re-ranking (Phase 1)",
+    "client_industry": "Retail",
+    "skills": [
+      "Python",
+      "Qdrant",
+      "SentenceTransformers",
+      "FastAPI"
+    ],
+    "problem": "Standard keyword search yielded 28% zero-result queries on long-tail product queries.",
+    "solution": "Built bi-encoder embeddings with reciprocal rank fusion with existing Elasticsearch index.",
+    "outcome_metrics": "Zero-result queries dropped to 2.1%; search-to-cart conversion increased by 19.4%.",
+    "date": "2024-06-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/e-commerce-semantic-search-&-re-ranking"
+  },
+  {
+    "id": "sample-ai-engineer-case-006",
+    "title": "Enterprise Multi-Document RAG Engine (Phase 2)",
+    "client_industry": "Fintech",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "LangGraph",
+      "ChromaDB",
+      "bge-reranker"
+    ],
+    "problem": "Client had 15,000 regulatory compliance PDFs with poor searchability and 35% hallucination rate.",
+    "solution": "Designed hybrid BM25 + dense retrieval with Cross-Encoder reranking and citation-claim verification pipeline.",
+    "outcome_metrics": "Reduced hallucination to <1.5%, boosted retrieval Recall@5 from 62% to 94.2%, saved 400 hours/month of analyst time.",
+    "date": "2024-07-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/enterprise-multi-document-rag-engine"
+  },
+  {
+    "id": "sample-ai-engineer-case-007",
+    "title": "Customer Churn Prediction Baseline & API (Phase 2)",
+    "client_industry": "Telecom",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "FastAPI",
+      "Docker",
+      "XGBoost"
+    ],
+    "problem": "Telecom provider experiencing 12% annual subscriber churn without early-warning signals.",
+    "solution": "Engineered 45 behavioral features from raw call/billing logs, trained tuned XGBoost model with SHAP explanations.",
+    "outcome_metrics": "Achieved 0.88 ROC-AUC, 81% precision in identifying high-risk churners 30 days prior to cancellation.",
+    "date": "2024-08-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/customer-churn-prediction-baseline-&-api"
+  },
+  {
+    "id": "sample-ai-engineer-case-008",
+    "title": "Local vLLM Inference Gateway with Rate Limiting (Phase 2)",
+    "client_industry": "HealthTech",
+    "skills": [
+      "Python",
+      "vLLM",
+      "Docker",
+      "FastAPI",
+      "Redis"
+    ],
+    "problem": "Client needed HIPAA-compliant on-premises LLM serving without external API egress.",
+    "solution": "Deployed dual RTX 4090 vLLM cluster with continuous batching and token-bucket rate limiting.",
+    "outcome_metrics": "Achieved 145 tokens/sec throughput with p95 latency under 220ms; zero data leakage.",
+    "date": "2024-09-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/local-vllm-inference-gateway-with-rate-limiting"
+  },
+  {
+    "id": "sample-ai-engineer-case-009",
+    "title": "Automated Code Review Agent with LangGraph (Phase 2)",
+    "client_industry": "DevTools",
+    "skills": [
+      "Python",
+      "LangGraph",
+      "GitHub API",
+      "OpenAI"
+    ],
+    "problem": "PRs waiting 48 hours for preliminary lint, security, and schema reviews.",
+    "solution": "Built multi-agent reviewer graph with parallel security, type, and style critique loops.",
+    "outcome_metrics": "Cut median PR turnaround time by 60%; caught 94% of syntax/schema regressions prior to human review.",
+    "date": "2024-10-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/automated-code-review-agent-with-langgraph"
+  },
+  {
+    "id": "sample-ai-engineer-case-010",
+    "title": "E-Commerce Semantic Search & Re-ranking (Phase 2)",
+    "client_industry": "Retail",
+    "skills": [
+      "Python",
+      "Qdrant",
+      "SentenceTransformers",
+      "FastAPI"
+    ],
+    "problem": "Standard keyword search yielded 28% zero-result queries on long-tail product queries.",
+    "solution": "Built bi-encoder embeddings with reciprocal rank fusion with existing Elasticsearch index.",
+    "outcome_metrics": "Zero-result queries dropped to 2.1%; search-to-cart conversion increased by 19.4%.",
+    "date": "2024-11-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/e-commerce-semantic-search-&-re-ranking"
+  },
+  {
+    "id": "sample-ai-engineer-case-011",
+    "title": "Enterprise Multi-Document RAG Engine (Phase 3)",
+    "client_industry": "Fintech",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "LangGraph",
+      "ChromaDB",
+      "bge-reranker"
+    ],
+    "problem": "Client had 15,000 regulatory compliance PDFs with poor searchability and 35% hallucination rate.",
+    "solution": "Designed hybrid BM25 + dense retrieval with Cross-Encoder reranking and citation-claim verification pipeline.",
+    "outcome_metrics": "Reduced hallucination to <1.5%, boosted retrieval Recall@5 from 62% to 94.2%, saved 400 hours/month of analyst time.",
+    "date": "2024-12-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/enterprise-multi-document-rag-engine"
+  },
+  {
+    "id": "sample-ai-engineer-case-012",
+    "title": "Customer Churn Prediction Baseline & API (Phase 3)",
+    "client_industry": "Telecom",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "FastAPI",
+      "Docker",
+      "XGBoost"
+    ],
+    "problem": "Telecom provider experiencing 12% annual subscriber churn without early-warning signals.",
+    "solution": "Engineered 45 behavioral features from raw call/billing logs, trained tuned XGBoost model with SHAP explanations.",
+    "outcome_metrics": "Achieved 0.88 ROC-AUC, 81% precision in identifying high-risk churners 30 days prior to cancellation.",
+    "date": "2024-01-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/customer-churn-prediction-baseline-&-api"
+  },
+  {
+    "id": "sample-ai-engineer-case-013",
+    "title": "Local vLLM Inference Gateway with Rate Limiting (Phase 3)",
+    "client_industry": "HealthTech",
+    "skills": [
+      "Python",
+      "vLLM",
+      "Docker",
+      "FastAPI",
+      "Redis"
+    ],
+    "problem": "Client needed HIPAA-compliant on-premises LLM serving without external API egress.",
+    "solution": "Deployed dual RTX 4090 vLLM cluster with continuous batching and token-bucket rate limiting.",
+    "outcome_metrics": "Achieved 145 tokens/sec throughput with p95 latency under 220ms; zero data leakage.",
+    "date": "2024-02-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/local-vllm-inference-gateway-with-rate-limiting"
+  },
+  {
+    "id": "sample-ai-engineer-case-014",
+    "title": "Automated Code Review Agent with LangGraph (Phase 3)",
+    "client_industry": "DevTools",
+    "skills": [
+      "Python",
+      "LangGraph",
+      "GitHub API",
+      "OpenAI"
+    ],
+    "problem": "PRs waiting 48 hours for preliminary lint, security, and schema reviews.",
+    "solution": "Built multi-agent reviewer graph with parallel security, type, and style critique loops.",
+    "outcome_metrics": "Cut median PR turnaround time by 60%; caught 94% of syntax/schema regressions prior to human review.",
+    "date": "2024-03-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/automated-code-review-agent-with-langgraph"
+  },
+  {
+    "id": "sample-ai-engineer-case-015",
+    "title": "E-Commerce Semantic Search & Re-ranking (Phase 3)",
+    "client_industry": "Retail",
+    "skills": [
+      "Python",
+      "Qdrant",
+      "SentenceTransformers",
+      "FastAPI"
+    ],
+    "problem": "Standard keyword search yielded 28% zero-result queries on long-tail product queries.",
+    "solution": "Built bi-encoder embeddings with reciprocal rank fusion with existing Elasticsearch index.",
+    "outcome_metrics": "Zero-result queries dropped to 2.1%; search-to-cart conversion increased by 19.4%.",
+    "date": "2024-04-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/e-commerce-semantic-search-&-re-ranking"
+  },
+  {
+    "id": "sample-ai-engineer-case-016",
+    "title": "Enterprise Multi-Document RAG Engine (Phase 4)",
+    "client_industry": "Fintech",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "LangGraph",
+      "ChromaDB",
+      "bge-reranker"
+    ],
+    "problem": "Client had 15,000 regulatory compliance PDFs with poor searchability and 35% hallucination rate.",
+    "solution": "Designed hybrid BM25 + dense retrieval with Cross-Encoder reranking and citation-claim verification pipeline.",
+    "outcome_metrics": "Reduced hallucination to <1.5%, boosted retrieval Recall@5 from 62% to 94.2%, saved 400 hours/month of analyst time.",
+    "date": "2024-05-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/enterprise-multi-document-rag-engine"
+  },
+  {
+    "id": "sample-ai-engineer-case-017",
+    "title": "Customer Churn Prediction Baseline & API (Phase 4)",
+    "client_industry": "Telecom",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "FastAPI",
+      "Docker",
+      "XGBoost"
+    ],
+    "problem": "Telecom provider experiencing 12% annual subscriber churn without early-warning signals.",
+    "solution": "Engineered 45 behavioral features from raw call/billing logs, trained tuned XGBoost model with SHAP explanations.",
+    "outcome_metrics": "Achieved 0.88 ROC-AUC, 81% precision in identifying high-risk churners 30 days prior to cancellation.",
+    "date": "2024-06-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/customer-churn-prediction-baseline-&-api"
+  },
+  {
+    "id": "sample-ai-engineer-case-018",
+    "title": "Local vLLM Inference Gateway with Rate Limiting (Phase 4)",
+    "client_industry": "HealthTech",
+    "skills": [
+      "Python",
+      "vLLM",
+      "Docker",
+      "FastAPI",
+      "Redis"
+    ],
+    "problem": "Client needed HIPAA-compliant on-premises LLM serving without external API egress.",
+    "solution": "Deployed dual RTX 4090 vLLM cluster with continuous batching and token-bucket rate limiting.",
+    "outcome_metrics": "Achieved 145 tokens/sec throughput with p95 latency under 220ms; zero data leakage.",
+    "date": "2024-07-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/local-vllm-inference-gateway-with-rate-limiting"
+  },
+  {
+    "id": "sample-ai-engineer-case-019",
+    "title": "Automated Code Review Agent with LangGraph (Phase 4)",
+    "client_industry": "DevTools",
+    "skills": [
+      "Python",
+      "LangGraph",
+      "GitHub API",
+      "OpenAI"
+    ],
+    "problem": "PRs waiting 48 hours for preliminary lint, security, and schema reviews.",
+    "solution": "Built multi-agent reviewer graph with parallel security, type, and style critique loops.",
+    "outcome_metrics": "Cut median PR turnaround time by 60%; caught 94% of syntax/schema regressions prior to human review.",
+    "date": "2024-08-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/automated-code-review-agent-with-langgraph"
+  },
+  {
+    "id": "sample-ai-engineer-case-020",
+    "title": "E-Commerce Semantic Search & Re-ranking (Phase 4)",
+    "client_industry": "Retail",
+    "skills": [
+      "Python",
+      "Qdrant",
+      "SentenceTransformers",
+      "FastAPI"
+    ],
+    "problem": "Standard keyword search yielded 28% zero-result queries on long-tail product queries.",
+    "solution": "Built bi-encoder embeddings with reciprocal rank fusion with existing Elasticsearch index.",
+    "outcome_metrics": "Zero-result queries dropped to 2.1%; search-to-cart conversion increased by 19.4%.",
+    "date": "2024-09-15",
+    "repo_url": "https://github.com/gigbid-sample-ai-engineer/e-commerce-semantic-search-&-re-ranking"
+  }
+]
