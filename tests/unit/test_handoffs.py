@@ -5,5 +5,5 @@ def test_risk_score_is_bounded():
     assert 0 <= report.score <= 1
 
 def test_fit_score_is_bounded():
-    report = FitReport(score=0.8)
+    report = FitReport(score=0.8, reasons="High alignment with Python stack")
     assert 0 <= report.score <= 1

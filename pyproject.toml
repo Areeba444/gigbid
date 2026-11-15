@@ -1,23 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "gigbid-student-project"
 version = "0.1.0"
-description = "Student scaffold for the AI-4016 GigBid assignment"
+description = "GigBid Multi-Agent System by Areeba Javed"
 requires-python = ">=3.11"
+authors = [
+  { name = "Areeba Javed", email = "23i0570@isb.nu.edu.pk" }
+]
 dependencies = [
   "fastapi",
   "uvicorn[standard]",
   "pydantic",
   "pyyaml",
   "langgraph",
-  "langchain",
-  "langchain-mcp-adapters",
+  "langchain-core",
   "mcp",
   "httpx",
-  "python-dotenv",
+  "requests",
+  "rank-bm25",
+  "sse-starlette",
+  "reportlab",
 ]
 
 [project.optional-dependencies]
-dev = ["pytest", "pytest-asyncio", "ruff", "mypy"]
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/unit"]
+pythonpath = ["."]
+norecursedirs = ["starter_kit", ".venv", "build", "dist"]
 
 [tool.ruff]
 line-length = 100
+exclude = ["starter_kit", ".venv"]

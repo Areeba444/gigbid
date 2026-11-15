@@ -25,7 +25,7 @@ class FitReport(BaseModel):
     missing_skills: List[str] = Field(default_factory=list)
     evidence_ids: List[str] = Field(default_factory=list)
     evidence_details: List[Dict[str, Any]] = Field(default_factory=list)
-    reasons: str
+    reasons: str = Field(default="Matched skills")
 
 class BidDecision(BaseModel):
     action: str = Field(description="'bid', 'skip', or 'watch'")
