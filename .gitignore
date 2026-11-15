@@ -17,3 +17,7 @@ data/processed/
 *.sqlite
 *.db
 rewrite_author.sh
+docs/DEMO_VIDEO_SCRIPT.md
+docs/TECHNICAL_WRITEUP.md
+docs/medium_article.html
+
