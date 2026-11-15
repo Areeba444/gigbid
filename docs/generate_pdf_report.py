@@ -137,8 +137,8 @@ def build_pdf_report():
 
     # Title & Metadata Header
     story.append(Paragraph("GigBid: Autonomous Multi-Agent Freelancer Copilot", title_style))
-    story.append(Paragraph("Engineering Design Review & Empirical Findings · Course AI-4016 | FAST School of Computing, FAST-NUCES", subtitle_style))
-    story.append(Paragraph("<b>Author:</b> Areeb Ahmed | <b>Instructor:</b> Muhammad Owais Idrees | <b>Stack:</b> LangGraph v1.2, MCP, FastAPI, Groq Open Profile, SQLite", subtitle_style))
+    story.append(Paragraph("Engineering Design Review & Empirical Findings · Course AI-4016 | FAST School of Computing, FAST-NUCES Islamabad", subtitle_style))
+    story.append(Paragraph("<b>Author:</b> Areeba Javed (Roll No: 23I-0570) | <b>Instructor:</b> Muhammad Owais Idrees | <b>Stack:</b> LangGraph v1.2, MCP, FastAPI, Groq Open Profile, SQLite", subtitle_style))
     story.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#0284c7"), spaceAfter=10))
 
     # SECTION 1

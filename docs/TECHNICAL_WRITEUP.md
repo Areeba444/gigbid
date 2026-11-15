@@ -1,6 +1,6 @@
 # Why Naive Embeddings Fail Freelancers: Lessons from Building GigBid
 
-**By Areeb Ahmed | AI-4016 R&D Assignment**
+**By Areeba Javed (Roll No: 23I-0570) | AI-4016 R&D Assignment**
 *Published on Medium / LinkedIn Engineering Blogs (1,450 words)*
 
 ---

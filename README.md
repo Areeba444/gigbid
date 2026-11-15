@@ -155,5 +155,7 @@ python evals/runners/extension_ab_test.py
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License. Built for the AI-4016 R&D Assignment, FAST-NUCES Islamabad.
+## 📄 Author & License
+**Author**: Areeba Javed (Roll No: 23I-0570) · FAST School of Computing, FAST-NUCES Islamabad  
+**Instructor**: Muhammad Owais Idrees · Course: AI-4016  
+Licensed under the MIT License.
